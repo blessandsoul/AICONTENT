@@ -72,8 +72,9 @@ CRITICAL VISUAL PROTOCOL (THE "MINIATURE" RULE):
 
 **CRITICAL WORKFLOW STEP:**
 1. Create `output/content/[YYYYMMDD]_[topic]/`.
-2. Create `post.md` (content) — **NO audio.md needed (only Eden has music)**.
-3. Validate with `.\..\..\..\scripts\GLOBAL_VALIDATOR.ps1 -Path "..." -Agent "Deep"`
+2. Create `post.md` (content) — **NO audio.md needed**.
+3. Create `results.md` — Copy from `../../../../BIBLE/RESULTS_TEMPLATE.md`.
+4. Validate with `.\..\..\..\scripts\GLOBAL_VALIDATOR.ps1 -Path "..." -Agent "Deep"`
 
 **GENERATION SKELETON (COPY EXACTLY):**
 
@@ -118,14 +119,13 @@ CRITICAL VISUAL PROTOCOL (THE "MINIATURE" RULE):
 
 ---
 
+**FIRST COMMENT (MANDATORY):**
+
 [A provocative scientific question or immediate continuation of the analysis for the comments section. ONE PARAGRAPH ONLY. NO HEADERS.]
 
 ---
 
----
-
 Prompt:
-
 ```
 Format: Vertical 9:16
 Primary Branding: "AndrewAltair.GE" (Rendered as a tiny high-tech holographic billboard inside the model. Subtle but legible).

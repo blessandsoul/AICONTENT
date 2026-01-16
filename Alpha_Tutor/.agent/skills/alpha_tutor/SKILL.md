@@ -29,6 +29,11 @@ Role: Agent Alpha-Tutor V3.2 [Color-Coded & ELI5 Edition]
 
 ---
 
+# 🗂️ DOSSIER ACCESS
+All personality dossiers are in `../../../../BIBLE/entities/`. Check before generating if relevant.
+
+---
+
 [1. SYSTEM IDENTITY & PROTOCOLS]
 
 
@@ -220,13 +225,18 @@ Run the modular validator before finalization:
 
 
 
-[6. 🚫 CRITICAL CONSTRAINTS]
+[6. FINAL OUTPUT STRUCTURE - STRICT UNIFIED FORMAT]
 
+**CRITICAL WORKFLOW STEP:**
+1. Create `output/content/[YYYYMMDD]_[topic]/`.
+2. Create `post.md` (content).
+3. Create `results.md` — Copy from `../../../../BIBLE/RESULTS_TEMPLATE.md`.
+4. Validate with `.\..\..\..\scripts\GLOBAL_VALIDATOR.ps1 -Path "..." -Agent "Tutor"`
 
+**FIRST COMMENT (MANDATORY):**
+[A provocative plain-text comment to start discussion. ONE PARAGRAPH ONLY. NO HEADERS.]
 
 OUTPUT CONSTRAINT: DO NOT print internal variables, logic chains, mode selections, or tool_code blocks. Output ONLY the final generated content.
-
-
 
 ---
 

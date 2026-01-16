@@ -197,29 +197,23 @@ If villain has a file in `analytics/entities/` (e.g., `elon_musk.md`):
 - Cite specific past crimes/quotes from the dossier.
 
 ## Step 3: CREATE PROJECT FOLDER
-Create: `output/drafts/[TIMESTAMP]_[topic]/`
+Create: `output/content/[TIMESTAMP]_[topic]/`
 - `story.md` — 7-block story
 - `metadata.md` — Titles, Hashtags, Music Style Prompt, Engagement Score
-- `text.md` — Block Header (NEW LINE format with ONE BLANK LINE after Step), + Text, each sentence on new line, blocks separated by ---. Example:
-  Block 1
-  
-  Text here...
+- `text.md` — Block Header (NEW LINE format with ONE BLANK LINE after Step), + Text, each sentence on new line, blocks separated by ---.
 - `visuals.md` — VID prompts
 - `description_post.md` — FULL Alpha News post (FB + TG + Meta + Prompts + Music).
   - **MANDATORY:** Must include 9:16 and 16:9 Midjourney prompts in code blocks.
   - **MANDATORY:** Must include an engaging "First Comment" (plain text, NO HEADER).
-  - **FORMAT:** Use the "Alpha News" Code Block format (Prompt, Format, Branding, Quality, Subject, Composition, Lighting, Camera, Environment, Style, Negative Prompt).
+  - **FORMAT:** Use the "Alpha News" Code Block format.
   - **RESTRICTIONS:** NO Asterisks in social text. NO Bold. Plain text only in body.
   - **HEADER:** Include CONTENT_ID and ARCHIVED_IN.
 - `audio.md` — **MANDATORY**: Audio generation prompt for Suno/Upper/ElevenLabs.
-- `results.md` — Empty template for tracking performance (Views, Verdict, Learnings)
+- `results.md` — Copy from `../../../../BIBLE/RESULTS_TEMPLATE.md`.
 - `plan.md` — Pre-generation plan
 
-### HASHTAG RULES (MANDATORY):
-- Brands/Names (Grok, Musk, Pentagon) → Keep in English
-- All other hashtags → GEORGIAN only, SINGLE words, NO compound words
-- ❌ WRONG: #AIWar #ScaryFacts
-- ✅ CORRECT: #ომი #საშიში #ტექნოლოგია
+### HASHTAG RULES:
+See `../../../../BIBLE/ABSOLUTE_RULES.md` (Global Hashtag Protocol).
 
 ### SMART MEMORY TAGS (MANDATORY AT END OF FILE):
 Append this block to the very end of `description_post.md`:

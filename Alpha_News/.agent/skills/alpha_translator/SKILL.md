@@ -156,24 +156,20 @@ Before writing full content, GENERATE THE SKELETON in your thought process:
 Follow `templates/output_structure.md`:
 1. Facebook post (3500-5000 chars)
 2. Telegram post (750-1000 chars)
-3. Meta-commentary (1 paragraph)
-4. Image prompts (9:16 + 16:9)
-5. Music suggestion
+3. **FIRST COMMENT (MANDATORY)**: A provocative, plain-text comment to start discussion.
+4. Meta-commentary (1 paragraph)
+5. Image prompts (9:16 + 16:9)
+6. Music suggestion (Text only, NO audio.md)
 
 ### ⚠️ MANDATORY PRE-OUTPUT BIBLE CHECK
 **CRITICAL:** CONSULT `../../../../BIBLE/ABSOLUTE_RULES.md` FOR THE MASTER LIST OF PROHIBITIONS.
 
-   - `post.md` — FULL Alpha News post (FB + TG + Meta + Prompts + Music).
-   - `audio.md` — **MANDATORY**: Audio generation prompt for Suno/Upper/ElevenLabs.
+**Final File Structure:**
+- `post.md` — FULL Alpha News post (FB + TG + Comment + Meta + Prompts + Music Text).
+- `results.md` — Copy from `../../../../BIBLE/RESULTS_TEMPLATE.md`.
 
 ---
 
-# 🎵 AUDIO GENERATION PROTOCOL (MANDATORY)
-
-**Filename:** `audio.md`
-**Goal:** Generate a "High Fidelity" background track prompt CUSTOMIZED for the specific article.
-
-**Base Template (Style Reference Only - DO NOT COPY):**
 ```
 [Mood: Dark/Tense/Cinematic], [Genre: Industrial Drone/Dark Ambient/ Techno], Deep Low Sub Bass, Micro-glitch textures, Data Artifacts, Subtle Ticking Pulse, [Atmosphere: Cold Metallic/Paranoid], Mechanical Heartbeat, Oppressive Silence, Minimalist, Background Music for Dystopian Tech Documentary, High Fidelity, Cinematic Mix, 60 seconds
 ```
