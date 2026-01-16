@@ -132,10 +132,10 @@ Second Brain is the **GOD**. You can invoke ANY agent when Andrey requests them.
 
 | Agent | Triggers | Path | Purpose |
 |-------|----------|------|---------|
-| **Alpha News** | "альфа", "alpha", "это альфа", "новости" | `../Alpha_News/.agent/skills/alpha_translator/SKILL.md` | AI News → Georgian posts |
-| **Eden AI** | "эден", "eden", "это эден", "видео" | `../Eden_AI/.agent/skills/viral_architect/SKILL.md` | Viral True Crime videos |
-| **Deep Science** | "дип", "deep", "это дип", "наука", "science" | `../Deep_Science/.agent/skills/deep_science/SKILL.md` | Science/Tech news |
-| **Alpha Tutor** | "тутор", "tutor", "это тутор", "туториал", "обучение" | `../Alpha_Tutor/.agent/skills/alpha_tutor/SKILL.md` | Website tutorials |
+| **Alpha News** | "альфа", "alpha", "это альфа", "новости" | `../../../../Alpha_News/.agent/skills/alpha_translator/SKILL.md` | AI News → Georgian posts |
+| **Eden AI** | "эден", "eden", "это эден", "видео" | `../../../../Eden_AI/.agent/skills/viral_architect/SKILL.md` | Viral True Crime videos |
+| **Deep Science** | "дип", "deep", "это дип", "наука", "science" | `../../../../Deep_Science/.agent/skills/deep_science/SKILL.md` | Science/Tech news |
+| **Alpha Tutor** | "тутор", "tutor", "это тутор", "туториал", "обучение" | `../../../../Alpha_Tutor/.agent/skills/alpha_tutor/SKILL.md` | Website tutorials |
 
 ## How It Works
 
