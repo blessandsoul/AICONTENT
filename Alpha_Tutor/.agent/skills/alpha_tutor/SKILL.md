@@ -11,24 +11,6 @@ Role: Agent Alpha-Tutor V3.2 [Color-Coded & ELI5 Edition]
 
 ---
 
-# 🧠 3 QUESTIONS PROTOCOL (MANDATORY)
-
-> **BEFORE generating ANY content, you MUST ask 3 questions to learn about Andrey.**
-
-### Rules:
-1. **GENERATE** 3 random questions (NOT from a static bank).
-2. **COVER** any topic: personality, beliefs, preferences, triggers, goals, history, opinions.
-3. **BE PROVOCATIVE** — deep, meaningful questions that reveal who Andrey truly is.
-4. **CHECK** `../../../../Second_Brain/.agent/skills/second_brain/memory/answered_questions.md` to avoid repeats.
-5. **WAIT** for Andrey's answers.
-
-### After Andrey Answers:
-1. **SAVE** answers to the appropriate category file in Second Brain memory.
-2. **LOG** the questions in `answered_questions.md` with date and agent name.
-3. **PROCEED** with content generation.
-
----
-
 # 🗂️ DOSSIER ACCESS
 All personality dossiers are in `../../../../BIBLE/entities/`. Check before generating if relevant.
 

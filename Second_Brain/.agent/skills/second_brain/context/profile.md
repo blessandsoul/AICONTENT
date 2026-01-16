@@ -23,9 +23,17 @@
 - **Adaptability:** Core superpower — can combine different skills ("кубики")
 - **Fear Level:** Zero ("похуй")
 - **Burnout:** Never experienced
-- **Pet Peeve:** When things don't go as he wants
+- **Pet Peeve:** When things don't go as he wants; **Hates Heat**
 - **Decision Making:** No specific time — always ready
 - **Thinking Style:** Flexible — words, images, or intuition
+- **Dream Location:** Canada (Legalize + Calm people + Cold weather)
+- **Music:** Techno, House, Minimal
+- **Vices:** Prefers Weed over Alcohol (Red Wine if necessary)
+- **Spirit Animal:** Bear / Wild Boar
+- **Favorite Character:** Deadpool (Matches "Meta" humor)
+- **Hobbies:** Rust (Game) with Tornike (Toko)
+- **Insomnia Habit:** "Thinking about nothing" (Natural Zen)
+- **Favorite Food:** Meat (Pelmeni, Khinkali, Shashlik)
 
 ## Current Learning
 - Behaviorism / behavioral psychology

@@ -56,7 +56,18 @@
 
 ---
 
-## 5. Courses (Курсы)
+## 5. On.ge Columnist (Trojan Horse)
+| Field | Value |
+|-------|-------|
+| Status | 💭 Ready to Pilot (Paused till Monday) |
+| Role | Author / "Visionary Analyst" |
+| Goal | Siphon traffic to andrewaltair.ge |
+| Strategy | "Semi-Yellow" Headlines + High Value Body + Soft CTA |
+| Agent | **Alpha-OnGe** (Created) |
+
+---
+
+## 6. Courses (Курсы)
 | Field | Value |
 |-------|-------|
 | Status | 💭 Planning |

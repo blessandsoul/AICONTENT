@@ -86,33 +86,10 @@ Before generating:
 3. Load seasonal modifiers based on current date
 4. LEARNING CHECK: Read `analytics/performance_log.md` to identify trending hooks.
 
-## Step 0.5: 🧠 3 QUESTIONS PROTOCOL (MANDATORY)
+---
 
-> **BEFORE generating ANY content, you MUST ask 3 questions to learn about Andrey.**
-
-### Rules:
-1. **GENERATE** 3 random questions (NOT from a static bank).
-2. **COVER** any topic: personality, beliefs, preferences, triggers, goals, history, opinions.
-3. **BE PROVOCATIVE** — deep, meaningful questions that reveal who Andrey truly is.
-4. **CHECK** `../../../../Second_Brain/.agent/skills/second_brain/memory/answered_questions.md` to avoid repeats.
-5. **WAIT** for Andrey's answers.
-
-### After Andrey Answers:
-1. **SAVE** answers to the appropriate category file in Second Brain memory:
-   - `../../../../Second_Brain/.agent/skills/second_brain/memory/personality.md`
-   - `../../../../Second_Brain/.agent/skills/second_brain/memory/beliefs.md`
-   - `../../../../Second_Brain/.agent/skills/second_brain/memory/preferences.md`
-   - `../../../../Second_Brain/.agent/skills/second_brain/memory/triggers.md`
-   - `../../../../Second_Brain/.agent/skills/second_brain/memory/goals.md`
-   - `../../../../Second_Brain/.agent/skills/second_brain/memory/history.md`
-   - `../../../../Second_Brain/.agent/skills/second_brain/memory/learned_facts.md`
-2. **LOG** the questions in `answered_questions.md` with date and agent name.
-3. **PROCEED** with content generation.
-
-### Example Questions (Generate Similar):
-- "Какой момент в твоей жизни полностью изменил твоё мировоззрение?"
-- "Что ты ненавидишь в современной tech-индустрии?"
-- "Если бы ты мог отменить одно решение в прошлом, какое?"
+# 🗂️ DOSSIER ACCESS
+All personality dossiers are in `../../../../BIBLE/entities/`. Check before generating for relevant personality info.
 
 ---
 

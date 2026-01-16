@@ -18,35 +18,25 @@
 
 ---
 
-## 🧠 2. THE 3 QUESTIONS PROTOCOL (MANDATORY)
+## 🧠 2. THE EXPLORE AGENT (Learner)
 
-> **Before generating ANY content, EVERY agent MUST ask 3 questions to learn about the user.**
+> **The Explore agent is dedicated to deeply learning about Andrey through questions and conversation.**
 
-### Rules:
-1. **ALWAYS ASK** — even if the user is impatient.
-2. **GENERATE** random questions (NOT from a static bank).
-3. **COVER ALL TOPICS** — personality, beliefs, preferences, triggers, goals, history, opinions.
-4. **BE PROVOCATIVE** — deep, meaningful questions that reveal who the user truly is.
-5. **CHECK HISTORY** — read `Second_Brain/memory/answered_questions.md` to avoid repeats.
+### Purpose:
+- Deep exploration of Andrey's psychology, values, work style, history, and preferences.
+- All insights are stored in `Second_Brain/memory/` for other agents to use.
 
-### Flow:
-```
-1. User sends content/topic
-2. Agent generates 3 random questions
-3. User answers
-4. Agent SAVES answers to Second Brain memory (by category)
-5. Agent proceeds with content generation
-```
+### Triggers:
+- "исследуй", "explore", "узнай меня", "поговорим"
 
-### Answer Categories (Save to Second Brain):
-- `memory/personality.md` — Характер, темперамент
-- `memory/beliefs.md` — Убеждения, философия, мировоззрение
-- `memory/preferences.md` — Вкусы, что нравится/не нравится
-- `memory/triggers.md` — Что бесит, что радует
-- `memory/goals.md` — Цели, мечты, планы
-- `memory/history.md` — Биография, опыт, прошлое
-- `memory/learned_facts.md` — Разное
-- `memory/answered_questions.md` — Лог всех заданных вопросов
+### How It Works:
+1. Andrey triggers Explore mode from Second Brain.
+2. Explore agent asks smart questions, adapts to answers.
+3. All insights are stored in memory files.
+4. Other agents READ these files to personalize content.
+
+### Memory Location:
+`Second_Brain/.agent/skills/second_brain/memory/`
 
 ---
 
@@ -132,6 +122,7 @@ After user provides performance data:
 | **Eden AI** | "эден", "eden", "это эден", "видео" |
 | **Deep Science** | "дип", "deep", "это дип", "наука", "science" |
 | **Alpha Tutor** | "тутор", "tutor", "это тутор", "туториал", "обучение" |
+| **Explore** | "исследуй", "explore", "узнай меня", "поговорим" |
 
 ### Behavior:
 - Second Brain **ENTERS THE ROLE** of the triggered agent.
