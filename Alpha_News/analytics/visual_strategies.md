@@ -14,3 +14,4 @@
 | 8 | **GoPro Action** | POV Victim | `reaching out to grab the camera lens aggressively, attacking the viewer` | `Fisheye Lens (GoPro POV), barrel distortion` | `Shaky cam aesthetic, high motion blur on edges` |
 | 9 | **Genre Bending** | Canvas/VHS | `posing dramatically like a Renaissance painting or cryptic VHS footage` | `Static tripod shot or Classic Portrait framing` | `Chiaroscuro (Caravaggio lighting) OR VHS tracking lines & grain` |
 | 10 | **Object Contrast** | Real vs Toon | `holding a PHOTREALISTIC rotting human skull or a smashed iPhone 16 Pro Max` | `Focus pull on the realistic object` | `Contrast between Toon Shader and Photorealistic Texture` |
+

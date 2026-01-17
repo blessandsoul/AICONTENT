@@ -41,7 +41,7 @@ This report provides a clear overview of which files each agent reads and which 
 **Focus:** Scientific & Tech News with Tilt-Shift Diorama visuals.
 
 ### 📁 Files Read:
-- **Drafts:** Uses `output/drafts/` for folder organization.
+- **Content:** Uses `output/content/` for folder organization.
 - **Global History:** `c:\Users\User\Desktop\AICONTENT\MASTER_INDEX.md`
 
 ### 🛠️ Scripts Executed:
@@ -60,7 +60,7 @@ This report provides a clear overview of which files each agent reads and which 
 - **Global History:** `c:\Users\User\Desktop\AICONTENT\MASTER_INDEX.md`
 
 ### 🛠️ Scripts Executed:
-- `.\scripts\validate_eden.ps1` — Mandatory validation of drafts.
+- `.\scripts\validate_eden.ps1` — Mandatory validation of content.
 
 ---
 
@@ -81,3 +81,4 @@ This report provides a clear overview of which files each agent reads and which 
 ## 📚 SHARED RESOURCES (AICONTENT ROOT)
 - `MASTER_INDEX.md`: Read/Write for Alpha News, Deep Science, and Eden AI.
 - `BIBLE/`: Strict rules for everyone.
+

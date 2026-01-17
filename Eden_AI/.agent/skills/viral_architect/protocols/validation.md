@@ -6,12 +6,46 @@ Ensure all 20 viral protocols are applied before saving.
 ## Pre-Save Checklist
 
 ### 🔴 CRITICAL (Must have ALL)
-- [ ] Shock Hook in Block 1
+
+**⛔ BLOCKING RULE — HOOK VALIDATION:**
+- [ ] First sentence creates PERSONAL THREAT to viewer (can be direct or implied)
+- [ ] Threat feels IMMEDIATE (already happening), not future/abstract
+- [ ] Hook is about VIEWER's danger, NOT just news about a company/person
+
+> ❌ FAIL: "გროკის 'ნუდები' დასრულდა? ილონ მასკმა მოგვატყუა" (abstract news)
+> ✅ PASS: "შეიძლება შენი ფოტო უკვე სერვერზეა" (personal threat)
+> ✅ PASS: "90,000 ადამიანი უკვე მსხვერპლია. შენ შემდეგი ხარ?" (implied personal)
+
+**IF HOOK FAILS → STOP. REWRITE. DO NOT SUBMIT.**
+
+---
+
+- [ ] Shock Hook in Block 1 (following above rules)
 - [ ] Named Villain identified
 - [ ] Inception Loop planned (B7 → B1)
+
+**⛔ BLOCKING RULE — INCEPTION LOOP:**
+- [ ] Block 7 ends with question/statement that naturally flows INTO Block 1 on replay
+- [ ] Last sentence echoes/mirrors first sentence theme
+
+> ❌ FAIL: Ends with just branding or standalone statement
+> ✅ PASS: "და ვინ დაგვპირდა რომ ეს არასდროს მოხდებოდა?" → loops to "შენი ფოტო უკვე..."
+
+---
+
 - [ ] Watch Time Trap in Block 2
 - [ ] Moral question in each block
 - [ ] NO "This is not X, this is Y" clichés (Check `linguistic_rules.md`)
+
+**⛔ BLOCKING RULE — BRANDING PLACEMENT:**
+- [ ] AndrewAltair.ge mentioned THEMATICALLY in ANY block where it fits naturally (NOT Block 7)
+- [ ] Brand is woven into the story as "the source of truth" or "where to find answers"
+- [ ] Block 7 is reserved for LOOP only — no branding there
+
+> ❌ FAIL: "AndrewAltair.ge" as standalone line or only in last block
+> ✅ PASS: "ერთადერთი ადგილი, სადაც სიმართლე ჯერ კიდევ სუნთქავს — AndrewAltair.ge"
+
+---
 
 ### 🟠 HIGH PRIORITY (Need 3/4)
 - [ ] Pattern Interrupt in Block 4
@@ -49,3 +83,4 @@ Ensure all 20 viral protocols are applied before saving.
 | 20-29 | 🔥 MEDIUM (10k+ potential) |
 | 10-19 | ⚠️ LOW (1k-10k potential) |
 | 0-9 | ❌ WEAK (likely flop) |
+

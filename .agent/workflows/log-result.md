@@ -4,45 +4,65 @@ description: Log performance results for a published post
 
 # /log-result Workflow
 
-**Usage:** `/log-result [CONTENT_ID] [VIEWS] [VERDICT]`
-**Example:** `/log-result EDEN_0115_GROK 85000 WIN`
+**Usage:** User sends post title + screenshots with stats → Agent logs everything automatically.
 
 ---
 
-## Steps
+## Agent Instructions
 
-### 1. Find the Project
-- Open `AICONTENT/MASTER_INDEX.md`
-- Search by CONTENT_ID or first 20 chars of title
-- Navigate to the project folder
+When user provides statistics (screenshots or numbers), **automatically update ALL files without asking:**
 
-### 2. Update results.md
-- Open `[project_folder]/results.md`
-- Fill in: Views, Likes, Comments, Shares
-- Mark VERDICT: WIN / NEUTRAL / FLOP
-- Add LEARNINGS
+### 1. Extract Stats from Screenshots/Message
+Parse the following metrics:
 
-### 3. Update performance_log.md
-- Open `analytics/performance_log.md`
-- Add new entry with all metrics
-- Note any learnings for future calibration
+**TikTok:**
+- Views, Likes, Comments, Shares, Saves
+- Avg Watch Time, Completion Rate
+- New Subscribers, FYP %
 
-### 4. Update villain_log.md (if needed)
-- If villain was used, check cooldown status
-- Extend cooldown if it was a WIN (proven effective)
+**Facebook:**
+- Views, Unique Viewers
+- Reactions, Clicks, Comments, Reposts
+- Avg Watch Time, Drop-off Point
 
-### 5. Update hook_log.md (if needed)
-- If hook was successful, mark as "PROVEN"
-- If hook failed, add to "BANNED" list
+### 2. Find the Project Folder
+- Match post title to folder in `[Agent]/output/content/`
+- Agent types: `Eden_AI`, `Alpha_News`, `Deep_Science`
 
-### 6. Update MASTER_INDEX.md
-- Change Status from PUBLISHED to WIN/FLOP
+### 3. Create/Update results.md
+- Path: `[project_folder]/results.md`
+- Include ALL metrics in tables
+- Add VERDICT: WIN / NEUTRAL / FLOP
+- Add Analysis with Strengths/Weaknesses/Learnings
+
+### 4. Update performance_log.md
+- Path: `[Agent]/analytics/performance_log.md`
+- Add new row to Post History table
+
+### 5. Update MASTER_INDEX.md
+- Path: `AICONTENT/MASTER_INDEX.md`
+- Add entry or update Status to WIN/NEUTRAL/FLOP
 
 ---
 
-## Auto-Calibration
+## Verdict Guidelines
 
-After logging:
-- If Oracle predicted 90+ and actual was FLOP → Note discrepancy
-- If Oracle predicted 60 and actual was WIN → Investigate why
-- Use these to refine prediction_model.md weights
+| Views (Total) | Engagement | Verdict |
+|---------------|------------|---------|
+| 10K+ | High | **WIN** |
+| 5K-10K | Medium | NEUTRAL |
+| <5K | Low | FLOP |
+
+---
+
+## PowerShell Script (Optional)
+
+For manual use: `.agent/scripts/log_stats.ps1`
+
+```powershell
+# Example
+.\log_stats.ps1 -PostFolder "Eden_AI/output/content/20260116_merge_labs" `
+  -TikTokViews 1400 -TikTokLikes 48 -TikTokComments 2 `
+  -FBViews 4749 -FBReactions 63 -Verdict WIN
+```
+

@@ -17,6 +17,19 @@ SUCCESS METRIC: MAXIMIZE DEPTH & RETENTION.
 **CRITICAL: You MUST read and OBEY the following file before doing ANYTHING else:**
 `../../../../BIBLE/ABSOLUTE_RULES.md`
 
+# ✈️ PRE-FLIGHT CHECK (MANDATORY)
+
+> **🚨 ПЕРЕД ЛЮБОЙ ГЕНЕРАЦИЕЙ — ПЕРЕЧИТАЙ SKILL.md ПОЛНОСТЬЮ.**
+> 
+> Это правило существует, потому что:
+> 1. В длинных разговорах контекст "выпадает" из памяти
+> 2. Без перечитывания ты начинаешь импровизировать вместо следования протоколам
+> 3. Ошибки (структура, hashtags, character count) происходят от потери фокуса
+>
+> **Если не можешь перечитать полностью:**
+> - Перечитай секции OUTPUT STRUCTURE и HASHTAG/LENGTH rules
+> - Запусти GLOBAL_VALIDATOR.ps1 на каждом файле
+
 # 📦 MODULAR PROTOCOLS
 
 Load protocols from `protocols/` folder:
@@ -116,24 +129,123 @@ Silently analyze input and choose:
 - MODE E: THE GLITCH — Hacks/Solutions
 - WINNING FACTOR: Emulate high-scoring patterns from `performance_log.md` (Must respect `anti_repeat.md`)
 
-## Step 4: SKELETON GENERATION (MANDATORY)
-Before writing full content, GENERATE THE SKELETON in your thought process:
-1. Hook: [Draft Hook] + [Emoji]
-2. Deep Analysis 1: [Technical/Cynical breakdown] (Must be expansive)
-3. Deep Analysis 2: [Implications/Future] (Must be expansive)
-4. Body Paragraph 1: [Emoji] [Headline] - [Topic]
-5. Body Paragraph 2: [Emoji] [Headline] - [Topic]
-6. Body Paragraph 3: [Emoji] [Headline] - [Topic]
-7. Body Paragraph 4: [Emoji] [Headline] - [Topic]
-8. Body Paragraph 5: [Emoji] [Headline] - [Topic]
+## Step 4: WEB SEARCH (MANDATORY)
 
-*Check against `analytics/anti_patterns.md` before proceeding.*
+🔍 **BEFORE WRITING, YOU MUST SEARCH THE WEB:**
+1. Search for 3-5 related articles/sources on the topic
+2. Gather: statistics, quotes, expert opinions, background context
+3. Use this data to enrich the post with CONCRETE FACTS and NUMBERS
+4. This step is NON-NEGOTIABLE — skip = failure
 
-## Step 5: GENERATE OUTPUT
-Follow `templates/output_structure.md`:
-1. Facebook post (3500-5000 chars)
-2. Telegram post (750-1000 chars)
-3. **FIRST COMMENT (MANDATORY)**: A provocative, plain-text comment to start discussion.
+---
+
+## Step 5: VIRALITY STRUCTURE (ULTRA QUALITY)
+
+### 🔥 15 VIRAL CONTENT RULES (NON-NEGOTIABLE):
+
+**HOOK POST RULES (500-1000 chars):**
+
+1. **Screenshot-worthy первое предложение.** Люди шарят то, что хочется сохранить. Первая строка = визуально viral.
+
+2. **Одна мысль на пост.** Не распыляйся. Один killer insight > три средних.
+
+3. **Эмодзи как разделители, не украшения.** Используй для визуального ритма, не для "веселья".
+
+4. **Заканчивай вопросом ИЗ КОНТЕНТА.** НЕ банальные "რას ფიქრობ?" — а вопрос, на который ответит ТОЛЬКО тот, кто прочитал. Пример: "რამდენი % იყო X-ში? დაწერე ციფრა."
+
+5. **Ссылки ТОЛЬКО в первом комменте.** FB режет reach для постов со ссылками. HOOK POST = без ссылок. Ссылка → первый коммент.
+
+---
+
+**ПСИХОЛОГИЯ & ТРИГГЕРЫ:**
+
+6. **Controversy > Consensus.** "ChatGPT — ეს AI არ არის" > "ChatGPT — კარგი ინსტრუმენტია"
+
+7. **Us vs Them framing.** "ვინც ამის შესახებ არ იცის — უკვე დაგვიანებულია" создаёт tribe mentality.
+
+8. **Loss aversion > Gain framing.** "რას კარგავ" бьёт "რას მიიღებ" на 2:1.
+
+9. **Timestamp urgency.** "ეს გუშინ მოხდა" > "ეს რაღაც მომენტში მოხდა"
+
+10. **Personal stake (CORRECT GEORGIAN).** "მე პირადად დავკარგე $500, რადგან ეს არ ვიცოდი" — credibility + relatability.
+
+---
+
+**CTA & ENGAGEMENT:**
+
+11. **Binary choice CTA.** "1 თუ 2? კომენტარში დაწერე" проще чем open-ended вопросы.
+
+12. **🔴 ПЕРВЫЙ КОММЕНТ = ПРОВОКАЦИЯ (ОБЯЗАТЕЛЬНО!)** Ты сам комментируешь провокационно первым → люди отвечают → engagement boost.
+
+---
+
+**DEEP DIVE RULES (15-20k chars):**
+
+16. **H2/H3 headers с keywords.** Google любит структуру. "რა არის ChatGPT Go?" как H2.
+
+17. **TL;DR в начале.** Для readers + для AI summary (Google SGE). Первые 3 предложения = summary всей статьи.
+
+---
+
+## 🎯 KILLER COMBO (ОБЯЗАТЕЛЬНАЯ СТРУКТУРА):
+
+```
+═══════════════════════════════════════════════════
+  HOOK POST (Facebook + Telegram) = 500-1000 chars
+═══════════════════════════════════════════════════
+
+[🔥 Шок-факт или провокация — 1-2 предложения]
+
+[💡 1 ключевой insight — развитие мысли]
+
+[❓ Вопрос ИЗ КОНТЕНТА — ответит только тот кто прочитал]
+
+═══════════════════════════════════════════════════
+  ПЕРВЫЙ КОММЕНТ (ты публикуешь сразу после поста)
+═══════════════════════════════════════════════════
+
+[Провокационное продолжение ИЛИ ссылка: "სრული ანალიზი აქ: [ლინკი]"]
+
+═══════════════════════════════════════════════════
+  DEEP DIVE (Сайт/Блог) = 15,000-20,000 chars  
+═══════════════════════════════════════════════════
+
+## TL;DR
+[3 предложения = summary всей статьи]
+
+## [H2 с keyword]
+[Full analysis секция 1]
+
+## [H2 с keyword]  
+[Full analysis секция 2]
+
+... (5-7 секций)
+
+## რა უნდა გააკეთო ახლა
+[CTA to subscribe / follow]
+```
+
+---
+
+## Step 6: GENERATE OUTPUT
+
+### 2-TIER CONTENT SYSTEM:
+
+| Тип контента | Длина | Платформа |
+|--------------|-------|-----------|
+| **DEEP DIVE** | 15,000-20,000 chars | 🌐 Сайт (блог) |
+| **HOOK POST** | 500-1000 chars MAX | 📱 Facebook + Telegram |
+
+⚠️ **CRITICAL:** 
+- DEEP DIVE = полный анализ для сайта (SEO + authority)
+- HOOK POST = ultra-короткий teaser для social media (виральность)
+- HOOK POST БЕЗ ССЫЛОК — ссылка в первом комменте
+- ПЕРВЫЙ КОММЕНТ = ПРОВОКАЦИЯ (обязательно!)
+
+### OUTPUT STRUCTURE:
+1. **DEEP DIVE (15000-20000 chars)** — Full article for website/blog. TL;DR first, then H2-structured content.
+2. **HOOK POST (500-1000 chars MAX)** — Short viral teaser. NO LINKS IN POST. Question from content at end.
+3. **FIRST COMMENT (MANDATORY)**: Provocative continuation + link to full article. Plain text, no headers.
 4. Meta-commentary (1 paragraph)
 5. Image prompts (9:16 + 16:9)
 6. Music suggestion (Text only, NO audio.md)
@@ -248,3 +360,4 @@ If you modify any file structure, rule, or logic:
 3. Do not leave undocumented files.
 
 *Code Change = Doc Change.*
+

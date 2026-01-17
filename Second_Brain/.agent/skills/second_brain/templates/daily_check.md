@@ -27,3 +27,4 @@ Use this for quick daily sync with Andrey.
 ---
 
 *Заполнять каждый день не обязательно — только когда нужен reset*
+

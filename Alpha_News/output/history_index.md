@@ -103,3 +103,4 @@ After EVERY generation:
 4. Add to "Last 10 Headlines"
 5. Update "Last Generation Details"
 6. Check if topic needs cooldown entry
+

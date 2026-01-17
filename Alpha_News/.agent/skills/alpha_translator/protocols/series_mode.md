@@ -129,3 +129,4 @@ Text overlay: "ნაწილი 2" in bold, corner position, glowing effect
 3. Maximum 7 days between parts (don't lose thread)
 4. Each part must stand alone (new readers)
 5. Always reference previous parts
+

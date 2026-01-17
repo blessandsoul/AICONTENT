@@ -120,3 +120,4 @@ OpenAI-ის შიდა დოკუმენტები ადასტუ�
 2. Place at beginning of key claims
 3. Balance with emotional content
 4. Never fabricate sources - use real or generic
+

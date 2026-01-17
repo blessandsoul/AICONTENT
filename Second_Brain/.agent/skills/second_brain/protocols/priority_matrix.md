@@ -45,3 +45,4 @@ Use this when Andrey seems scattered or overwhelmed with choices.
 2. **Tornik dependency** — Is he blocked waiting for backend?
 3. **Boss stalling** — Navigator is done, don't let it distract
 4. **Course creep** — Not until Summer 2026
+

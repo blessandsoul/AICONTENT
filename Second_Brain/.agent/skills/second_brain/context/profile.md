@@ -40,3 +40,4 @@
 
 ## Taboo Topics (for public content)
 - Generally doesn't care, but prefers not to disclose prison/drug history publicly
+

@@ -73,3 +73,4 @@ Select ONE randomly per generation.
 |-------|------|----------|-------|
 | Vertical 9:16 | 35mm | f/1.8 | Bokeh background |
 | Horizontal 16:9 | 50mm | f/2.8 | Cinematic motion blur |
+

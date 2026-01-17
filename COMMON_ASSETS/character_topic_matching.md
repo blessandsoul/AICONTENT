@@ -34,3 +34,4 @@
 1. NEVER use same character 2 times in a row
 2. Check `history_index.md` before selecting
 3. If topic matches multiple characters, pick least recently used
+

@@ -72,3 +72,4 @@
 - **Immediacy (20):** Theory/Active (15) - "System presented" but feels futurist.
 - **Visual (20):** Scary/Generic (10) - Robots laboring.
 - **TOTAL:** **45/100** (Correctly predicts Mid/Risky)
+

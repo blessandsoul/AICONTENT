@@ -38,3 +38,4 @@
    - **Constraint:** NEVER use a colon (`:`) after the topic. Use a short dash (`-`) or simply a space.
    - *Bad:* `🧠 "Merge Labs": End of humanity?`
    - *Good:* `🧠 "Merge Labs" - End of humanity?`
+

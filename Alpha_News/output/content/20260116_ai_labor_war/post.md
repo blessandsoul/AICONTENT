@@ -1,6 +1,6 @@
 # Alpha News Post: AI-ის ნამდვილი ომი
 CONTENT_ID: 20260116_ai_labor_war
-ARCHIVED_IN: output/published/20260116_ai_labor_war/
+ARCHIVED_IN: output/content/20260116_ai_labor_war/
 
 --- [START OF OUTPUT] ---
 
@@ -85,3 +85,4 @@ Negative Prompt: 2d, drawing, sketch, illustration, text error, typo, watermark,
 🎶 Tension building orchestral with industrial metal clanking sounds, distant machinery humming, urgent synth bass pulses
 
 ⭐️ ხელოსნების ომი
+

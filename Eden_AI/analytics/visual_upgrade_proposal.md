@@ -52,3 +52,4 @@ To take the "Looney Tunes x Cyberpunk" style from *High Quality* to *Psychologic
 
 ## 🚀 IMPLEMENTATION PLAN
 When you want to increase variability, we can add a `{VISUAL_MODIFIER}` slot to the prompt generator that randomly picks one of these 10 strategies for each post.
+

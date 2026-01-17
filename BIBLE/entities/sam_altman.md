@@ -21,3 +21,4 @@
 | Date | Content ID | Role | Key Angle |
 |------|------------|------|-----------|
 | 2026-01-15 | EDEN_0115_OPENAI | Villain | Financial crisis "WeWork style", 97% revenue drop myth |
+

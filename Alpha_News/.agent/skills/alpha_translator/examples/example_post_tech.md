@@ -59,3 +59,4 @@ $86 მილიარდიანი კომპანია ჭრის ხ�
 ## CHARACTER USED: Wile E. Coyote
 ## MODE: B - FOLLOW THE MONEY
 ## SCORE: 44/49
+

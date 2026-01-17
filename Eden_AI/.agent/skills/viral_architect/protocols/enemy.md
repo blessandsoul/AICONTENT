@@ -24,3 +24,4 @@ Every story needs a clear, named villain for shares.
 - Named company villain: +2 points
 - Abstract system villain: +1 point
 - No clear villain: -3 points
+

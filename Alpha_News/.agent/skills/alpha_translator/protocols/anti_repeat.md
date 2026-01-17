@@ -98,3 +98,4 @@ If repetition detected:
 1. Regenerate with different values
 2. Log violation in `analytics/failures.md`
 3. Adjust weights to prevent future repeats
+

@@ -72,3 +72,4 @@
 - **Hook (20):** War/Panic (20) - "Dead", "White Flag".
 - **Elite (15):** General (0).
 - **TOTAL:** **30/100** (Flop/Risky - correctly predicted)
+

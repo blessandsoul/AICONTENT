@@ -47,3 +47,4 @@
 1. **Maintain relationship with Натия** (she waited 6 years)
 2. **Give family 2 days on weekends** (mother, wife, sister expect this)
 3. **Keep learning** (currently: behaviorism)
+

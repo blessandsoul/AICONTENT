@@ -43,3 +43,4 @@
 |----------|-----------|
 | Money | ❌ No (debts) |
 | Time | ✅ Yes (main job has free time) |
+

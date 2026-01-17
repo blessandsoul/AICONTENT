@@ -32,3 +32,4 @@ Say: `/alpha-news` or "Generate Alpha News about [TOPIC]"
 ```
 /alpha-news [paste article or topic here]
 ```
+

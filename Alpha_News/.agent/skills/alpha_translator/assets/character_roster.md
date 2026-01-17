@@ -101,3 +101,4 @@ Select ONE character randomly per generation. Must be different from previous.
 - Props: Heart-shaped body
 - Expression: Intimidating
 - Personality: Big Tech monster
+

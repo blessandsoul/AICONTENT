@@ -20,3 +20,4 @@ Block 1 MUST start with ONE of these patterns:
 - Uses impossible claim: +2 points
 - Uses urgent warning: +2 points
 - No hook: -5 points
+

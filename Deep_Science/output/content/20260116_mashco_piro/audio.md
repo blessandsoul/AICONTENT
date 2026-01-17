@@ -1,1 +1,2 @@
 [Mood: Tense/Primal/Dangerous], [Genre: Tribal Dark Ambient/Field Recording/Cinematic Drone], Deep Sub Bass, Jungle Atmosphere, Sound of Breaking Branches, Heartbeat Rhythm, [Atmosphere: Humidity/Fear/Isolation], Distant Drums, Oppressive Silence, Minimalist, Background Music for Survival Thriller, High Fidelity, Cinematic Mix, 60 seconds
+

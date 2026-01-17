@@ -59,3 +59,4 @@ Meta-ის PR გუნდმა განაცხადა: "ჩვენ გ
 ## CHARACTER USED: Pepe Le Pew
 ## MODE: C - THE PROSECUTOR
 ## SCORE: 46/49
+

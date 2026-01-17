@@ -38,3 +38,4 @@ Add seasonal modifier to VID prompt:
 
 Example:
 "Black liquid morphing slowly, snow particles floating in cold blue light --ar 16:9"
+

@@ -22,3 +22,4 @@ After each generation, add a row with:
 - **Villain:** Named villain used
 - **Shock Hook:** First sentence pattern used
 - **Key Phrases:** 3-5 unique phrases from the story
+

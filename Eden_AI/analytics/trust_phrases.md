@@ -16,3 +16,4 @@ Use these phrases to create illusion of insider/whistleblower status.
 - მე... ალბათ არ უნდა მეთქვა ეს, მაგრამ... (I... probably shouldn't say this, but...)
 - *pause* ...კარგი, გეტყვი. (*pause* ...ok, I'll tell you.)
 - წამით... არ ვიცი როგორ ავხსნა ეს. (Wait... I don't know how to explain this.)
+

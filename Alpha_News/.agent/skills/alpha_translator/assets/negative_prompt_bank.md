@@ -104,3 +104,4 @@ Negative Prompt: 2d, drawing, sketch, illustration, text error, typo, watermark,
 2. Add SITUATIONAL based on environment
 3. Add STYLE-SPECIFIC based on mood
 4. Test and refine based on results
+

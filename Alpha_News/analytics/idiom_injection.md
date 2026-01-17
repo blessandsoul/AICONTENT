@@ -136,3 +136,4 @@ Use these idioms to make content sound genuinely Georgian, not translated.
 2. Don't force - must fit context naturally
 3. Test with Georgian natives for authenticity
 4. Avoid old-fashioned idioms younger audience won't know
+

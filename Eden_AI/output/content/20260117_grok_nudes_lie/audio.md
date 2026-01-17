@@ -1,0 +1,1 @@
+Industrial Drone, Dark Ambient, Deep Low Sub Bass, Micro-glitch textures, Data Artifacts, Subtle Ticking Pulse, Paranoid Surveillance Atmosphere, Mechanical Heartbeat, Background Music for Digital Horror Exposé, High Fidelity

@@ -40,6 +40,24 @@ CRITICAL: Headlines are PLAIN TEXT. NO bold formatting. Example: `🧂 მარ
 
 [Georgian hashtags only. Brand names can be English.]
 
+## ⚠️ HASHTAG RULES (MANDATORY)
+1. **MINIMUM 10 hashtags** for Facebook, **MINIMUM 8** for Telegram
+2. **GEORGIAN LANGUAGE** — hashtags MUST be in Georgian script (ქართული)
+3. **Brand exceptions** — Only brand names (OpenAI, ChatGPT, Claude, Google) can be in English
+4. **NO ENGLISH WORDS** — Never use #FutureTech, #TechNews, #AIwars — use Georgian equivalents:
+   - ❌ #FutureTech → ✅ #მომავალი
+   - ❌ #TechNews → ✅ #ტექნოლოგია
+   - ❌ #AIwars → ✅ #ხელოვნურიინტელექტი
+5. **Topic-specific** — Include hashtags relevant to the specific story topic
+
+**EXAMPLE HASHTAG BANK:**
+```
+#ხელოვნურიინტელექტი #AI #ტექნოლოგია #მომავალი #რეკლამა #მონოპოლია 
+#ციფრულიუთანასწორობა #სილიკონისველი #ელიტა #გამოწერა #სტარტაპი
+#ინოვაცია #ბიზნესი #პროგრესი #მონაცემები #კონფიდენციალურობა
+#AndrewAltair (brand OK) #OpenAI (brand OK) #ChatGPT (brand OK)
+```
+
 ⚠️ CRITICAL RULE: HASHTAGS ARE THE LAST LINE OF FACEBOOK POST.
 - NO 🔗 line after hashtags
 - NO additional CTA after hashtags  
@@ -146,3 +164,4 @@ Negative Prompt: 2d, drawing, sketch, illustration, text error, typo, watermark,
 ## END MARKER
 
 After music suggestion, STOP. Do not continue generating.
+

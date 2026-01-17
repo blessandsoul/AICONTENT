@@ -128,3 +128,4 @@ Use these authentic quotes to add credibility and punch to posts.
 2. Don't fabricate quotes - only use verified ones
 3. Update this file when new significant quotes emerge
 4. Add source/date when possible
+

@@ -29,6 +29,7 @@ Use this file to track which stories performed well. The Agent will read this to
 | 2026-01-15 | Grok AI პორნოგრაფია/Privacy | **50k** | პირადი საფრთხე | Elon Musk | "შეიძლება შენი ფოტო უკვე დევს" - პირდაპირი პერსონალური შოკი, სკანდალი |
 | 2026-01-15 | AI Robots/Job Replacement | 28k | ეკონომიკური შიში | Jensen Huang | აბსტრაქტული მომავლის საფრთხე, ნაკლებად პერსონალური |
 | 2026-01-15 | Grok პენტაგონში (Digital Monster) | 15.3K (FB+TikTok) | ომის შიში/საფრთხე | Elon Musk / Pete Hegseth | "ომის წესები გაუქმდა" - პირდაპირი სამხედრო საფრთხე, პენტაგონი, ციფრული მონსტრი |
+| 2026-01-16 | Merge Labs (ტვინის AI) | 1.4K TT / 5.9K FB | პირადი საფრთხე/შეთქმულება | Sam Altman / Elon Musk | NEUTRAL — 7.2K combined, 0:02 TT drop-off, 248 FB engagement (24h) |
 
 ---
 
@@ -103,3 +104,4 @@ Use this file to track which stories performed well. The Agent will read this to
 - ✅ Villain: Elon Musk + Pete Hegseth (აქტუალური)
 - ✅ თემა: ომი და უსაფრთხოება (შიში)
 - ✅ CTA ტექსტში ინტეგრირებული
+

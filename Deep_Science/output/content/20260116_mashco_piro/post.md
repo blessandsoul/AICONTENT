@@ -87,3 +87,4 @@ Negative Prompt: cartoon, drawing, illustration, 2d, flat, low quality, anime, r
 🎶 [Song: Indigenous Tribal Drums / Dark Ambient / Nature Sounds]
 
 ⭐️ უკანასკნელი კონტაქტი
+

@@ -19,3 +19,4 @@ Block 7 ends so Block 1 sounds like CONTINUATION, not beginning.
 - Perfect seamless loop: +5 points
 - Grammatically connects: +2 points
 - No loop attempt: -3 points
+

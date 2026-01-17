@@ -83,3 +83,4 @@
 2. Tourism MVP (with Tornik)
 3. Auto Navigator (passive, wait for boss)
 4. Courses (future)
+

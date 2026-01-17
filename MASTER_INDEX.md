@@ -17,7 +17,9 @@
 
 | Date | ID | Title (First 20 chars) | Folder | Platform | Status |
 |------|----|-----------------------|--------|----------|--------|
-| 2026-01-15 | EDEN_0115_GROK | პენტაგონის ახალი "გენერალი" | `Eden_AI/output/drafts/20260115_grok_pentagon/` | TikTok/YT | PUBLISHED |
+| 2026-01-15 | EDEN_0115_GROK | პენტაგონის ახალი "გენერალი" | `Eden_AI/output/content/20260115_grok_pentagon/` | TikTok/YT | WIN |
+| 2026-01-16 | EDEN_0116_MERGE | Merge Labs - ადამიანის ტვინის | `Eden_AI/output/content/20260116_merge_labs/` | TikTok/FB | NEUTRAL |
+| 2026-01-17 | EDEN_0117_GROK_NUDES | გროკი არ გაჩერებულა | `Eden_AI/output/content/20260117_grok_nudes_lie/` | TikTok/FB | PENDING |
 
 ---
 
@@ -45,3 +47,4 @@
 | **Alpha News** | `Alpha_News/.agent/skills/alpha_translator/` | Georgian AI news content |
 | **Eden AI** | `Eden_AI/.agent/skills/viral_architect/` | Viral True Crime videos |
 | **Second Brain** | `Second_Brain/.agent/skills/second_brain/` | Andrey's personal advisor |
+

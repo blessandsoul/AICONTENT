@@ -36,3 +36,4 @@ Store video prompts that have already performed well.
 - Specific objects in center (blocks speaker)
 - Fast motion (too distracting)
 - Text on screen (competes with speaker)
+

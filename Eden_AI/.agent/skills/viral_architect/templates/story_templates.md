@@ -86,3 +86,4 @@ Quick-start templates for common story types.
 5. The Workers/Victims (who paid the price)
 6. The Future (what this means)
 7. The Loop (next scandal coming)
+

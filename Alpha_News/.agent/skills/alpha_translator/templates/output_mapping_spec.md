@@ -187,3 +187,4 @@ def parse_alpha_news_output(raw_text):
 4. GEORGIAN SCRIPT - All main content in Georgian, brand names can be English
 5. CLOSING LINE - Always include: `🫣 გსურთ რაღაც, რასაც აქ ვერ ნახავთ? იპოვეთ Andrew Altair Google-ში.`
 6. HASHTAG FORMAT - `#word #word` (no spaces inside hashtag)
+

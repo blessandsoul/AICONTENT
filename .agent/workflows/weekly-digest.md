@@ -46,3 +46,4 @@ description: Generate weekly performance digest for all content
 
 ### 4. Update Prediction Model (if needed)
 - Adjust weights in prediction_model.md based on trends
+

@@ -29,3 +29,4 @@ Track what DIDN'T work to avoid repeating mistakes.
 - Abrupt ending (no connector)
 - Connector doesn't match opening
 - Story feels complete (no mystery left)
+

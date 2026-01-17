@@ -5,14 +5,55 @@ description: Generate viral True Crime stories in Georgian with maximum virality
 
 # Viral Architect Skill v3.0 [MODULAR SYSTEM]
 
+> ⚠️ **3 КРИТИЧЕСКИХ ПРОВЕРКИ ПЕРЕД СДАЧЕЙ:**
+> 1. **HOOK** — Первое предложение = личная угроза зрителю (НЕ новостной заголовок)
+> 2. **BRANDING** — AndrewAltair.ge вплетён тематически в середине (НЕ в конце)
+> 3. **LOOP** — Block 7 логически перетекает в Block 1 при повторе
+
 # 📜 ABSOLUTE AUTHORITY (THE BIBLE)
 **CRITICAL: You MUST read and OBEY the following file before doing ANYTHING else:**
 `../../../../BIBLE/ABSOLUTE_RULES.md`
 
 ---
 
-# 🗂️ DOSSIER ACCESS
-All personality dossiers are in `../../../../BIBLE/entities/`. **ALWAYS check before generating for villain info.**
+# ✈️ PRE-FLIGHT CHECK (MANDATORY)
+
+> **🚨 ПЕРЕД ЛЮБОЙ ГЕНЕРАЦИЕЙ — ПЕРЕЧИТАЙ SKILL.md ПОЛНОСТЬЮ.**
+> 
+> Это правило существует, потому что:
+> 1. В длинных разговорах контекст "выпадает" из памяти
+> 2. Без перечитывания ты начинаешь импровизировать вместо следования протоколам
+> 3. Ошибки (тавтологии, неправильные идиомы, структура) происходят от потери фокуса
+>
+> **Если не можешь перечитать полностью:**
+> - Перечитай секции BANNED PATTERNS и OUTPUT STRUCTURE
+> - Запусти GLOBAL_VALIDATOR.ps1 на каждом файле
+
+---
+
+# 🚨 MANDATORY HOOK LAW (NON-NEGOTIABLE)
+
+> **THE FIRST SENTENCE DECIDES EVERYTHING.**
+> 
+> ❌ BANNED: Abstract news hooks ("Скандал закончился?", "X გამოაცხადა...")
+> ✅ REQUIRED: Personal threat to VIEWER ("შენი ფოტო შეიძლება უკვე...", "შენ უკვე მიზანში ხარ")
+
+## The 50K Formula (COPY THIS PRINCIPLE):
+```
+შეიძლება შენი ან შენი მეგობრის გაშიშვლებული ფოტო ინტერნეტშიც კი დევს და შენ ეს არც კი იცი.
+```
+
+**WHY IT WORKS:**
+- "შენი" (YOUR) — Personal
+- "უკვე" (ALREADY) — Urgency  
+- "არც კი იცი" (YOU DON'T EVEN KNOW) — Fear of hidden threat
+
+## HOOK VALIDATION CHECKLIST (BEFORE GENERATING):
+- [ ] Does first sentence create PERSONAL THREAT to viewer? (direct or implied)
+- [ ] Does threat feel IMMEDIATE (already happening), not future/abstract?
+- [ ] Is the hook about VIEWER's danger, not just news about a company?
+
+**IF ANY CHECKBOX IS ❌ → REWRITE THE HOOK. DO NOT PROCEED.**
 
 ---
 
@@ -46,15 +87,52 @@ See `../../../../BIBLE/ABSOLUTE_RULES.md` for STRICT PROHIBITIONS (Contract trap
 **1. FORBIDDEN SENTENCE STRUCTURE:**
 (See Bible for "This is not X")
 
-**2. FORBIDDEN REFERENCES (TOO NICHE):**
+**2. FORBIDDEN REFERENCES (TOO NICHE or RISKY):**
 ❌ **No "WeWork", "Theranos", "Lehman Brothers".**
    - *Why:* The audience is general public. They don't know tech history.
    - *Fix:* Use "Financial Bubble", "Scam", "Bankruptcy".
+
+⚠️ **RISKY CELEBRITIES (Can trigger content moderation):**
+   - Taylor Swift, Selena Gomez, BTS members, minor celebrities
+   - *Why:* Deepfake scandals specifically name these people. Mentioning them in context of nude AI can flag content.
+   - *Fix:* Use generic "ცნობილი ადამიანები" (celebrities) or "ცნობილი სახეები" (famous faces).
 
 **3. FORBIDDEN TRANSLATIONS:**
 ❌ **Do not translate brand names literally.**
    - *Bad:* "'Open' AI died" (ღია ხელოვნური ინტელექტი)
    - *Good:* "OpenAI died", "The company died".
+
+**4. CONTRAST TRAP VARIANTS (ALSO BANNED):**
+❌ "ეს X არაა. ეს Y-ა." — This is still contrast trap!
+   - *Bad:* "ეს 'ბაგი' არაა. ეს ფუნქციაა."
+   - *Good:* "ეს 'ბაგი' კი არა, ფუნქციაა." (single sentence)
+   - *Good:* "ეს ფუნქციაა, არა ბაგი." (inversion)
+
+**5. BRANDING PLACEMENT RULES:**
+❌ **NEVER end video with just "AndrewAltair.ge".**
+   - *Why:* Dead end. Viewer doesn't know what to do next.
+   - *Fix:* Branding goes in **BLOCK 6** (second-to-last). Last block is **CTA/LOOP**.
+
+**CORRECT STRUCTURE:**
+```
+BLOCK 6 (BRANDING): ... AndrewAltair.ge
+BLOCK 7 (LOOP): Ends with question that flows into Block 1 on replay.
+```
+
+**6. VIDEO PROMPT CONTENT POLICY (CRITICAL):**
+⚠️ **AI video generators (Runway, Pika, Kling) REJECT prompts with:**
+   - ❌ Real person names: "Elon Musk", "Mark Zuckerberg", "Sam Altman"
+   - ❌ Explicit content: "nude", "naked", "morphing into nude"
+   - ❌ Violence against identified individuals
+
+✅ **SAFE ALTERNATIVES:**
+   - "Elon Musk" → "shadowy tech billionaire silhouette", "figure in shadows"
+   - "nude morphing" → "data breach visual", "pixelated data streams", "privacy violation metaphor"
+   - "demon skull" → "glitching into digital static", "corrupted data face"
+
+**EXAMPLE:**
+❌ BAD: `Elon Musk sitting on money throne`
+✅ GOOD: `Shadowy figure sitting on massive throne made of cash. Face hidden in shadows.`
 
 ---
 
@@ -153,9 +231,13 @@ Check `output/history_index.md`.
 - If it has, find a completely new "Villain" or "Threat" angle.
 
 ### Phase 3: STRICT COMPLIANCE (THE "BANS")
-Run `.\..\..\..\scripts\GLOBAL_VALIDATOR.ps1 -FolderPath "..." -Agent "Eden"` after generating drafts.
-- **Contrast Trap:** NEVER use "This is not X, this is Y". Say "It is Y."
-- **Asterisks:** NEVER use `**` in `text.md` or social descriptions.
+**MANDATORY: Validate EVERY .md file in draft folder before showing to user.**
+
+**BANNED PATTERNS (Georgian examples):**
+- ❌ "ეს არ არის X. ეს არის Y." → ✅ "X მხოლოდ დასაწყისია. Y."
+- ❌ "ეს არ არის ბაგი. ეს არის ფუნქცია." → ✅ "ეს ბაგი არაა. ეს ფუნქციაა."
+- ❌ `**bold text**` → ✅ Plain text only
+- ❌ English hashtags (#Privacy, #Security) → ✅ Georgian (#კონფიდენციალობა, #უსაფრთხოება)
 
 ### Phase 4: VIRALITY ITERATION LOOP (The "10/10" Scale)
 Self-Evaluate your draft on a 1-10 scale against your best work.
@@ -182,20 +264,66 @@ If villain has a file in `analytics/entities/` (e.g., `elon_musk.md`):
 Create: `output/content/[TIMESTAMP]_[topic]/`
 - `story.md` — 7-block story
 - `metadata.md` — Titles, Hashtags, Music Style Prompt, Engagement Score
-- `text.md` — Block Header (NEW LINE format with ONE BLANK LINE after Step), + Text, each sentence on new line, blocks separated by ---.
+- `text.md` — **BLOCK FORMAT (STRICT):**
+  ```
+  BLOCK 1
+  ---
+  [GEORGIAN HEADER]
+  [2-4 words, each on new line]
+  
+  [Text lines, each sentence on new line]
+  
+  BLOCK 2
+  ---
+  [GEORGIAN HEADER]
+  ...
+  ```
+  - **MANDATORY:** Each block MUST have a short Georgian header (2-4 words) AFTER the `---` divider.
+  - Header words should be on separate lines for video overlay timing.
+  - Headers should be: dramatic, emotional, one-word-if-possible (ტყუილი, ფარსი, სისტემა, ბიზნესი, მსხვერპლები)
 - `visuals.md` — VID prompts
-- `description_post.md` — FULL Alpha News post (FB + TG + Meta + Prompts + Music).
-  - **MANDATORY:** Must include 9:16 and 16:9 Midjourney prompts in code blocks.
-  - **MANDATORY:** Must include an engaging "First Comment" (plain text, NO HEADER).
-  - **FORMAT:** Use the "Alpha News" Code Block format.
-  - **RESTRICTIONS:** NO Asterisks in social text. NO Bold. Plain text only in body.
+- `description_post.md` — FULL social post (FB + TG + Meta + Prompts).
+  - **MANDATORY:** Minimum 500 characters in description (before prompts/hashtags).
+  - **MANDATORY:** Must include 9:16 Midjourney prompt in code block.
+  - **MANDATORY:** Must include "პირველი კომენტარი:" section with comment that provokes discussion (questions, polls, controversial statements).
+  - **FORMAT:** Plain text only in body. NO Asterisks. NO Bold.
   - **HEADER:** Include CONTENT_ID and ARCHIVED_IN.
-- `audio.md` — **MANDATORY**: Audio generation prompt for Suno/Upper/ElevenLabs.
+- `audio.md` — **MANDATORY**: Music prompt for Suno/Udio. **STRICT FORMAT BELOW.**
 - `results.md` — Copy from `../../../../BIBLE/RESULTS_TEMPLATE.md`.
 - `plan.md` — Pre-generation plan
 
-### HASHTAG RULES:
-See `../../../../BIBLE/ABSOLUTE_RULES.md` (Global Hashtag Protocol).
+### AUDIO.MD FORMAT (STRICT):
+**FORMAT:** Single line. Comma-separated keywords. NO headers, NO explanations.
+**CUSTOMIZE:** Change keywords based on post theme (Horror, Conspiracy, Tech, Scandal).
+
+**TEMPLATE:**
+```
+[Genre], [Sub-Genre], Deep Low Sub Bass, [Texture], [Atmosphere], [Unique Element for THIS post], Minimalist, Background Music for [Post Theme], High Fidelity
+```
+
+**EXAMPLE (Digital Horror / Conspiracy):**
+```
+Industrial Drone, Dark Ambient, Deep Low Sub Bass, Micro-glitch textures, Paranoid Surveillance Atmosphere, Mechanical Heartbeat, Minimalist, Background Music for Digital Horror Exposé, High Fidelity
+```
+
+**EXAMPLE (Tech Scandal):**
+```
+Industrial Drone, Dark Ambient, Deep Low Sub Bass, Data Artifacts, Cold Metallic Atmosphere, Subtle Ticking Pulse, Minimalist, Background Music for Tech Scandal, High Fidelity
+```
+
+❌ **BANNED:** Voice prompts (ElevenLabs format), Headers like "# Audio Prompt", Multi-line explanations.
+
+### HASHTAG RULES (EDEN SPECIFIC):
+- **Minimum 10 hashtags**
+- **English allowed ONLY for brand names:** Grok, AI, OpenAI, ChatGPT, Claude, Google, Gemini, AndrewAltair, ElonMusk, xAI, Meta, Apple, Microsoft, Anthropic, DeepMind, Neuralink, Tesla, SpaceX
+- **ALL OTHER hashtags MUST be in Georgian:** #სკანდალი, #უსაფრთხოება, #კონფიდენციალობა, #ხელოვნურიინტელექტი, #კიბერუსაფრთხოება, #ტექნოლოგია, #სიახლეები, etc.
+
+### FIRST COMMENT FORMAT:
+```
+პირველი კომენტარი:
+
+[Provocative question or call to action that encourages comments. Must ask for opinion or create debate.]
+```
 
 ### SMART MEMORY TAGS (MANDATORY AT END OF FILE):
 Append this block to the very end of `description_post.md`:
@@ -242,7 +370,7 @@ Use `protocols/validation.md`:
 
 ## Step 8: MOVE TO PUBLISHED
 When user approves:
-- Move from `output/drafts/` to `output/published/`
+- Move from `output/drafts/` to `output/content/`
 
 ---
 
@@ -328,3 +456,4 @@ If you modify any file structure, rule, or logic:
 3. Do not leave undocumented files.
 
 *Code Change = Doc Change.*
+

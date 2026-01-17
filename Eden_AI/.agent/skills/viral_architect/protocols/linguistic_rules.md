@@ -61,3 +61,4 @@
 3.  **Active Voice Only:**
     *   ❌ "The decision was made by Musk."
     *   ✅ "Musk decided."
+

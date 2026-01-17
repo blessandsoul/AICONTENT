@@ -103,3 +103,4 @@ After 10+ tests, analyze:
 1. Don't overwhelm user - max 3 A/B choices per post
 2. If user doesn't want to choose, pick highest-scoring option
 3. Always track results for future learning
+

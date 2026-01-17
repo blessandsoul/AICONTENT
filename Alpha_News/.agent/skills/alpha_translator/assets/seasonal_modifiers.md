@@ -99,3 +99,4 @@ Add these modifiers to image prompts based on current month/season.
 - Traditional Georgian patterns
 - Warm autumn colors
 ```
+

@@ -319,3 +319,4 @@ Georgian old town at night, mix of old architecture and new tech, cultural contr
    - Tech failure → Research labs
    - Personal impact → Domestic environments
    - Global impact → Global locations
+

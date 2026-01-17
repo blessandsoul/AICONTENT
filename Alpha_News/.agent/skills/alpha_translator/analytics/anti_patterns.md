@@ -46,3 +46,4 @@ Context: Agent copies placeholder text or structure from `output_structure.md` l
 Pattern to Avoid:
 > Using the specific emojis from the template example instead of choosing new ones.
 Fix: Treat templates as STRUCTURE, not CONTENT.
+

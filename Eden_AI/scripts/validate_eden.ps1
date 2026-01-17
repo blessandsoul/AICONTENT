@@ -2,7 +2,7 @@
 .SYNOPSIS
     Eden AI Viral Validator
 .DESCRIPTION
-    Scans Eden AI drafts for broken protocols, formatting errors, and banned patterns.
+    Scans Eden AI content for broken protocols, formatting errors, and banned patterns.
 .USAGE
     .\validate_eden.ps1 -FolderPath "path\to\draft_folder"
 #>

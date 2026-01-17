@@ -75,3 +75,4 @@ Master question list for deep exploration sessions. Use these to learn about And
 3. **Записывай ответы** в `memory/raw_answers.md`
 4. **Если Андрей отвечает** — обработай ответ через Learning Mode
 5. **Если игнорит** — не обижайся, задашь в следующий раз
+

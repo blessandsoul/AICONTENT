@@ -29,3 +29,4 @@ Do not use the same sentence structure twice in one video.
 - Sentence 1: "He is X."
 - Sentence 2: "With Y comes Z."
 - Sentence 3: "Creating a world of..."
+

@@ -28,3 +28,4 @@
 - მანქანა წყვეტს (Machine decides)
 - პანდორას ყუთი (Pandora's box)
 - ჩრდილოვანი პრეზიდენტი (Shadow president)
+

@@ -80,3 +80,4 @@ When a prompt works well:
 2. Note what made it work
 3. Rate it (Score %)
 4. Add to rotation
+

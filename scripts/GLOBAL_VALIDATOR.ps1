@@ -77,9 +77,24 @@ foreach ($r in $rhetoricalPatterns) {
     }
 }
 
-# 1.9 CTA Links
-if ($content -match '🔗|Link:') {
-    $violations += "❌ [BIBLE] CTA LINK: Удали строку с 🔗 или Link:"
+# 1.10 Tautology Check (Consecutive Line Starts)
+$lines = $content -split '\r?\n' | Where-Object { $_ -notmatch '^\s*$' -and $_ -notmatch '^#|^\s*---' }
+for ($i = 0; $i -lt $lines.Count - 1; $i++) {
+    $currentLine = $lines[$i].Trim()
+    $nextLine = $lines[$i + 1].Trim()
+    
+    # Get first 2 words
+    $currentWords = $currentLine -split '\s+' | Select-Object -First 2
+    $nextWords = $nextLine -split '\s+' | Select-Object -First 2
+    
+    if ($currentWords.Count -ge 2 -and $nextWords.Count -ge 2) {
+        $firstTwoCurrent = "$($currentWords[0]) $($currentWords[1])"
+        $firstTwoNext = "$($nextWords[0]) $($nextWords[1])"
+        
+        if ($firstTwoCurrent -eq $firstTwoNext) {
+            $violations += "❌ [BIBLE] TAUTOLOGY: Consecutive lines start with '$firstTwoCurrent'. Vary your sentence structure!"
+        }
+    }
 }
 
 # ==========================================
@@ -99,6 +114,47 @@ switch ($Agent) {
         if (-not $hasStrategy -and $prompts.Count -gt 0) {
             $violations += "⚠️ [ALPHA] VISUAL STRATEGY: Добавь агрессивные модификаторы в промпт."
         }
+
+        # Alpha: HASHTAG VALIDATION
+        $hashtagMatches = [regex]::Matches($content, '#[\w\p{L}]+')
+        $hashtagCount = $hashtagMatches.Count
+        if ($hashtagCount -lt 10) {
+            $violations += "❌ [ALPHA] HASHTAGS: Минимум 10 хэштегов! Найдено: $hashtagCount"
+        }
+        
+        # Alpha: Check for English-only hashtags (excluding brand names)
+        $allowedEnglish = @('AI', 'OpenAI', 'ChatGPT', 'Claude', 'Google', 'Gemini', 'AndrewAltair', 'GPT', 'Perplexity')
+        $englishOnlyHashtags = @()
+        foreach ($h in $hashtagMatches) {
+            $tag = $h.Value -replace '^#', ''
+            # If tag is all Latin letters and NOT in allowed list
+            if ($tag -match '^[A-Za-z0-9]+$' -and $tag -notin $allowedEnglish) {
+                $englishOnlyHashtags += "#$tag"
+            }
+        }
+        if ($englishOnlyHashtags.Count -gt 0) {
+            $violations += "❌ [ALPHA] ENGLISH HASHTAGS: Замени на грузинские! $($englishOnlyHashtags -join ', ')"
+        }
+
+        # Alpha: CHARACTER LENGTH VALIDATION
+        # Split content into Facebook and Telegram sections
+        $sections = $content -split '---'
+        $facebookSection = $sections[0]
+        $telegramSection = if ($sections.Count -gt 1) { $sections[1] } else { "" }
+        
+        # Remove prompts and code blocks from count
+        $fbClean = $facebookSection -replace '```[\s\S]*?```', '' -replace 'Prompt:[\s\S]*?Negative Prompt:[^\n]+', ''
+        $tgClean = $telegramSection -replace '```[\s\S]*?```', ''
+        
+        $fbLength = $fbClean.Length
+        $tgLength = $tgClean.Length
+        
+        if ($fbLength -lt 3500) {
+            $violations += "❌ [ALPHA] FACEBOOK LENGTH: Минимум 3500 символов! Найдено: $fbLength"
+        }
+        if ($tgLength -gt 0 -and $tgLength -lt 750) {
+            $violations += "❌ [ALPHA] TELEGRAM LENGTH: Минимум 750 символов! Найдено: $tgLength"
+        }
     }
 
     "Eden" {
@@ -112,6 +168,35 @@ switch ($Agent) {
         $audioPath = Join-Path -Path $directory -ChildPath "audio.md"
         if (-not (Test-Path $audioPath)) {
             $violations += "❌ [EDEN] audio.md ОТСУТСТВУЕТ. Только Eden генерирует музыку!"
+        }
+        
+        # Eden: MINIMUM DESCRIPTION LENGTH (500 chars)
+        # Get content before hashtags line (starts with #)
+        $beforeHashtags = ($content -split '\n#[A-Za-zა-ჰ]')[0]
+        $descriptionClean = $beforeHashtags -replace '```[\s\S]*?```', '' -replace '---[\s\S]*?---', '' -replace '<!-- MEMORY_TAGS[\s\S]*-->', '' -replace '\r?\n', ' '
+        $descriptionClean = $descriptionClean.Trim()
+        if ($descriptionClean.Length -lt 500) {
+            $violations += "❌ [EDEN] DESCRIPTION LENGTH: Минимум 500 символов! Найдено: $($descriptionClean.Length)"
+        }
+        
+        # Eden: FIRST COMMENT CHECK
+        if ($content -notmatch 'პირველი კომენტარი:|First Comment:') {
+            $violations += "❌ [EDEN] FIRST COMMENT: Отсутствует первый комментарий для разжигания дискуссии!"
+        }
+        
+        # Eden: HASHTAG CHECK (Only brand names in English)
+        $hashtagMatches = [regex]::Matches($content, '#[\w\p{L}]+')
+        $allowedEnglish = @('Grok', 'AI', 'OpenAI', 'ChatGPT', 'Claude', 'Google', 'Gemini', 'AndrewAltair', 'GPT', 'Perplexity', 'ElonMusk', 'EdenAI', 'xAI', 'Meta', 'Apple', 'Microsoft', 'Anthropic', 'DeepMind', 'Neuralink', 'Tesla', 'SpaceX')
+        $englishOnlyHashtags = @()
+        foreach ($h in $hashtagMatches) {
+            $tag = $h.Value -replace '^#', ''
+            # If tag is all Latin letters and NOT in allowed list
+            if ($tag -match '^[A-Za-z0-9]+$' -and $tag -notin $allowedEnglish) {
+                $englishOnlyHashtags += "#$tag"
+            }
+        }
+        if ($englishOnlyHashtags.Count -gt 0) {
+            $violations += "❌ [EDEN] ENGLISH HASHTAGS: Замени на грузинские! $($englishOnlyHashtags -join ', ')"
         }
     }
 

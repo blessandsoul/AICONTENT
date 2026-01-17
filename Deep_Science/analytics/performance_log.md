@@ -12,3 +12,4 @@
 | Date | Topic | Visual Scene | Engagement | Verdict |
 |------|-------|--------------|------------|---------|
 | 2026-01-16 | Mashco-Piro Tribe | Expedition Base Camp | High (Pending) | Validated |
+

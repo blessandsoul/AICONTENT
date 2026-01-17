@@ -31,3 +31,4 @@ Authentic Georgian phrases that hit harder than translations.
 - უკვე გვიანია (It's already too late)
 - ეს მხოლოდ დასაწყისია (This is just the beginning)
 - ყველაზე საშინელი წინ არის (The worst is yet to come)
+

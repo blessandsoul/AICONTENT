@@ -74,3 +74,4 @@ Use this matrix to generate high-variety, safer backgrounds for the speaker.
 - **Variant B (Rorschach):** "Inkblot test morphing into different shapes, black on white paper, psychological horror"
 - **Variant C (Prism):** "Glass prism refracting light into rainbows, dark background, Pink Floyd vibe"
 - **Variant D (Eyes):** "Wall covered in hundreds of blinking eyes, surrealist art style, disturbing"
+

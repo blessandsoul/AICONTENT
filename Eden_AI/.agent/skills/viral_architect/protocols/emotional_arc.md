@@ -27,3 +27,4 @@ Control viewer emotions precisely through each block.
 - Follows arc exactly: +5 points
 - Misses 1-2 emotions: +2 points
 - Random emotional flow: -2 points
+

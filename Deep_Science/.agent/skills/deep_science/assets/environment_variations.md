@@ -25,3 +25,4 @@
 - **Microchip Metropolis:** CPU architecture as a city, gold pins as skyscrapers.
 
 *Each post gets a unique diorama setting!*
+

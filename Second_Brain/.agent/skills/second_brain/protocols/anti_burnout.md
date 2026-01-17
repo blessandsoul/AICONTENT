@@ -40,3 +40,4 @@ Instead say: "Натия ждала 6 лет. Воскресенье — для 
 When income allows, first hire:
 1. Video editor (saves 1.5 hours/day)
 2. Content manager (saves 1 hour/day)
+
