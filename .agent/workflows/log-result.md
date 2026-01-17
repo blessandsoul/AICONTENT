@@ -43,6 +43,17 @@ Parse the following metrics:
 - Path: `AICONTENT/MASTER_INDEX.md`
 - Add entry or update Status to WIN/NEUTRAL/FLOP
 
+### 6. Synthesize Key Learnings (CRITICAL)
+- Path: `[Agent]/analytics/performance_log.md` → **"Key Learnings"** section
+- After logging stats, analyze the results for NEW patterns
+- Add new "დასკვნა #N" entries when you discover:
+  - Hook types that work/fail (question vs statement)
+  - Drop-off patterns (early = hook problem)
+  - Engagement patterns (comments, saves, shares)
+  - Topic/villain combinations that succeed
+- Format: `**დასკვნა #N (DD.MM.YYYY)**: [Learning in Georgian or Russian]`
+- This is how the agent "learns" and improves future content!
+
 ---
 
 ## Verdict Guidelines

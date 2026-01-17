@@ -20,6 +20,12 @@ Use this file to track which stories performed well. The Agent will read this to
 - **Insiders Club**: Фраза "Пентагонис саидумло кселеби" (Secret Pentagon networks) создает ощущение эксклюзивности.
 - **High Saves**: 36 saves / 153 likes. Люди сохраняют "карту спасения" (AndrewAltair.ge) или предупреждение. CTA должен быть частью лора.
 
+**დასკვნა #3 (17.01.2026 - Grok Nudes Lie)**:
+- **Question Hooks FAIL**: კითხვითი hook ("დასრულდა?") = 0:06 drop-off. აუდიენცია მაშინვე ტოვებს.
+- **Statement > Question**: "შენ უკვე მიზანში ხარ" >>> "დასრულდა?"
+- **0 Comments = No Discussion**: კითხვა არ იწვევს დისკუსიას, statement იწვევს რეაქციას.
+- **RULE**: НИКОГДА не начинай с вопроса. Только утверждение + личная угроза.
+
 ---
 
 ## Post History
@@ -30,6 +36,7 @@ Use this file to track which stories performed well. The Agent will read this to
 | 2026-01-15 | AI Robots/Job Replacement | 28k | ეკონომიკური შიში | Jensen Huang | აბსტრაქტული მომავლის საფრთხე, ნაკლებად პერსონალური |
 | 2026-01-15 | Grok პენტაგონში (Digital Monster) | 15.3K (FB+TikTok) | ომის შიში/საფრთხე | Elon Musk / Pete Hegseth | "ომის წესები გაუქმდა" - პირდაპირი სამხედრო საფრთხე, პენტაგონი, ციფრული მონსტრი |
 | 2026-01-16 | Merge Labs (ტვინის AI) | 1.4K TT / 5.9K FB | პირადი საფრთხე/შეთქმულება | Sam Altman / Elon Musk | NEUTRAL — 7.2K combined, 0:02 TT drop-off, 248 FB engagement (24h) |
+| 2026-01-17 | Grok Nudes Lie (ტყუილი) | 1.4K TT / 4.5K FB | კითხვითი hook | Elon Musk | NEUTRAL — 5.8K combined, 0:06 FB drop-off, 0 comments |
 
 ---
 

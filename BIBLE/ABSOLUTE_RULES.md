@@ -1,6 +1,7 @@
 # 📜 THE BIBLE: ABSOLUTE RULES FOR ALL AGENTS
 
 > "These rules are absolute. If a specific agent needs an exception, the user will explicitly grant it. Otherwise, OBEY."
+> **⚠️ CRITICAL: BEFORE UPDATING AGENTS, READ `SOUL_PROTECTION.md` TO AVOID 'LOBOTOMY'.**
 
 ---
 

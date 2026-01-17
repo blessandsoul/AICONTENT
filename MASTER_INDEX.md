@@ -19,7 +19,7 @@
 |------|----|-----------------------|--------|----------|--------|
 | 2026-01-15 | EDEN_0115_GROK | პენტაგონის ახალი "გენერალი" | `Eden_AI/output/content/20260115_grok_pentagon/` | TikTok/YT | WIN |
 | 2026-01-16 | EDEN_0116_MERGE | Merge Labs - ადამიანის ტვინის | `Eden_AI/output/content/20260116_merge_labs/` | TikTok/FB | NEUTRAL |
-| 2026-01-17 | EDEN_0117_GROK_NUDES | გროკი არ გაჩერებულა | `Eden_AI/output/content/20260117_grok_nudes_lie/` | TikTok/FB | PENDING |
+| 2026-01-17 | EDEN_0117_GROK_NUDES | გროკის "ნუდები" დასრულდა? | `Eden_AI/output/content/20260117_grok_nudes_lie/` | TikTok/FB | NEUTRAL |
 
 ---
 

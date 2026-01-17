@@ -14,8 +14,34 @@ param(
     [Parameter(Mandatory = $true)][string]$Agent
 )
 
-$content = Get-Content -Path $Path -Raw -Encoding UTF8
-$violations = @()
+$isJson = $Path.EndsWith(".json")
+$contentRaw = Get-Content -Path $Path -Raw -Encoding UTF8
+$contentToCheck = $contentRaw
+
+if ($isJson) {
+    try {
+        $jsonObj = $contentRaw | ConvertFrom-Json
+        # Extract all text content from "content" array
+        $contentToCheck = ""
+        if ($jsonObj.content) {
+            foreach ($item in $jsonObj.content) {
+                if ($item.content) {
+                    $contentToCheck += $item.content + "`n"
+                }
+            }
+        }
+        # Also add meta fields to check for forbidden words
+        if ($jsonObj.meta.title) { $contentToCheck += $jsonObj.meta.title + "`n" }
+        if ($jsonObj.seo.excerpt) { $contentToCheck += $jsonObj.seo.excerpt + "`n" }
+        
+        Write-Host "📂 JSON MODE DETECTED: Parsed content fields." -ForegroundColor Cyan
+    }
+    catch {
+        $violations += "❌ [JSON] INVALID JSON: Failed to parse file."
+    }
+}
+
+$content = $contentToCheck
 
 # ==========================================
 # 🛡️ 1. THE BIBLE (CORE CHECK - ALL AGENTS)
@@ -137,23 +163,33 @@ switch ($Agent) {
         }
 
         # Alpha: CHARACTER LENGTH VALIDATION
-        # Split content into Facebook and Telegram sections
-        $sections = $content -split '---'
-        $facebookSection = $sections[0]
-        $telegramSection = if ($sections.Count -gt 1) { $sections[1] } else { "" }
-        
-        # Remove prompts and code blocks from count
-        $fbClean = $facebookSection -replace '```[\s\S]*?```', '' -replace 'Prompt:[\s\S]*?Negative Prompt:[^\n]+', ''
-        $tgClean = $telegramSection -replace '```[\s\S]*?```', ''
-        
-        $fbLength = $fbClean.Length
-        $tgLength = $tgClean.Length
-        
-        if ($fbLength -lt 3500) {
-            $violations += "❌ [ALPHA] FACEBOOK LENGTH: Минимум 3500 символов! Найдено: $fbLength"
+        # SKIP for JSON files (Deep Dive has different rules)
+        if (-not $isJson) {
+            # Split content into Facebook and Telegram sections
+            $sections = $content -split '---'
+            $facebookSection = $sections[0]
+            $telegramSection = if ($sections.Count -gt 1) { $sections[1] } else { "" }
+            
+            # Remove prompts and code blocks from count
+            $fbClean = $facebookSection -replace '```[\s\S]*?```', '' -replace 'Prompt:[\s\S]*?Negative Prompt:[^\n]+', ''
+            $tgClean = $telegramSection -replace '```[\s\S]*?```', ''
+            
+            $fbLength = $fbClean.Length
+            $tgLength = $tgClean.Length
+            
+            if ($fbLength -lt 300) {
+                $violations += "❌ [ALPHA] FACEBOOK LENGTH: Минимум 300 символов (HOOK POST)! Найдено: $fbLength"
+            }
+            if ($tgLength -gt 0 -and $tgLength -lt 750) {
+                $violations += "❌ [ALPHA] TELEGRAM LENGTH: Минимум 750 символов! Найдено: $tgLength"
+            }
         }
-        if ($tgLength -gt 0 -and $tgLength -lt 750) {
-            $violations += "❌ [ALPHA] TELEGRAM LENGTH: Минимум 750 символов! Найдено: $tgLength"
+        else {
+            # JSON Specific Checks for Alpha
+            $jsonLength = $content.Length
+            if ($jsonLength -lt 15000) {
+                $violations += "❌ [ALPHA] DEEP DIVE LENGTH: Минимум 15,000 символов! Найдено: $jsonLength"
+            }
         }
     }
 
@@ -210,6 +246,35 @@ switch ($Agent) {
         if ($content -match 'Prompt:' -and $content -notmatch 'Tilt-shift|Macro|Miniature|Diorama') {
             $violations += "⚠️ [DEEP] MINIATURE STYLE: Промпт должен содержать Tilt-shift/Macro/Diorama."
         }
+        
+        # Deep: CHARACTER LENGTH VALIDATION (Mirrors Alpha)
+        if (-not $isJson) {
+            # Split content into Facebook and Telegram sections
+            $sections = $content -split '---'
+            $facebookSection = $sections[0]
+            $telegramSection = if ($sections.Count -gt 1) { $sections[1] } else { "" }
+            
+            # Remove prompts and code blocks from count
+            $fbClean = $facebookSection -replace '```[\s\S]*?```', '' -replace 'Prompt:[\s\S]*?Negative Prompt:[^\n]+', ''
+            $tgClean = $telegramSection -replace '```[\s\S]*?```', ''
+            
+            $fbLength = $fbClean.Length
+            $tgLength = $tgClean.Length
+            
+            if ($fbLength -lt 300) {
+                $violations += "❌ [DEEP] FACEBOOK LENGTH: Минимум 300 символов (HOOK POST)! Найдено: $fbLength"
+            }
+            if ($tgLength -gt 0 -and $tgLength -lt 750) {
+                $violations += "❌ [DEEP] TELEGRAM LENGTH: Минимум 750 символов! Найдено: $tgLength"
+            }
+        }
+        else {
+            # JSON Specific Checks for Deep
+            $jsonLength = $content.Length
+            if ($jsonLength -lt 15000) {
+                $violations += "❌ [DEEP] DEEP DIVE LENGTH: Минимум 15,000 символов! Найдено: $jsonLength"
+            }
+        }
     }
 
     "Tutor" {
@@ -233,9 +298,12 @@ switch ($Agent) {
 # 📋 3. FIRST COMMENT CHECK (ALL AGENTS)
 # ==========================================
 # Relaxed check - just verify content has substantial text after all separators
-$afterTelegram = $content -split '---\s*\[TELEGRAM|--- \[START OF TELEGRAM' | Select-Object -Last 1
-if ($afterTelegram.Length -lt 100) {
-    $violations += "⚠️ [ALL] FIRST COMMENT: Проверь наличие первого комментария."
+# SKIP for JSON
+if (-not $isJson) {
+    $afterTelegram = $content -split '---\s*\[TELEGRAM|--- \[START OF TELEGRAM' | Select-Object -Last 1
+    if ($afterTelegram.Length -lt 100) {
+        $violations += "⚠️ [ALL] FIRST COMMENT: Проверь наличие первого комментария."
+    }
 }
 
 # ==========================================

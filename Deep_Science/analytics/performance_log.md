@@ -12,4 +12,5 @@
 | Date | Topic | Visual Scene | Engagement | Verdict |
 |------|-------|--------------|------------|---------|
 | 2026-01-16 | Mashco-Piro Tribe | Expedition Base Camp | High (Pending) | Validated |
+| 2026-01-18 | Tylenol Pregnancy Safety | Micro-Chip City | PENDING | Validated |
 

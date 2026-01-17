@@ -2,22 +2,33 @@
 
 ## Purpose
 Capture attention in the first 0.5 seconds.
+**THE RULE: The viewer cares only about THEMSELVES.**
 
-## Rules
-Block 1 MUST start with ONE of these patterns:
-- ⚡ **SHOCK STATISTIC:** "97% людей..." / "ოთხმოცდაჩვიდმეტი პროცენტი..."
-- 💀 **IMPOSSIBLE CLAIM:** "Этот человек был объявлен мёртвым дважды..."
-- 🚨 **URGENT WARNING:** "Если ты читаешь это, у тебя осталось 24 часа..."
+## 🚨 THE 50K FORMULA (HIERARCHY)
+Choose the highest available level for your topic:
 
-## Banned
-❌ Starting with just a name without shock context.
+### LEVEL S (GOD TIER) - PERSONAL THREAT
+> "Your photo is already online." / "შენი ფოტო უკვე ინტერნეტშია."
+> "You are losing money right now." / "შენ ფულს კარგავ ზუსტად ახლა."
+> **Requirement:** Must use "YOU" (შენ) or "YOUR" (შენი) in the first 5 words.
 
-## Allowed
-✅ "Илон Маск потерял $47 миллиардов за 3 часа, потому что..."
+### LEVEL A - IMMEDIATE SCANDAL
+> "They lied to us." / "მათ მოგვატყუეს."
+> "It's all over." / "ყველაფერი დამთავრდა."
+> **Requirement:** Must be a short, vague, terrifying statement.
 
-## Scoring
-- Uses shock statistic: +3 points
-- Uses impossible claim: +2 points
-- Uses urgent warning: +2 points
-- No hook: -5 points
+### LEVEL F (FAIL) - NEWS HEADLINE ❌
+> "Elon Musk announced..." (BORING)
+> "OpenAI released..." (WHO CARES?)
+
+## 🚫 STRICT BANS
+1. **NO PROPER NAMES AT START.** Do not start with "Elon Musk", "Google", "Bidzina".
+   - *Exception:* If the name is used as a weapon ("Elon Musk hates you").
+2. **NO DATES.** "On January 15th..." (Instant skip).
+3. **NO "ACCORDING TO".** "According to reports..." (Lazy).
+
+## Scoring (Self-Correction)
+- Starts with "You/Your": +10 points
+- Starts with "They/It" (Mystery): +5 points
+- Starts with Name/Company: -100 points (REWRITE IMMEDIATELY)
 

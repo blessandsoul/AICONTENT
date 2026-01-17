@@ -28,7 +28,8 @@
 | "ის არ სვამს კითხვებს" | He doesn't ask questions | Cliché "Terminator" trope. |
 | "არასდროს იღლება" | Never tires | Used in every AI video. |
 | "სტატისტიკური ერთეული" | Statistical unit | Used 3+ times. Boring. |
-| "შენ მიზანში ხარ" | You are in the target | Lazy action movie trope. |
+| "სტატისტიკური ერთეული" | Statistical unit | Used 3+ times. Boring. |
+
 | "მონაცემთა ნაკადი" | Data stream | Dehumanizing. Nerd speak. |
 | "ეს არ არის X" | This is not X | The Binary Ban. |
 | "ეს დასასრულია" | This is the end | Lazy drama. |
