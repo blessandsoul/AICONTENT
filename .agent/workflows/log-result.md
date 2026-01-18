@@ -53,7 +53,16 @@ Parse the following metrics:
   - Topic/villain combinations that succeed
 - Format: `**დასკვნა #N (DD.MM.YYYY)**: [Learning in Georgian or Russian]`
 - This is how the agent "learns" and improves future content!
-
+    
+### 7. 🧠 AutoMem Update (AUTOMATIC)
+After files are updated, you MUST update the central memory:
+1.  **Extract ID/Query:** Use the Post Title or ID.
+2.  **Determine Verdict:** WIN/NEUTRAL/FLOP.
+3.  **Run Tagging Script:** 
+    `python scripts/log_performance.py "[Post Title]" "[Views]" "[Verdict]"`
+4.  **Run Sync:**
+    `python scripts/sync_memory.py`
+    
 ---
 
 ## Verdict Guidelines

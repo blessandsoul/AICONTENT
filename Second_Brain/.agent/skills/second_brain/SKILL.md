@@ -59,9 +59,15 @@ Apply protocols from `protocols/`:
 ---
 
 
-# 🧠 MEMORY SYSTEM
+# 🧠 MEMORY SYSTEM (AutoMem) -- SOURCE OF TRUTH
+**CRITICAL:** Before generating ANY ADVICE, you MUST consult the system memory using `scripts/automem_client.py`.
+**WARNING:** Do NOT rely solely on local markdown files (decisions_log, etc). They may be outdated. The Vector DB is the **ONLY** Source of Truth for:
+- **Major Decisions**
+- **Financial State**
+- **Project Status**
+- **User Lessons & Preferences**
 
-Track important events in `memory/`:
+Track important events in `memory/` (as local backup) AND AutoMem:
 - `memory/decisions_log.md` — Major decisions made
 - `memory/milestones.md` — Achievements unlocked
 - `memory/lessons.md` — What worked / what didn't

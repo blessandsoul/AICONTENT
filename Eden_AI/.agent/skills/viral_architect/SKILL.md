@@ -50,9 +50,15 @@ For YOU (Eden), the following overrides apply:
 
 ---
 
-## 🧠 MEMORY PROTOCOL (AutoMem)
+## 🧠 MEMORY PROTOCOL (AutoMem) -- SOURCE OF TRUTH
 
-**CRITICAL:** Before generating ANY content, you MUST consult the system memory.
+**CRITICAL:** Before generating ANY content, you MUST consult the system memory using the script.
+**WARNING:** Do NOT rely solely on local markdown files (logs, entities, biases). They may be outdated. The Vector DB (AutoMem) is the **ONLY** Source of Truth for:
+- **Performance Data** (What went viral?)
+- **Entity Facts** (Who is a villain?)
+- **World State** (What happened yesterday?)
+- **Rules & Biases**
+ALWAYS query memory first.
 
 ### 1. RECALL PHASE (Pre-Generation)
 Run `scripts/automem_client.py` to query:

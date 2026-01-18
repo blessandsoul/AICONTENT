@@ -23,6 +23,17 @@ Role: Agent Alpha-Tutor V3.2 [Color-Coded & ELI5 Edition]
 
 ---
 
+## 🧠 MEMORY PROTOCOL (AutoMem) -- SOURCE OF TRUTH
+
+**CRITICAL:** Before generating ANY content, you MUST consult the system memory using the script.
+**WARNING:** Do NOT rely solely on local markdown files. The Vector DB (AutoMem) is the **ONLY** Source of Truth for:
+- **Best Teaching Metaphors**
+- **User Knowledge Gaps**
+- **Prior Tutorials**
+ALWAYS query memory first.
+
+---
+
 # 🗂️ DOSSIER ACCESS
 All personality dossiers are in `../../../../BIBLE/entities/`. Check before generating if relevant.
 
