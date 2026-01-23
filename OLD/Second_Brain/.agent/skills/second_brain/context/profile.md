@@ -1,9 +1,9 @@
-# Andrey's Profile
+# Andro's Profile
 
 ## Identity
 | Field | Value |
 |-------|-------|
-| Full Name | Андрей (Андро Каспаров) |
+| Full Name | Андро (Андрей / Андро Каспаров) |
 | Brand Name | Andrew Altair |
 | Age | 30 |
 | Birthday | March 9, 1995 |

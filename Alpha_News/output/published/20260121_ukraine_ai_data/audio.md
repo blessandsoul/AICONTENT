@@ -1,0 +1,1 @@
+[Mood: Cold/Calculated/Industrial], [Genre: Dark Techno/Cyberpunk Ambient], Deep Low Sub Bass, Digital Glitches, Drone Propeller FX, Radar Beeps, [Atmosphere: War Room/Data Center], Mechanical Rhythm, Sparse, High Fidelity, Cinematic Mix, 60 seconds

@@ -1,0 +1,1 @@
+Sad Lo-fi, Glitch Piano, Melancholic Digital Ambient, Lonely Smartphone Notifications, Emotional Void, Glass Shattering, Digital Distortion, Oppressive Melancholy, Minimalist, High Fidelity, 60 seconds

@@ -2,13 +2,13 @@
 
 **Post:** გროკის "ნუდები" დასრულდა? ილონ მასკმა მოგვატყუა
 **Date Published:** 2026-01-17
-**Measured At:** 7 საათის შემდეგ
+**Measured At:** 22 საათის შემდეგ
 
 ---
 
 ## VERDICT: 🟡 NEUTRAL
 
-**Total Views: 5,867** (5K-10K = NEUTRAL)
+**Total Views: 9,231** (5K-10K = NEUTRAL)
 
 ---
 
@@ -26,29 +26,22 @@
 ---
 
 ## 📘 Facebook Stats
-
 | Metric | Value |
 |--------|-------|
-| Views | 4,489 |
-| Unique Viewers | 3,475 |
-| Avg Watch Time | 17 sec |
-| Drop-off Point | 0:06 |
-| Reactions | 36 |
-| Clicks | 17 |
+| Views | 7,853 |
+| Unique Viewers | 6,229 |
+| Impressions | 6,235 |
+| Engagement | 102 |
+| Net Followers | +20 |
+| Spread | +2.6x |
 | Comments | 0 |
-| Reposts | 6 |
-
-### Reactions Breakdown
-| 👍 | ❤️ | 😮 | 😂 | 🥰 | 😢 | 😡 |
-|---|---|---|---|---|---|---|
-| 33 | 0 | 0 | 1 | 2 | 0 | 1 |
 
 ---
 
 ## 🔍 Analysis
 
 ### Strengths ✅
-- სტაბილური FB Views (4.5K 7 საათში)
+- სტაბილური FB Views (7.9K 22 საათში)
 - დადებითი reactions ratio (33/36 = 92% positive)
 - Reposts 6 - content shareability good
 

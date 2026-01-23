@@ -1,0 +1,1 @@
+[Mood: Tragic/Oppressive/Cinematic], [Genre: Industrial Drone/Dark Ambient/ Melancholic Cello], Deep Low Sub Bass, Micro-glitch textures, Data Artifacts, Slow Ticking Pulse like a failing heart, [Atmosphere: Cold Metallic/Hospital Sterile], Mechanical Heartbeat, Oppressive Silence, Minimalist, Background Music for Tragedy Documentary, High Fidelity, Cinematic Mix, 60 seconds

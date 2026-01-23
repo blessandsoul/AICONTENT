@@ -1,0 +1,94 @@
+{
+  "count": 1,
+  "dedup_removed": 2,
+  "keywords": [
+    "performance_log",
+    "views",
+    "viral"
+  ],
+  "query": "performance_log views viral",
+  "query_time_ms": 146.71,
+  "results": [
+    {
+      "_query": "performance_log views viral",
+      "deduped_from": [
+        "783f42d0-62d5-4cf7-b5e2-510e26c7d396",
+        "852933d2-e628-4ce7-86c7-4b59d938b39b",
+        "a44b9804-7ea6-4be9-ae87-d7beaafb4118"
+      ],
+      "final_score": 0.5161711413511187,
+      "id": "783f42d0-62d5-4cf7-b5e2-510e26c7d396",
+      "match_score": 0.77059525,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.6,
+        "content": "# Peak Experiences\n\nMoments of flow, maximum happiness, pride, and excellence.\n\n---\n\n## 🔥 Flow States\n\n*When he was completely absorbed in what he was doing:*\n\n| Date | Activity | Duration | What Made It Flow |\n|------|----------|----------|-------------------|\n| *To be filled* | - | - | - |\n\n---\n\n## 🏆 Proudest Moments\n\n| Moment | Why Proud | Impact |\n|--------|-----------|--------|\n| *To be filled* | - | - |\n\n---\n\n## 😊 Happiest Moments\n\n| Moment | What Made It Special |\n|--------|---------------------|\n| *To be filled* | - |\n\n---\n\n## ⚡ Moments of Excellence\n\n*When he performed at his absolute best:*\n\n| Moment | What He Did | Result |\n|--------|-------------|--------|\n| *To be filled* | - | - |\n\n---\n\n## 🔗 Common Threads\n\n*What do peak experiences have in common?*\n\n- *None identified yet*\n\n---\n\n## 🎯 Conditions for Peak Performance\n\n| Condition | Importance (1-10) |\n|-----------|-------------------|\n| *To be filled* | - |\n\n---\n\n## 🧠 Learnings\n\n*What peak experiences reveal about what matters to him:*\n\n- *None identified yet*",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:04:39.218145+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:04:39.324317+00:00",
+            "patterns_detected": [
+              {
+                "key_terms": [
+                  "what",
+                  "date",
+                  "performance",
+                  "views",
+                  "results"
+                ],
+                "similar_memories": 10,
+                "type": "Context"
+              }
+            ],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {},
+          "filename": "peak_experiences.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Second_Brain\\.agent\\skills\\explore\\memory\\peak_experiences.md",
+          "sync_timestamp": "1768694678.804229"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "second_brain",
+          "notes",
+          "memory"
+        ],
+        "tags": [
+          "unknown",
+          "second_brain",
+          "notes",
+          "memory"
+        ],
+        "timestamp": "2026-01-18T00:04:39.218145+00:00",
+        "type": "Context",
+        "updated_at": "2026-01-18T00:04:39.218145+00:00"
+      },
+      "original_score": 0.77059525,
+      "relations": [],
+      "score": 0.5161711413511187,
+      "score_components": {
+        "confidence": 0.6,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9979613718445216,
+        "relation": 0.0,
+        "tag": 0.3333333333333333,
+        "vector": 0.77059525
+      },
+      "source": "qdrant"
+    }
+  ],
+  "sort": "score",
+  "status": "success",
+  "tag_match": "prefix",
+  "tag_mode": "any",
+  "vector_search": {
+    "enabled": true,
+    "matched": true
+  }
+}

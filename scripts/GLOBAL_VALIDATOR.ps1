@@ -48,9 +48,15 @@ $content = $contentToCheck
 # ==========================================
 Write-Host "🔍 Сканирую по БИБЛИИ..." -ForegroundColor Cyan
 
-# 1.1 Contrast Trap
-if ($content -match 'ეს არ არის .{1,70} ეს (არის|გახლავთ)') {
-    $violations += "❌ [BIBLE] CONTRAST TRAP: 'ეს არ არის... ეს არის' структура обнаружена."
+# 1.1 Contrast Trap (STRICT USER BAN)
+if ($content -match 'ეს არ არის .{1,50} ეს' -or $content -match 'არ არის .* არამედ') {
+    $violations += "❌ [BIBLE] CONTRAST TRAP: 'Not X, but Y' detected. User HATES this. Use direct assertions!"
+}
+if ($content -match 'კარი იკვეთება') {
+    $violations += "❌ [BIBLE] NONSENSE DETECTED: 'კარი იკვეთება' means nothing. Use 'კარი იკეტება'."
+}
+if ($content -match 'ეს არ არის') {
+    $violations += "⚠️ [BIBLE] RISKY PHRASE: 'ეს არ არის' (This is not). Verify it's not a contrast trap. Consider rewriting."
 }
 
 # 1.2 Passive Voice
@@ -62,14 +68,36 @@ foreach ($p in $passivePatterns) {
 }
 
 # 1.3 Calques
-$calques = @('ადგილი აქვს', 'თამაშობს როლს', 'იმისათვის, რომ', 'პირველ ადგილზე', 'მიიღო გადაწყვეტილება')
+$calques = @('ადგილი აქვს', 'თამაშობს როლს', 'იმისათვის, რომ', 'პირველ ადგილზე', 'მიიღო გადაწყვეტილება', 'საკუთარი ყურები', 'დანაზოგებზე', 'არ დაიჯერო შენი')
 foreach ($c in $calques) {
     if ($content -match [regex]::Escape($c)) {
-        $violations += "❌ [BIBLE] CALQUE: '$c'. Используй естественный грузинский."
+        $violations += "❌ [BIBLE] BAD GEORGIAN: '$c'. User banned this phrase! Speak like a native."
     }
 }
 
-# 1.4 Colon Headlines
+# 1.4 Barbarism Blacklist (Strict Ban on Anglicisms)
+$barbarisms = @(
+    'dalaikeba', 'laikebs', 'postavs', 'sheri', 'sharebs', 'dakomentareba', 'foloveri', 'folovebs',
+    'subscribi', 'skrolavs', 'strimavs', 'kontenti', 'influenceri', 'stori', 'rilsi', 'fidi',
+    'chati', 'mesiji', 'voisi', 'linki', 'tegi', 'tagavs', 'kepsheni', 'vlogi', 'svaipi',
+    'skrini', 'skrinshoti', 'blokavs', 'reposti', 'aklonebs', 'bugi', 'fix', 'fixavs', 'apdeiti',
+    'apgreidi', 'daaploadeba', 'daunloadebs', 'instalacia', 'klikavs', 'logini', 'logauti',
+    'pasvordi', 'yuzeri', 'akaunti', 'softi', 'app', 'devaisi', 'faili', 'folderi', 'daseiveba',
+    'diliti', 'edeitebs', 'dakoppireba', 'peisti', 'serveri', 'data', 'bekapi', 'dareseteba',
+    'krashavs', 'frontendi', 'bekendi', 'artifishial', 'prompti', 'generireba', 'chatboti', 'tuli',
+    'ficheri', 'solusheni', 'keisi', 'mitingi', 'koli', 'dedlaini', 'tasqi', 'skili', 'daskipva',
+    'spichi', 'targeti', 'richi', 'ingiejmenti', 'fidbeki', 'brainstormingi', 'vorkshopi',
+    'frilanseri', 'startapi', 'founderi', 'siio', 'ofisi', 'riviu', 'chelenji', 'vaibi', 'chilavs',
+    'krinji', 'randomad', 'feiki', 'trendi', 'heiti', 'pranki', 'chekavs', 'ignorebs', 'bustavs',
+    'join', 'muting', 'promoutebs', 'flexavs', 'shipebs'
+)
+foreach ($b in $barbarisms) {
+    if ($content -match $b) {
+        $violations += "❌ [BIBLE] BARBARISM DETECTED: '$b'. Use Georgian equivalent! (Checking linguistic_rules.md)"
+    }
+}
+
+# 1.5 Colon Headlines
 $nonCodeContent = $content -replace '```[\s\S]*?```', ''
 if ($nonCodeContent -match '[\p{So}\p{Cs}]\s+[ა-ჰ\w]+.*?:\s') {
     $violations += "❌ [BIBLE] COLON HEADLINE: Замени ':' на ' - '"
@@ -123,6 +151,44 @@ for ($i = 0; $i -lt $lines.Count - 1; $i++) {
     }
 }
 
+# 1.10 Gamer Slang Ban (ALL AGENTS)
+if ($content -match "nerfed|buffed|OP\s|broken|nerf") {
+    $violations += "❌ [BIBLE] GAMER SLANG: 'nerfed/buffed/OP/broken' запрещены. Будь профессионалом."
+}
+
+# 1.11 Georgian Language Check (ALL AGENTS)
+# Check for long English-only sequences (50+ chars without Georgian)
+if ($nonCodeContent -match '[A-Za-z\s]{50,}') {
+    $englishMatches = [regex]::Matches($nonCodeContent, '[A-Za-z\s]{50,}')
+    foreach ($m in $englishMatches) {
+        # Skip if it's in a prompt block or brand name
+        if ($m.Value -notmatch 'Prompt|Format|Quality|Subject|Style|Negative|Camera|Lighting|Environment|Composition') {
+            $violations += "⚠️ [BIBLE] LONG ENGLISH: Найден длинный английский текст. Контент должен быть на грузинском!"
+        }
+    }
+}
+
+# 1.12 Georgian Hashtags ONLY (ALL AGENTS)
+# Check that hashtags are in Georgian script (except brand names)
+$hashtagMatches = [regex]::Matches($content, '#[\w\p{L}]+')
+$allowedBrands = @('AI', 'OpenAI', 'ChatGPT', 'Claude', 'Google', 'Gemini', 'AndrewAltair', 'GPT', 'Perplexity', 'Grok', 'ElonMusk', 'xAI', 'Meta', 'Apple', 'Microsoft', 'Anthropic', 'DeepMind', 'Neuralink', 'Tesla', 'SpaceX', 'TikTok', 'YouTube', 'Facebook', 'Instagram')
+$englishHashtags = @()
+foreach ($h in $hashtagMatches) {
+    $tag = $h.Value -replace '^#', ''
+    # If tag is all Latin letters and NOT a brand
+    if ($tag -match '^[A-Za-z0-9]+$' -and $tag -notin $allowedBrands) {
+        $englishHashtags += "#$tag"
+    }
+}
+if ($englishHashtags.Count -gt 0) {
+    $violations += "❌ [BIBLE] ENGLISH HASHTAGS: Только грузинские хэштеги! Замени: $($englishHashtags -join ', ')"
+}
+
+# 1.13 Hashtag Count (ALL AGENTS) — Minimum 10
+if ($hashtagMatches.Count -lt 10 -and $hashtagMatches.Count -gt 0) {
+    $violations += "❌ [BIBLE] HASHTAG COUNT: Минимум 10 хэштегов! Найдено: $($hashtagMatches.Count)"
+}
+
 # ==========================================
 # 🧩 2. AGENT MODULES
 # ==========================================
@@ -141,54 +207,34 @@ switch ($Agent) {
             $violations += "⚠️ [ALPHA] VISUAL STRATEGY: Добавь агрессивные модификаторы в промпт."
         }
 
-        # Alpha: HASHTAG VALIDATION
-        $hashtagMatches = [regex]::Matches($content, '#[\w\p{L}]+')
-        $hashtagCount = $hashtagMatches.Count
-        if ($hashtagCount -lt 10) {
-            $violations += "❌ [ALPHA] HASHTAGS: Минимум 10 хэштегов! Найдено: $hashtagCount"
-        }
-        
-        # Alpha: Check for English-only hashtags (excluding brand names)
-        $allowedEnglish = @('AI', 'OpenAI', 'ChatGPT', 'Claude', 'Google', 'Gemini', 'AndrewAltair', 'GPT', 'Perplexity')
-        $englishOnlyHashtags = @()
-        foreach ($h in $hashtagMatches) {
-            $tag = $h.Value -replace '^#', ''
-            # If tag is all Latin letters and NOT in allowed list
-            if ($tag -match '^[A-Za-z0-9]+$' -and $tag -notin $allowedEnglish) {
-                $englishOnlyHashtags += "#$tag"
-            }
-        }
-        if ($englishOnlyHashtags.Count -gt 0) {
-            $violations += "❌ [ALPHA] ENGLISH HASHTAGS: Замени на грузинские! $($englishOnlyHashtags -join ', ')"
-        }
-
-        # Alpha: CHARACTER LENGTH VALIDATION
+        # Alpha: HOOK POST LENGTH VALIDATION (500-1000 chars)
         # SKIP for JSON files (Deep Dive has different rules)
         if (-not $isJson) {
-            # Split content into Facebook and Telegram sections
-            $sections = $content -split '---'
-            $facebookSection = $sections[0]
-            $telegramSection = if ($sections.Count -gt 1) { $sections[1] } else { "" }
+            # Remove prompts, code blocks, hashtags, and metadata from count
+            $hookClean = $content -replace '```[\s\S]*?```', '' -replace 'Prompt[\s\S]*?Negative Prompt:[^\n]+', '' -replace '#[\w\p{L}]+', '' -replace '---[\s\S]*?---', ''
+            $hookLength = $hookClean.Trim().Length
             
-            # Remove prompts and code blocks from count
-            $fbClean = $facebookSection -replace '```[\s\S]*?```', '' -replace 'Prompt:[\s\S]*?Negative Prompt:[^\n]+', ''
-            $tgClean = $telegramSection -replace '```[\s\S]*?```', ''
-            
-            $fbLength = $fbClean.Length
-            $tgLength = $tgClean.Length
-            
-            if ($fbLength -lt 300) {
-                $violations += "❌ [ALPHA] FACEBOOK LENGTH: Минимум 300 символов (HOOK POST)! Найдено: $fbLength"
+            if ($hookLength -lt 500) {
+                $violations += "❌ [ALPHA] HOOK POST LENGTH: Минимум 500 символов! Найдено: $hookLength"
             }
-            if ($tgLength -gt 0 -and $tgLength -lt 750) {
-                $violations += "❌ [ALPHA] TELEGRAM LENGTH: Минимум 750 символов! Найдено: $tgLength"
+            if ($hookLength -gt 1200) {
+                $violations += "⚠️ [ALPHA] HOOK POST TOO LONG: Максимум 1000 символов! Найдено: $hookLength"
             }
         }
         else {
-            # JSON Specific Checks for Alpha
+            # JSON Specific Checks for Alpha (Deep Dive = 15,000-20,000 chars)
             $jsonLength = $content.Length
             if ($jsonLength -lt 15000) {
                 $violations += "❌ [ALPHA] DEEP DIVE LENGTH: Минимум 15,000 символов! Найдено: $jsonLength"
+            }
+            if ($jsonLength -gt 22000) {
+                $violations += "⚠️ [ALPHA] DEEP DIVE TOO LONG: Рекомендуемый максимум 20,000 символов! Найдено: $jsonLength"
+            }
+
+            # Alpha: Category Validation (Must be Georgian)
+            $validCategories = @('ბიზნესი', 'ტექნოლოგიები', 'ეკონომიკა', 'პოლიტიკა', 'საზოგადოება', 'მეცნიერება', 'განათლება', 'მსოფლიო')
+            if ($jsonObj.meta.category -notin $validCategories) {
+                 $violations += "❌ [ALPHA] INVALID CATEGORY: '$($jsonObj.meta.category)' не валидна. Используй: $($validCategories -join ', ')"
             }
         }
     }
@@ -206,13 +252,16 @@ switch ($Agent) {
             $violations += "❌ [EDEN] audio.md ОТСУТСТВУЕТ. Только Eden генерирует музыку!"
         }
         
-        # Eden: MINIMUM DESCRIPTION LENGTH (500 chars)
-        # Get content before hashtags line (starts with #)
+        # Eden: DESCRIPTION POST LENGTH (500-1000 chars)
+        # Parse description_post.md content (before hashtags and metadata)
         $beforeHashtags = ($content -split '\n#[A-Za-zა-ჰ]')[0]
         $descriptionClean = $beforeHashtags -replace '```[\s\S]*?```', '' -replace '---[\s\S]*?---', '' -replace '<!-- MEMORY_TAGS[\s\S]*-->', '' -replace '\r?\n', ' '
         $descriptionClean = $descriptionClean.Trim()
         if ($descriptionClean.Length -lt 500) {
             $violations += "❌ [EDEN] DESCRIPTION LENGTH: Минимум 500 символов! Найдено: $($descriptionClean.Length)"
+        }
+        if ($descriptionClean.Length -gt 1200) {
+            $violations += "⚠️ [EDEN] DESCRIPTION TOO LONG: Рекомендуемый максимум 1000 символов! Найдено: $($descriptionClean.Length)"
         }
         
         # Eden: FIRST COMMENT CHECK
@@ -220,59 +269,81 @@ switch ($Agent) {
             $violations += "❌ [EDEN] FIRST COMMENT: Отсутствует первый комментарий для разжигания дискуссии!"
         }
         
-        # Eden: HASHTAG CHECK (Only brand names in English)
-        $hashtagMatches = [regex]::Matches($content, '#[\w\p{L}]+')
-        $allowedEnglish = @('Grok', 'AI', 'OpenAI', 'ChatGPT', 'Claude', 'Google', 'Gemini', 'AndrewAltair', 'GPT', 'Perplexity', 'ElonMusk', 'EdenAI', 'xAI', 'Meta', 'Apple', 'Microsoft', 'Anthropic', 'DeepMind', 'Neuralink', 'Tesla', 'SpaceX')
-        $englishOnlyHashtags = @()
-        foreach ($h in $hashtagMatches) {
-            $tag = $h.Value -replace '^#', ''
-            # If tag is all Latin letters and NOT in allowed list
-            if ($tag -match '^[A-Za-z0-9]+$' -and $tag -notin $allowedEnglish) {
-                $englishOnlyHashtags += "#$tag"
+        # =============================================
+        # 🆕 NEW EDEN-SPECIFIC CHECKS (2026-01-23)
+        # =============================================
+        
+        # Eden: HOOK REPETITION CHECK (Detect "შენი შვილი" overuse)
+        $hookPatterns = @('შენი შვილი', 'შენი შვილის', 'შენ გგონია', 'შენი ფსიქიკა', 'შენი ტელეფონი')
+        $hookCount = 0
+        foreach ($h in $hookPatterns) {
+            $hookCount += ([regex]::Matches($content, $h)).Count
+        }
+        if ($hookCount -gt 3) {
+            $violations += "❌ [EDEN] HOOK FATIGUE: Слишком много 'შენი...' паттернов ($hookCount). Vary your hooks! Use Cold Fact or Prophecy."
+        }
+        
+        # Eden: RED EMOJI OVERLOAD CHECK
+        $redEmojis = @('🛑', '⛔', '🚨', '❌', '🔴')
+        $redEmojiCount = 0
+        foreach ($e in $redEmojis) {
+            $redEmojiCount += ([regex]::Matches($content, $e)).Count
+        }
+        if ($redEmojiCount -gt 2) {
+            $violations += "⚠️ [EDEN] RED EMOJI OVERLOAD: Слишком много красных эмодзи ($redEmojiCount). Они раздражают! Используй ⚠️ или 💀."
+        }
+        
+        # Eden: WEAK FIRST COMMENT CHECK (Lazy CTA detection)
+        if ($content -match 'პირველი კომენტარი:') {
+            $firstCommentSection = ($content -split 'პირველი კომენტარი:')[1]
+            if ($firstCommentSection) {
+                $firstCommentClean = ($firstCommentSection -split '---')[0].Trim()
+                # Check for weak patterns
+                if ($firstCommentClean -match 'რამდენ დროს|რას ფიქრობ|შეაფასე 1-10|გნებავთ') {
+                    $violations += "❌ [EDEN] WEAK FIRST COMMENT: Вопрос слишком банальный! Используй CTA к сайту или провокацию."
+                }
+                # Check for length (too short = lazy)
+                if ($firstCommentClean.Length -lt 50) {
+                    $violations += "⚠️ [EDEN] SHORT FIRST COMMENT: Первый комментарий слишком короткий ($($firstCommentClean.Length) символов)."
+                }
             }
         }
-        if ($englishOnlyHashtags.Count -gt 0) {
-            $violations += "❌ [EDEN] ENGLISH HASHTAGS: Замени на грузинские! $($englishOnlyHashtags -join ', ')"
+
+        # Eden: ANDREWALTAIR.GE BRANDING CHECK
+        if ($content -notmatch 'AndrewAltair\.ge|ANDREWALTAIR\.GE|ჩემს საიტზე') {
+            $violations += "⚠️ [EDEN] BRANDING MISSING: Нет упоминания сайта AndrewAltair.ge в посте!"
         }
     }
 
     "Deep" {
         Write-Host "🔍 Сканирую по DEEP SCIENCE протоколам..." -ForegroundColor Cyan
-        # Deep: No "Gamer" slang
-        if ($content -match "nerfed|buffed|OP\s|broken|nerf") {
-            $violations += "❌ [DEEP] GAMER SLANG: Будь научным, без геймерского сленга."
-        }
+        # Deep: Must have Tilt-Shift markers
         # Deep: Must have Tilt-Shift markers
         if ($content -match 'Prompt:' -and $content -notmatch 'Tilt-shift|Macro|Miniature|Diorama') {
             $violations += "⚠️ [DEEP] MINIATURE STYLE: Промпт должен содержать Tilt-shift/Macro/Diorama."
         }
         
-        # Deep: CHARACTER LENGTH VALIDATION (Mirrors Alpha)
+        # Deep: HOOK POST LENGTH VALIDATION (500-1000 chars) - Mirrors Alpha
         if (-not $isJson) {
-            # Split content into Facebook and Telegram sections
-            $sections = $content -split '---'
-            $facebookSection = $sections[0]
-            $telegramSection = if ($sections.Count -gt 1) { $sections[1] } else { "" }
+            # Remove prompts, code blocks, hashtags, and metadata from count
+            $hookClean = $content -replace '```[\s\S]*?```', '' -replace 'Prompt[\s\S]*?Negative Prompt:[^\n]+', '' -replace '#[\w\p{L}]+', '' -replace '---[\s\S]*?---', ''
+            $hookLength = $hookClean.Trim().Length
             
-            # Remove prompts and code blocks from count
-            $fbClean = $facebookSection -replace '```[\s\S]*?```', '' -replace 'Prompt:[\s\S]*?Negative Prompt:[^\n]+', ''
-            $tgClean = $telegramSection -replace '```[\s\S]*?```', ''
-            
-            $fbLength = $fbClean.Length
-            $tgLength = $tgClean.Length
-            
-            if ($fbLength -lt 300) {
-                $violations += "❌ [DEEP] FACEBOOK LENGTH: Минимум 300 символов (HOOK POST)! Найдено: $fbLength"
+            if ($hookLength -lt 500) {
+                $violations += "❌ [DEEP] HOOK POST LENGTH: Минимум 500 символов! Найдено: $hookLength"
             }
-            if ($tgLength -gt 0 -and $tgLength -lt 750) {
-                $violations += "❌ [DEEP] TELEGRAM LENGTH: Минимум 750 символов! Найдено: $tgLength"
+            if ($hookLength -gt 1200) {
+                $violations += "⚠️ [DEEP] HOOK POST TOO LONG: Максимум 1000 символов! Найдено: $hookLength"
             }
         }
         else {
-            # JSON Specific Checks for Deep
+            # JSON Specific Checks for Deep (Deep Dive = 15,000-20,000 chars)
             $jsonLength = $content.Length
             if ($jsonLength -lt 15000) {
                 $violations += "❌ [DEEP] DEEP DIVE LENGTH: Минимум 15,000 символов! Найдено: $jsonLength"
+            }
+            if ($jsonLength -gt 22000) {
+                $violations += "⚠️ [DEEP] DEEP DIVE TOO LONG: Рекомендуемый максимум 20,000 символов! Найдено: $jsonLength"
             }
         }
     }
@@ -287,6 +358,72 @@ switch ($Agent) {
         if ($content -match '^[A-Za-z]{50,}') {
             $violations += "⚠️ [TUTOR] LANGUAGE: Контент должен быть на грузинском!"
         }
+    }
+
+    "Prompt" {
+        Write-Host "🔍 Сканирую по PROMPT MASTER протоколам..." -ForegroundColor Cyan
+        # Prompt Master: Check for gender-neutral language
+        if ($content -match '\b(man|woman|he|she|his|her|boy|girl)\b') {
+            $violations += "❌ [PROMPT] GENDER WORDS: Используй нейтральные 'The Subject', 'The Character', 'The Model'!"
+        }
+        # Prompt Master: Check for ANDREWALTAIR.GE branding
+        if ($content -notmatch 'ANDREWALTAIR\.GE|AndrewAltair\.GE') {
+            $violations += "❌ [PROMPT] BRANDING: Отсутствует 'ANDREWALTAIR.GE' в промпте!"
+        }
+        # Prompt Master: Check for aspect ratio
+        if ($content -match '```' -and $content -notmatch '--ar\s+(16:9|9:16)') {
+            $violations += "❌ [PROMPT] ASPECT RATIO: Добавь --ar 16:9 или --ar 9:16!"
+        }
+        # Prompt Master: Check for version
+        if ($content -match '```' -and $content -notmatch '--v\s+6') {
+            $violations += "❌ [PROMPT] VERSION: Добавь --v 6.0!"
+        }
+        # Prompt Master: Check for exactly 3 categories
+        $categoryMatches = [regex]::Matches($content, '📂.*?კატეგორიები[\s\S]*?(🎨|📸|🖌️|✨|📈|💻|💼|🧊|👗|🎮|📦)')
+        # Simple check - look for category section
+        if ($content -match 'კატეგორიები' -and ($content -split '(🎨|📸|🖌️|✨|📈|💻|💼|🧊|👗|🎮|📦)').Count -lt 4) {
+            $violations += "⚠️ [PROMPT] CATEGORIES: Нужно ровно 3 категории!"
+        }
+    }
+
+    "Architect" {
+        Write-Host "🔍 Сканирую по ALPHA ARCHITECT протоколам..." -ForegroundColor Cyan
+        # Architect: Check for course structure elements
+        if ($content -match 'მოდული|Module' -and $content -notmatch 'მიზანი|Goal') {
+            $violations += "⚠️ [ARCHITECT] MODULE STRUCTURE: Каждый модуль должен иметь цель (მიზანი)!"
+        }
+        # Architect: Check for homework
+        if ($content -match 'მოდული|Module' -and $content -notmatch 'დავალება|Homework|Action') {
+            $violations += "⚠️ [ARCHITECT] HOMEWORK: Модули должны иметь домашние задания!"
+        }
+    }
+
+    "OnGe" {
+        Write-Host "🔍 Сканирую по ALPHA ONGE протоколам..." -ForegroundColor Cyan
+        # OnGe: No swearing
+        $swearWords = @('fuck', 'shit', 'damn', 'hell', 'ჯანდაბა', 'წყეულა', 'შევეცი')
+        foreach ($sw in $swearWords) {
+            if ($content -match $sw) {
+                $violations += "❌ [ONGE] SWEARING: '$sw' запрещено! OnGe = чистый контент."
+            }
+        }
+        # OnGe: Check for Trojan Horse CTA (soft sell)
+        if ($content -match 'იყიდე|შეიძინე|Buy now') {
+            $violations += "⚠️ [ONGE] HARD SELL: Используй soft CTA, не прямые продажи!"
+        }
+    }
+
+    "Brain" {
+        Write-Host "🔍 Сканирую по SECOND BRAIN протоколам..." -ForegroundColor Cyan
+        # Brain: This is a personal advisor, minimal content checks
+        # Just ensure it's conversational
+        Write-Host "ℹ️ Second Brain = личный советник. Минимальные проверки." -ForegroundColor Gray
+    }
+
+    "Explore" {
+        Write-Host "🔍 Сканирую по EXPLORE протоколам..." -ForegroundColor Cyan
+        # Explore: This is a conversational agent, minimal content checks
+        Write-Host "ℹ️ Explore = разговорный агент. Минимальные проверки." -ForegroundColor Gray
     }
 
     Default {

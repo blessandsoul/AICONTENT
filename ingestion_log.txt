@@ -1,0 +1,56 @@
+🚀 Starting Statistics Ingestion...
+-----------------------------------
+🎵 Processing TikTok Stats: Content.csv
+❌ Error reading C:\Users\User\Desktop\AICONTENT\raw\fb\Content.csv: invalid literal for int() with base 10: ''
+📘 Processing Facebook Stats: Jan-13-2026_Jan-20-2026_Контент_Время публикации_Сводка_1356746416227915.csv
+   Processing: 🚫 Grok-ის "შიშველი" ტერორი: მასკის AI კა... | 9302 views
+🔍 Searching for: 🚫 Grok-ის "შიშველი" ტერორი: მა
+❌ No matching memory found (Response: {'count': 3, 'dedup_removed': 2, 'keywords': ['gro...)
+   Processing: ☠️ Grok პენტაგონში: ციფრული მონსტრი სამხ... | 35412 views
+🔍 Searching for: ☠️ Grok პენტაგონში: ციფრული მო
+❌ No matching memory found (Response: {'count': 3, 'dedup_removed': 2, 'keywords': ['gro...)
+   Processing: 🧠 "Merge Labs" - ადამიანის ტვინის დასასრ... | 16145 views
+🔍 Searching for: 🧠 "Merge Labs" - ადამიანის ტვი
+❌ No matching memory found (Response: {'count': 3, 'dedup_removed': 2, 'keywords': ['mer...)
+   Processing: 🛑 გროკის "ნუდები" დასრულდა  ილონ მასკმა ... | 201 views
+🔍 Searching for: 🛑 გროკის "ნუდები" დასრულდა  ილ
+❌ No matching memory found (Response: {'count': 2, 'dedup_removed': 3, 'keywords': [], '...)
+   Processing: 🏹 ბოლო კონტაქტი - 750 ადამიანის ბედი  ამ... | 2473 views
+🔍 Searching for: 🏹 ბოლო კონტაქტი - 750 ადამიანი
+❌ No matching memory found (Response: {'count': 5, 'dedup_removed': 0, 'keywords': ['750...)
+   Processing: 🚗 სწრაფი და… სულელი?  თქვენ გგონიათ, რომ... | 182 views
+🔍 Searching for: 🚗 სწრაფი და… სულელი?  თქვენ გგ
+❌ No matching memory found (Response: {'count': 4, 'dedup_removed': 1, 'keywords': [], '...)
+   Processing: 🦈 SHARK WALKER — სიურეალიზმის მეფე  ✨ წა... | 208 views
+🔍 Searching for: 🦈 SHARK WALKER — სიურეალიზმის 
+❌ No matching memory found (Response: {'count': 2, 'dedup_removed': 3, 'keywords': ['sha...)
+   Processing: 🛑 გროკის "ნუდები" დასრულდა? ილონ მასკმა ... | 13418 views
+🔍 Searching for: 🛑 გროკის "ნუდები" დასრულდა? ილ
+❌ No matching memory found (Response: {'count': 3, 'dedup_removed': 2, 'keywords': [], '...)
+   Processing: 🌅 ბაღის ესთეტიკა  ✨ აღმოაჩინეთ ბუნებისა ... | 213 views
+🔍 Searching for: 🌅 ბაღის ესთეტიკა  ✨ აღმოაჩინეთ
+❌ No matching memory found (Response: {'count': 5, 'dedup_removed': 0, 'keywords': [], '...)
+   Processing: 📉 აშშ-ს ეკონომიკაში AI პროდუქტიულობის ზრ... | 178 views
+🔍 Searching for: 📉 აშშ-ს ეკონომიკაში AI პროდუქტ
+❌ No matching memory found (Response: {'count': 3, 'dedup_removed': 2, 'keywords': [], '...)
+   Processing: 👩‍🔬 300,000 ორსულის მონაცემებმა ბოლო მოუ... | 193 views
+🔍 Searching for: 👩‍🔬 300,000 ორსულის მონაცემებმ
+❌ No matching memory found (Response: {'count': 3, 'dedup_removed': 2, 'keywords': ['300...)
+   Processing: 🛑 შენი წარმოდგენა სიცოცხლეზე მოძველდა. ი... | 32497 views
+🔍 Searching for: 🛑 შენი წარმოდგენა სიცოცხლეზე მ
+❌ No matching memory found (Response: {'count': 3, 'dedup_removed': 2, 'keywords': [], '...)
+   Processing: 1. 44 მილიონი+ ნახვა (მოიპარეთ იდეა) 👇 2... | 334 views
+🔍 Searching for: 1. 44 მილიონი+ ნახვა (მოიპარეთ
+❌ No matching memory found (Response: {'count': 2, 'dedup_removed': 3, 'keywords': [], '...)
+   Processing: 🛑 შეწყვიტე ფულის გადაყრა! შენ გატყუებენ ... | 7093 views
+🔍 Searching for: 🛑 შეწყვიტე ფულის გადაყრა! შენ 
+❌ No matching memory found (Response: {'count': 4, 'dedup_removed': 1, 'keywords': [], '...)
+   Processing: ⚠️ @подписчики ⚠️ საგანგებო გაფრთხილება ... | 3280 views
+🔍 Searching for: ⚠️ @подписчики ⚠️ საგანგებო გა
+❌ No matching memory found (Response: {'count': 5, 'dedup_removed': 0, 'keywords': [], '...)
+   Processing: უმუშევრობა ბიზნესი გახდა. სან-ფრანცისკოშ... | 1758 views
+🔍 Searching for: უმუშევრობა ბიზნესი გახდა. სან-
+❌ No matching memory found (Response: {'count': 3, 'dedup_removed': 2, 'keywords': [], '...)
+   ✅ Processed 16 items.
+-----------------------------------
+🎉 Done. Scanned 2 files.

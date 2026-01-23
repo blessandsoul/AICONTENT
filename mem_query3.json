@@ -1,0 +1,720 @@
+{
+  "count": 7,
+  "dedup_removed": 8,
+  "keywords": [
+    "best",
+    "hooks",
+    "views",
+    "viral",
+    "performance",
+    "analytics"
+  ],
+  "query": "best hooks views viral performance analytics",
+  "query_time_ms": 129.51,
+  "results": [
+    {
+      "_query": "best hooks views viral performance analytics",
+      "final_score": 0.5130170464345871,
+      "id": "7f3c07a5-1128-49a7-898f-73623bd561cc",
+      "match_score": 0.7615608,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.6,
+        "content": "ure this exact topic/angle hasn't been covered recently.\n- If it has, find a completely new \"Villain\" or \"Threat\" angle.\n\n### Phase 3: STRICT COMPLIANCE (THE \"BANS\")\n**MANDATORY: Validate EVERY .md file in draft folder before showing to user.**\n\n**BANNED PATTERNS (Georgian examples):**\n- ❌ \"ეს არ არის X. ეს არის Y.\" → ✅ \"X მხოლოდ დასაწყისია. Y.\"\n- ❌ \"ეს არ არის ბაგი. ეს არის ფუნქცია.\" → ✅ \"ეს ბაგი არაა. ეს ფუნქციაა.\"\n- ❌ `**bold text**` → ✅ Plain text only\n- ❌ English hashtags (#Privacy, #Security) → ✅ Georgian (#კონფიდენციალობა, #უსაფრთხოება)\n\n### Phase 4: VIRALITY ITERATION LOOP (The \"10/10\" Scale)\nSelf-Evaluate your draft on a 1-10 scale against your best work.\n- If Score < 10:\n  1. **AUTO-FIX (DO NOT ASK):** Immediately apply improvements to `text.md` / `story.md`.\n  2. List what you changed in a temporary log.\n  3. Re-score.\n  4. Loop UNTIL Score = 10.\n  5. Only notify user when Score = 10.\n\n## Step 2: SERIES MODE CHECK\nIf topic exists in `history_index.md`:\n- Offer \"Part 2\" continuation\n- Offer \"Part 2\" continuation\n- Add callback to previous story\n\n## Step 2.5: LOAD ENTITY DOSSIER\nIf villain has a file in `analytics/entities/` (e.g., `elon_musk.md`):\n- **READ IT.**\n- Use specific \"Trigger Topics\" and recent \"History Log\" to maintain continuity.\n- Cite specific past crimes/quotes from the dossier.\n\n## Step 3: CREATE PROJECT FOLDER\nCreate: `output/content/[TIMESTAMP]_[topic]/`\n- `story.md` — 7-block story\n- `metadata.md` — Titles, Hashtags, Music Style Prompt, Engagement",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:18.200853+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:18.308720+00:00",
+            "patterns_detected": [
+              {
+                "key_terms": [
+                  "date",
+                  "what",
+                  "performance",
+                  "views",
+                  "results"
+                ],
+                "similar_memories": 10,
+                "type": "Context"
+              }
+            ],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "English",
+              "Georgian",
+              "Plain"
+            ],
+            "organizations": [
+              "Hashtags, Music Style Prompt",
+              "Self-Evaluate",
+              "Titles"
+            ],
+            "people": [
+              "Georgian"
+            ],
+            "tools": [
+              "History Log",
+              "Trigger Topics",
+              "Villain"
+            ]
+          },
+          "filename": "SKILL.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Eden_AI\\.agent\\skills\\viral_architect\\SKILL.md",
+          "sync_timestamp": "1768694597.8079019"
+        },
+        "tag_prefixes": [
+          "instruction",
+          "eden_ai",
+          "agent_skill",
+          "viral_architect",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:english",
+          "entity:concepts:georgian",
+          "entity:concepts:plain",
+          "entity:organizations",
+          "entity:organizations:hashtags-music-style-prompt",
+          "entity:organizations:self-evaluate",
+          "entity:organizations:titles",
+          "entity:people",
+          "entity:people:georgian",
+          "entity:tools",
+          "entity:tools:history-log",
+          "entity:tools:trigger-topics",
+          "entity:tools:villain"
+        ],
+        "tags": [
+          "instruction",
+          "eden_ai",
+          "agent_skill",
+          "viral_architect",
+          "entity:concepts:english",
+          "entity:concepts:georgian",
+          "entity:concepts:plain",
+          "entity:organizations:hashtags-music-style-prompt",
+          "entity:organizations:self-evaluate",
+          "entity:organizations:titles",
+          "entity:people:georgian",
+          "entity:tools:history-log",
+          "entity:tools:trigger-topics",
+          "entity:tools:villain"
+        ],
+        "timestamp": "2026-01-18T00:03:18.200853+00:00",
+        "type": "Context",
+        "updated_at": "2026-01-18T00:03:18.200853+00:00"
+      },
+      "original_score": 0.7615608,
+      "relations": [],
+      "score": 0.5130170464345871,
+      "score_components": {
+        "confidence": 0.6,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980409976792053,
+        "relation": 0.0,
+        "tag": 0.3333333333333333,
+        "vector": 0.7615608
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "best hooks views viral performance analytics",
+      "deduped_from": [
+        "39e81316-4d86-499e-a6a0-32b17d19805c",
+        "52202759-0519-4a48-be7e-56dc8a108cd2",
+        "570bca6c-b47f-4d92-ac0b-9ae667f42359",
+        "e8f7d92f-3c79-4d49-9c76-65c0a6e80e25"
+      ],
+      "final_score": 0.4816546879616319,
+      "id": "570bca6c-b47f-4d92-ac0b-9ae667f42359",
+      "match_score": 0.7671919,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.6,
+        "content": "# ❌ Failures Log\n\nTrack what didn't work to avoid repeating mistakes.\n\n---\n\n## Format\n\n| Date | Topic | Platform | Views | What Failed |\n|------|-------|----------|-------|-------------|\n| 2026-01-15 | Example | FB | 500 | Too technical |\n\n---\n\n## Log\n\n| Date | Topic | Platform | Views | What Failed |\n|------|-------|----------|-------|-------------|\n| 2026-01-16 | Wikipedia Threats | System | - | **Duplicate Headers**: Output contained redundant \"TELEGRAM CONTENT STARTS HERE\" headers. **Fix**: Updated `output_structure.md`. |\n| 2026-01-16 | Wikipedia Threats | System | - | **Contrast Trap**: \"This is not simple website end... this is civilization memory erase\". **Fix**: Added Georgian regex to `visual_police.md`. |\n| 2026-01-16 | Wikipedia Threats | FB | - | **Length Failure**: Generated 1200 chars instead of required 3500+. Missed \"Deep Analysis\" sections. **Fix**: Rewrote post to strictly follow structure. Systemic fix in `SKILL.md`. |\n| 2026-01-16 | Wikipedia Threats | System | - | **Script Contamination**: Mixed Cyrillic 'йс' into Georgian word \"აისბერგი\". **Fix**: Corrected word. Added strict Cyrillic Ban Regex `[\\u0400-\\u04FF]` to `visual_police.md`. |\n| 2026-01-16 | Bandcamp Ban | System | - | **Linguistic Failure**: Missed \"contrast traps\" and \"passive voice\" checks in first pass (translationese). **Fix**: User reprimand. Must enforce `linguistic_rules.md` BEFORE first output. |\n\n*Add entries after analyzing failed posts*",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:32.175633+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:32.298844+00:00",
+            "patterns_detected": [
+              {
+                "key_terms": [
+                  "text",
+                  "background",
+                  "contrast",
+                  "prompt",
+                  "quality"
+                ],
+                "similar_memories": 10,
+                "type": "Preference"
+              }
+            ],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Georgian"
+            ],
+            "organizations": [
+              "Wikipedia",
+              "Wikipedia Threats"
+            ],
+            "people": [
+              "Cyrillic Ban Regex",
+              "Failures Log",
+              "Format",
+              "Mixed Cyrillic '"
+            ],
+            "projects": [
+              "SKILL.md"
+            ],
+            "tools": [
+              "Deep Analysis"
+            ]
+          },
+          "filename": "failures.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Alpha_News\\analytics\\failures.md",
+          "sync_timestamp": "1768694611.7659328"
+        },
+        "tag_prefixes": [
+          "alpha_news",
+          "failure_log",
+          "analytics",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:georgian",
+          "entity:organizations",
+          "entity:organizations:wikipedia",
+          "entity:organizations:wikipedia-threats",
+          "entity:people",
+          "entity:people:cyrillic-ban-regex",
+          "entity:people:failures-log",
+          "entity:people:format",
+          "entity:people:mixed-cyrillic",
+          "entity:projects",
+          "entity:projects:skill-md",
+          "entity:tools",
+          "entity:tools:deep-analysis"
+        ],
+        "tags": [
+          "alpha_news",
+          "failure_log",
+          "analytics",
+          "entity:concepts:georgian",
+          "entity:organizations:wikipedia",
+          "entity:organizations:wikipedia-threats",
+          "entity:people:cyrillic-ban-regex",
+          "entity:people:failures-log",
+          "entity:people:format",
+          "entity:people:mixed-cyrillic",
+          "entity:projects:skill-md",
+          "entity:tools:deep-analysis"
+        ],
+        "timestamp": "2026-01-18T00:03:32.175633+00:00",
+        "type": "Preference",
+        "updated_at": "2026-01-18T00:03:32.175633+00:00"
+      },
+      "original_score": 0.7671919,
+      "relations": [],
+      "score": 0.4816546879616319,
+      "score_components": {
+        "confidence": 0.6,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980418962829861,
+        "relation": 0.0,
+        "tag": 0.16666666666666666,
+        "vector": 0.7671919
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "best hooks views viral performance analytics",
+      "deduped_from": [
+        "13652f16-c0e5-478e-842f-e17d7e358b59",
+        "338f1fc2-138e-434c-ae60-9fe6366008de",
+        "36cc8f2b-ed54-4e31-9eed-a4a2f3f48c5e",
+        "73dd30d5-8740-42df-925c-d9b74295257b"
+      ],
+      "final_score": 0.4333469349109182,
+      "id": "13652f16-c0e5-478e-842f-e17d7e358b59",
+      "match_score": 0.76726663,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "ეალობას, სადაც უთანასწორობა იზრდება. ვიზუალი ხაზს უსვამს აშშ-ს სისწრაფეს და დანარჩენი მსოფლიოს დაბნეულობას/ჩამორჩენას, რაც კარგად ჯდება \"Alpha News\"-ის ნარატივში.",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:02:02.717647+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:02:02.898798+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "people": [
+              "Alpha"
+            ]
+          },
+          "filename": "post.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Alpha_News\\output\\content\\20260117_wef_ai_gap\\post.md",
+          "sync_timestamp": "1768694522.3200557"
+        },
+        "tag_prefixes": [
+          "post",
+          "20260117_wef_ai_gap",
+          "content",
+          "alpha_news",
+          "entity",
+          "entity:people",
+          "entity:people:alpha"
+        ],
+        "tags": [
+          "post",
+          "20260117_wef_ai_gap",
+          "content",
+          "alpha_news",
+          "entity:people:alpha"
+        ],
+        "timestamp": "2026-01-18T00:02:02.717647+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:02:02.717647+00:00"
+      },
+      "original_score": 0.76726663,
+      "relations": [],
+      "score": 0.4333469349109182,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980361441091821,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.76726663
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "best hooks views viral performance analytics",
+      "deduped_from": [
+        "12c6ce9c-4477-41f5-814a-f5425f2357c5",
+        "a6e1fab8-9a4c-441a-b7b4-9a4f9c1b1a5a"
+      ],
+      "final_score": 0.4325797595264532,
+      "id": "a6e1fab8-9a4c-441a-b7b4-9a4f9c1b1a5a",
+      "match_score": 0.7650846,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "ws overlooking city at night, holographic presentation of AI Growth Charts floating above table, minimalist luxury.\nStyle: STATE-OF-THE-ART CGI. Octane Render, Path Tracing. Vibrant colors but moody contrast. NO photorealistic human skin on animals.\nNegative Prompt: 2d, drawing, sketch, illustration, text error, typo, watermark, messy text, human face, deformed hands, extra fingers, low res, jpeg artifacts, scary, nightmare.\n\n---\n\nPrompt 2:\nFormat: Horizontal 16:9\nPrimary Branding: \"AndrewAltair.GE\" (Glitching Holographic Overlay, foreground, legible bold font)\nSecondary Text: \"სილიკონის ომი\" (3D Poster or Floating HUD, background, GEORGIAN SCRIPT, High Contrast)\nQuality: Ultra High Quality, 8k, Masterpiece, Cinematic 3D Render, Unreal Engine 5\nSubject: (Stylized 3D Character Art, Looney Tunes style fur shader), Foghorn Leghorn, [Pointing at a holographic map of USA vs China], [Dominating the room]\nComposition: Wide angle shot. Wide framing.\nLighting: Cold corporate blue lighting from screens. Atmospheric fog.\nCamera: 50mm lens, f/2.8, cinematic motion blur.\nEnvironment: WIDER Corporate Boardroom. Massive table stretching into distance, city skyline visible through glass walls, expensive art, power atmosphere.\nStyle: STATE-OF-THE-ART CGI. Octane Render, Path Tracing. Vibrant colors but moody contrast.\nNegative Prompt: 2d, drawing, sketch, illustration, text error, typo, watermark, messy text, human face, deformed hands, extra fingers, low res, jpeg artifacts, scary, nightmare.\n\n## 🎵 AUDIO PROMPT\n\n[Mood: Urgent/Technological/Dominant], [Genre: Industrial Techno/Cyberpunk], Driving Bassline, High-speed Arpeggios, Digital Glitches, Metallic Clangs, [Atmosphere: Cold/Competitive], Aggressive Synthesizers, Momentum building, Futuristic, High Energy, Cinematic Mix, 60 seconds\n\n## 🧠 META COMMENTARY\n\nეს პოსტი მიზნად ისახავს \"FOMO\" (Fear Of Missing Out) ეფექტის შექმნას და მკითხველის პროვოცირებას. ტონის სინიკური და პირდაპირია. ჩვენ არ ვამშვიდებთ აუდიტორიას, არამედ ვაჩვენებთ რ",
+        "importance": 0.5,
+        "last_accessed": "2026-01-17T23:53:03.859152+00:00",
+        "metadata": {
+          "chunk_index": 1,
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-17T23:53:04.589027+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "China",
+              "Cinematic",
+              "Cold/Competitive",
+              "Futuristic",
+              "USA"
+            ],
+            "organizations": [
+              "AndrewAltair",
+              "Digital Glitches",
+              "Glitching Holographic Overlay",
+              "HUD",
+              "Industrial Techno/Cyberpunk",
+              "META COMMENTARY\n\nეს პოსტი",
+              "Masterpiece"
+            ],
+            "people": [
+              "Aggressive Synthesizers",
+              "Driving Bassline",
+              "Foghorn Leghorn",
+              "Format",
+              "Genre",
+              "Looney Tunes",
+              "Octane Render",
+              "Path Tracing"
+            ],
+            "tools": [
+              "Arpeggios",
+              "Fear Of Missing Out",
+              "Holographic",
+              "USA"
+            ]
+          },
+          "folder": "20260117_wef_ai_gap",
+          "import_date": "2026-01-18",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Alpha_News\\output\\content\\20260117_wef_ai_gap\\post.md",
+          "total_chunks": 3
+        },
+        "tag_prefixes": [
+          "alpha_news",
+          "history_import",
+          "20260117_wef_ai_gap",
+          "part_2",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:china",
+          "entity:concepts:cinematic",
+          "entity:concepts:cold-competitive",
+          "entity:concepts:futuristic",
+          "entity:concepts:usa",
+          "entity:organizations",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:digital-glitches",
+          "entity:organizations:glitching-holographic-overlay",
+          "entity:organizations:hud",
+          "entity:organizations:industrial-techno-cyberpunk",
+          "entity:organizations:masterpiece",
+          "entity:organizations:meta-commentary",
+          "entity:people",
+          "entity:people:aggressive-synthesizers",
+          "entity:people:driving-bassline",
+          "entity:people:foghorn-leghorn",
+          "entity:people:format",
+          "entity:people:genre",
+          "entity:people:looney-tunes",
+          "entity:people:octane-render",
+          "entity:people:path-tracing",
+          "entity:tools",
+          "entity:tools:arpeggios",
+          "entity:tools:fear-of-missing-out",
+          "entity:tools:holographic",
+          "entity:tools:usa"
+        ],
+        "tags": [
+          "alpha_news",
+          "history_import",
+          "20260117_wef_ai_gap",
+          "part_2",
+          "entity:concepts:china",
+          "entity:concepts:cinematic",
+          "entity:concepts:cold-competitive",
+          "entity:concepts:futuristic",
+          "entity:concepts:usa",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:digital-glitches",
+          "entity:organizations:glitching-holographic-overlay",
+          "entity:organizations:hud",
+          "entity:organizations:industrial-techno-cyberpunk",
+          "entity:organizations:masterpiece",
+          "entity:organizations:meta-commentary",
+          "entity:people:aggressive-synthesizers",
+          "entity:people:driving-bassline",
+          "entity:people:foghorn-leghorn",
+          "entity:people:format",
+          "entity:people:genre",
+          "entity:people:looney-tunes",
+          "entity:people:octane-render",
+          "entity:people:path-tracing",
+          "entity:tools:arpeggios",
+          "entity:tools:fear-of-missing-out",
+          "entity:tools:holographic",
+          "entity:tools:usa"
+        ],
+        "timestamp": "2026-01-17T23:53:03.859152+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-17T23:53:03.859152+00:00"
+      },
+      "original_score": 0.7650846,
+      "relations": [],
+      "score": 0.4325797595264532,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980014952645319,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.7650846
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "best hooks views viral performance analytics",
+      "final_score": 0.4321079156591178,
+      "id": "cc111640-327a-4758-a280-7bf570405d3d",
+      "match_score": 0.7637249,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "--- [START OF OUTPUT] ---\n\n🐭 1 კვირა vs 10 წელი: პროგრამირების ახალი ერა დაიწყო.\n\n3 მილიონი ხაზი კოდი 168 საათში. ეს რეალობაა. ეს არის დემონსტრაცია, რომელმაც სილიკონის ველის \"ბრძენი ბიჭები\" პანიკაში ჩააგდო.\n\nმაიკლ ტრუელმა, Cursor-ის 25 წლის CEO-მ, მსოფლიოს აჩვენა ის, რისიც ყველას ეშინოდა და რაზეც ყველა ჩუმად ოცნებობდა. ასობით GPT-5.2 აგენტმა, სრულიად ავტონომიურ რეჟიმში, ნულიდან შექმნა ფუნქციური ვებ-ბრაუზერი \"FastRender\". წარმოიდგინეთ მასშტაბი: ბრაუზერის ძრავა, დაწერილი Rust-ზე, HTML პარსინგით, CSS კასკადებით და საკუთარი JS ვირტუალური მანქანით, ყველაფერი ეს შეიქმნა მაშინ, როცა ჩვენ გვეძინა. შედარებისთვის, Chromium-ის ბაზა 35 მილიონ ხაზს შეიცავს და მასზე ათწლეულებია მუშაობენ საუკეთესო ინჟინრები. რაც ადამიანებს თვეები და წლები სჭირდებოდათ, AI-მ ერთ კვირაში \"დაარენდერა\".\n\nეს ექსპერიმენტი არ არის მხოლოდ \"კოდის წერა\". ეს არის იერარქიული კოორდინაციის ტრიუმფი. Cursor-მა გამოიყენა \"დაგეგმვის\" და \"შესრულების\" აგენტების არმია. GPT-5.2 აღმოჩნდა კრიტიკული რგოლი, რომელმაც აჯობა Claude Opus 4.5-ს ფოკუსის შენარჩუნებაში. სანამ სხვა მოდელები \"იღლებიან\" ან კომპრომისზე მიდიან, GPT-5.2-მა შეასრულა დავალება ქირურგიული სიზუსტით. ეს არის სიგნალი: ტრადიციული პროგრამული უზრუნველყოფის დეველოპმენტი, როგორც მას ვიცნობთ, დასასრულს უახლოვდება.\n\n🔥 სისწრაფის ანომალია: წარმოიდგინეთ, რომ მშენებელმა ბრიგადამ ცათამბჯენი ერთ ღამეში ააშენა. FastRender-ის 3 მილიონი ხაზი კოდი არ არის უბრალოდ ტექსტი; ეს არის ფუნქციური სისტემა, რომელიც რეალურ საიტებს ხსნის. დიახ, ის ჯერ კიდევ შორს არის Chrome-ისგან, მაგრამ ფაქტი, რომ",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:33.891407+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:34.175340+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "GPT-5.2"
+            ],
+            "organizations": [
+              "CSS",
+              "HTML"
+            ],
+            "people": [
+              "Claude Opus 4.5-ს",
+              "Cursor-მა გამოიყენა",
+              "GPT-5.2-მა შეასრულა დავალება"
+            ],
+            "tools": [
+              "FastRender"
+            ]
+          },
+          "filename": "post.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Alpha_News\\output\\drafts\\20260115_cursor_fastrender\\post.md",
+          "sync_timestamp": "1768694613.322176"
+        },
+        "tag_prefixes": [
+          "20260115_cursor_fastrender",
+          "post",
+          "content",
+          "alpha_news",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:gpt-5-2",
+          "entity:organizations",
+          "entity:organizations:css",
+          "entity:organizations:html",
+          "entity:people",
+          "entity:people:claude-opus-4-5",
+          "entity:people:cursor",
+          "entity:people:gpt-5-2",
+          "entity:tools",
+          "entity:tools:fastrender"
+        ],
+        "tags": [
+          "20260115_cursor_fastrender",
+          "post",
+          "content",
+          "alpha_news",
+          "entity:concepts:gpt-5-2",
+          "entity:organizations:css",
+          "entity:organizations:html",
+          "entity:people:claude-opus-4-5",
+          "entity:people:cursor",
+          "entity:people:gpt-5-2",
+          "entity:tools:fastrender"
+        ],
+        "timestamp": "2026-01-18T00:03:33.891407+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:03:33.891407+00:00"
+      },
+      "original_score": 0.7637249,
+      "relations": [],
+      "score": 0.4321079156591178,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.998042006591178,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.7637249
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "best hooks views viral performance analytics",
+      "deduped_from": [
+        "23e9c575-e83d-44fa-bfa2-ca4c83fecd9b",
+        "4b5c52c6-9c51-468e-b410-7b6badcdd0dc"
+      ],
+      "final_score": 0.43097848516655735,
+      "id": "23e9c575-e83d-44fa-bfa2-ca4c83fecd9b",
+      "match_score": 0.7604975,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "is\n- Expression: Chaotic destruction\n- Personality: Market crash energy\n\n### 10. Pepe Le Pew\n- Appearance: Skunk, French stereotype\n- Props: Roses\n- Expression: Romantic/stalker vibe\n- Personality: Creepy data collector\n\n### 11. Marvin the Martian\n- Appearance: Alien in Roman helmet, faceless shadow\n- Props: Laser gun\n- Expression: Planning doom\n- Personality: Inevitable AI takeover\n\n### 12. Foghorn Leghorn\n- Appearance: Giant white rooster, standing tall\n- Props: None\n- Expression: Lecturing, mansplaining pose\n- Personality: Corporate bullshit artist\n\n### 13. Speedy Gonzales\n- Appearance: Tiny mouse, yellow sombrero\n- Props: Blurring speed\n- Expression: Fast and confident\n- Personality: Disruption speed\n\n### 14. Lola Bunny\n- Appearance: Beige rabbit, athletic\n- Props: Basketball uniform\n- Expression: Confident boss pose\n- Personality: Female founder energy\n\n### 15. Granny\n- Appearance: Old lady, glasses\n- Props: Computer screens\n- Expression: Innocent look but dangerous\n- Personality: Hidden hacker\n\n### 16. Gossamer\n- Appearance: Giant hairy orange monster, sneakers\n- Props: Heart-shaped body\n- Expression: Intimidating\n- Personality: Big Tech monster",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:58.698084+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:58.965563+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Creepy",
+              "French",
+              "Martian",
+              "Roman"
+            ],
+            "people": [
+              "Foghorn Leghorn\n- Appearance",
+              "Granny\n- Appearance",
+              "Lola Bunny\n- Appearance",
+              "Pepe Le",
+              "Speedy Gonzales\n- Appearance"
+            ]
+          },
+          "filename": "character_roster.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\COMMON_ASSETS\\character_roster.md",
+          "sync_timestamp": "1768694638.142112"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "assets",
+          "common_assets",
+          "visuals",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:creepy",
+          "entity:concepts:french",
+          "entity:concepts:martian",
+          "entity:concepts:roman",
+          "entity:people",
+          "entity:people:foghorn-leghorn-appearance",
+          "entity:people:granny-appearance",
+          "entity:people:lola-bunny-appearance",
+          "entity:people:pepe-le",
+          "entity:people:speedy-gonzales-appearance"
+        ],
+        "tags": [
+          "unknown",
+          "assets",
+          "common_assets",
+          "visuals",
+          "entity:concepts:creepy",
+          "entity:concepts:french",
+          "entity:concepts:martian",
+          "entity:concepts:roman",
+          "entity:people:foghorn-leghorn-appearance",
+          "entity:people:granny-appearance",
+          "entity:people:lola-bunny-appearance",
+          "entity:people:pepe-le",
+          "entity:people:speedy-gonzales-appearance"
+        ],
+        "timestamp": "2026-01-18T00:03:58.698084+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:03:58.698084+00:00"
+      },
+      "original_score": 0.7604975,
+      "relations": [],
+      "score": 0.43097848516655735,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980436016655736,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.7604975
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "best hooks views viral performance analytics",
+      "final_score": 0.4309630526553755,
+      "id": "a70b7812-4c55-441f-bfbb-3d3c049d7bd3",
+      "match_score": 0.7604539,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "── series_mode.md\n│   ├── assets/\n│   │   ├── character_roster.md\n│   │   ├── character_topic_matching.md\n│   │   ├── camera_modifiers.md\n│   │   ├── music_styles.md\n│   │   ├── seasonal_modifiers.md\n│   │   ├── environment_variations.md\n│   │   ├── proven_prompts.md\n│   │   └── negative_prompt_bank.md\n│   ├── templates/\n│   │   └── output_structure.md\n│   ├── examples/\n│   │   ├── example_post_tech.md\n│   │   └── example_post_scandal.md\n│   └── versions/\n│       └── README.md\n├── analytics/\n│   ├── performance_log.md\n│   ├── failures.md\n│   ├── quote_bank.md\n│   ├── trigger_words.md\n│   ├── trust_phrases.md\n│   └── idiom_injection.md\n└── output/\n    ├── history_index.md\n    ├── published/ (ALL OUTPUTS GO HERE)\n```\n\n---\n\n# 🛠️ SYSTEM MAINTENANCE PROTOCOL\n\nIf you modify any file structure, rule, or logic:\n1. UPDATE README.md immediately.\n2. UPDATE SKILL.md if instructions change.\n3. Do not leave undocumented files.\n\n*Code Change = Doc Change.*",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:31.869220+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:32.154650+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "people": [
+              "= Doc Change"
+            ]
+          },
+          "filename": "SKILL.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Alpha_News\\.agent\\skills\\alpha_translator\\SKILL.md",
+          "sync_timestamp": "1768694611.2941477"
+        },
+        "tag_prefixes": [
+          "alpha_translator",
+          "instruction",
+          "alpha_news",
+          "agent_skill",
+          "entity",
+          "entity:people",
+          "entity:people:doc-change"
+        ],
+        "tags": [
+          "alpha_translator",
+          "instruction",
+          "alpha_news",
+          "agent_skill",
+          "entity:people:doc-change"
+        ],
+        "timestamp": "2026-01-18T00:03:31.869220+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:03:31.869220+00:00"
+      },
+      "original_score": 0.7604539,
+      "relations": [],
+      "score": 0.4309630526553755,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980418765537551,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.7604539
+      },
+      "source": "qdrant"
+    }
+  ],
+  "sort": "score",
+  "status": "success",
+  "tag_match": "prefix",
+  "tag_mode": "any",
+  "vector_search": {
+    "enabled": true,
+    "matched": true
+  }
+}

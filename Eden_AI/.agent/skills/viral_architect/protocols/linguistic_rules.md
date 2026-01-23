@@ -33,6 +33,7 @@
 | "მონაცემთა ნაკადი" | Data stream | Dehumanizing. Nerd speak. |
 | "ეს არ არის X" | This is not X | The Binary Ban. |
 | "ეს დასასრულია" | This is the end | Lazy drama. |
+| "ლინკი პროფილშია" | Link in profile | **Redundant.** Visuals already show the URL. |
 
 ## ☠️ STRUCTURAL BANS
 1.  **The "Doesn't/Does" Pattern:**

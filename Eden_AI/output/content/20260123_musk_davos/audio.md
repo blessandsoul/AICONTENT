@@ -1,0 +1,1 @@
+Ticking Countdown Clock, Industrial Drone, Dark Dystopian Ambient, Mechanical Heartbeat Pulse, Deep Sub Bass, Foreboding Tension Builds, Digital Glitch Textures, Corporate Boardroom Echo, Robotic Voice Harmonics, Cold Metallic Atmosphere, Urgent Warning Tone, Minimalist, Background Music for Dystopian Tech Documentary, High Fidelity, Cinematic Mix

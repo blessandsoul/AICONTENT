@@ -8,6 +8,8 @@ Track generated content to avoid repetition and maintain variety.
 
 | Date | Topic | Character | Mode | Environment | Hook Pattern | Score | Status |
 |------|-------|-----------|------|-------------|--------------|-------|--------|
+| 2026-01-21 | Ukraine AI Data | Wile E. Coyote | B | Command Center | ომი როგორც პროდუქტი | - | Ready |
+| 2026-01-20 | Agentic Chaos | Marvin the Martian | A | Server Room Meltdown | ქაოსი vs მონაცემები | - | Ready |
 | 2026-01-17 | WEF AI Productivity Gap | Road Runner | B | Digital Desert | აშშ vs მსოფლიო: დიადი გათიშვა | - | Ready |
 | 2026-01-17 | ChatGPT Go Subscription | Wile E. Coyote | B | Acme Factory | AI მაკდონალდსი | - | Ready |
 | 2026-01-16 | xAI Nude Block | Pepe Le Pew | C | Chaotic Tech | გროკის "ნუდები" დასრულდა | - | Ready |
@@ -25,38 +27,41 @@ Track generated content to avoid repetition and maintain variety.
 ## 🎭 Last 5 Characters Used
 *Check before generating — avoid top 2*
 
-1. Road Runner
-2. Wile E. Coyote
-3. Pepe Le Pew
-4. Foghorn Leghorn
-5. Daffy Duck
+1. Wile E. Coyote
+2. Marvin the Martian
+3. Road Runner
+4. Pepe Le Pew
+5. Foghorn Leghorn
+5. Foghorn Leghorn
 
 ---
 
 ## 🌍 Last 5 Environments Used
 *Check before generating — avoid top 3*
 
-1. Digital Desert Race Track
-2. Acme Factory
-3. Chaotic Tech / Server Room
-4. Times Square/Shibuya
-5. Silicon Valley Campus
+1. High-tech military command center
+2. Server Room Meltdown
+3. Digital Desert Race Track
+4. Acme Factory
+5. Chaotic Tech / Server Room
+5. Times Square/Shibuya
 
 ---
 
 ## 💬 Last 10 Headlines Used
 *Never repeat exact headline*
 
-1. აშშ vs მსოფლიო: დიადი გათიშვა
-2. AI მაკდონალდსი
-3. გროკის "ნუდები" დასრულდა
-4. Google-მა სული გაყიდა
-5. სულის დაბრუნება
-6. პროდუქტიულობის მითი
-7. უხმაურო სტარტი
-8. ხელოსნების ომი
-9. ენერგეტიკული გადატრიალება
-10. ციფრული ტაძარი
+1. ომი როგორც პროდუქტი
+2. ქაოსი vs მონაცემები
+2. აშშ vs მსოფლიო: დიადი გათიშვა
+3. AI მაკდონალდსი
+4. გროკის "ნუდები" დასრულდა
+5. Google-მა სული გაყიდა
+6. სულის დაბრუნება
+7. პროდუქტიულობის მითი
+8. უხმაურო სტარტი
+9. ხელოსნების ომი
+10. ენერგეტიკული გადატრიალება
 
 ---
 
@@ -72,6 +77,7 @@ Track generated content to avoid repetition and maintain variety.
 
 | Topic | Last Covered | Cooldown Until |
 |-------|--------------|----------------|
+| Ukraine AI Data | 2026-01-21 | 2026-01-28 |
 | WEF AI Productivity Gap | 2026-01-17 | 2026-01-24 |
 | ChatGPT Go Subscription | 2026-01-17 | 2026-01-24 |
 | xAI Nude Block | 2026-01-16 | 2026-01-23 |
@@ -85,12 +91,12 @@ Track generated content to avoid repetition and maintain variety.
 ## 📊 Last Generation Details
 
 ```
-Date: 2026-01-17
-Topic: WEF AI Productivity Gap
-Character: Road Runner
-Mode: Mode B: Follow The Money
-Environment: Digital Desert Race Track
-Hook Pattern: აშშ vs მსოფლიო: დიადი გათიშვა
+Date: 2026-01-21
+Topic: Ukraine AI Data
+Character: Wile E. Coyote
+Mode: Mode B: Follow the Money
+Environment: High-tech military command center
+Hook Pattern: სისხლიანი ოქრო
 Score: -
 ```
 

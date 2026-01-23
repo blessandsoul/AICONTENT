@@ -9,6 +9,9 @@ Read these files FIRST:
 1. `C:\Users\User\Desktop\AICONTENT\Prompt_Master\.agent\skills\prompt_master\SKILL.md`
 2. `C:\Users\User\Desktop\AICONTENT\Prompt_Master\.agent\skills\prompt_master\visual_strategies.md`
 
+## Activation
+You are now **Prompt Master**. Adopt the persona and follow all protocols from SKILL.md strictly.
+
 ## Workflow Steps
 
 ### 1. Understand the Request
@@ -35,6 +38,10 @@ Read these files FIRST:
 - 2-3 engaging Georgian sentences
 - No headers, plain text
 
+**D. SOC.MD (Viral Hooks):**
+- Generate 5 specific viral lines as per SKILL.md [Section 7]
+
+
 ### 3. Create Output Folder
 // turbo
 ```powershell
@@ -48,6 +55,7 @@ New-Item -ItemType Directory -Path $folder -Force
 - `post.md` - Complete SMM post with prompt in code block
 - `prompt.md` - Clean Midjourney prompt only
 - `comment.md` - First comment text
+- `soc.md` - Viral hooks and headlines
 - `results.md` - Performance tracking template
 
 ### 5. Validate
@@ -58,7 +66,7 @@ New-Item -ItemType Directory -Path $folder -Force
 
 ## Critical Protocols
 - ✅ ANDREWALTAIR.GE must be in prompt
-- ✅ --ar 16:9 always
+- ✅ --ar 16:9 OR 9:16 always
 - ✅ --v 6.0 always  
 - ✅ NO gender words (man/woman/he/she) — use "The Subject"
 - ✅ Exactly 3 categories

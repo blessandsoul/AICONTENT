@@ -90,6 +90,18 @@ This report provides a clear overview of which files each agent reads and which 
 
 ---
 
+## 🎨 7. PROMPT MASTER (Social Master)
+**Focus:** High-End Midjourney Prompts & Marketplace Assets.
+
+### 📁 Files Read:
+- **Internal Only:** Logic contained in `SKILL.md`.
+- **Bible Reference:** Uses the global Bible.
+
+### 🛠️ Scripts Executed:
+- `.\scripts\validate_prompt.ps1` (if available)
+
+---
+
 ## 📚 SHARED RESOURCES (AICONTENT ROOT)
 - `MASTER_INDEX.md`: Read/Write for Alpha News, Deep Science, and Eden AI.
 - `BIBLE/`: Strict rules for everyone.

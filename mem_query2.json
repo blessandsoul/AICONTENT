@@ -1,0 +1,1051 @@
+{
+  "count": 10,
+  "dedup_removed": 5,
+  "keywords": [
+    "elon",
+    "musk",
+    "villain",
+    "cooldown",
+    "last",
+    "post",
+    "date"
+  ],
+  "query": "Elon Musk villain cooldown last post date",
+  "query_time_ms": 132.01,
+  "results": [
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "final_score": 0.49300709256476427,
+      "id": "39bcae6d-f8af-44ce-8ced-0b6bc72c5d77",
+      "match_score": 0.77445656,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "# Viral Performance Log\n\nUse this file to track which stories performed well. The Agent will read this to \"learn\" what works.\n\n---\n\n## 📊 Key Learnings\n\n| ფაქტორი | 50k ✅ | 28k |\n|---------|--------|-----|\n| პირადი საფრთხე | \"შენი ფოტო უკვე\" | აბსტრაქტული მომავალი |\n| სკანდალი | ელონ მასკი (ცნობილი) | ჯენსენ ჰუანგი (ნაკლებ ცნობილი) |\n| ემოცია | სირცხვილი/შოკი | შიში |\n| დროის ჩარჩო | \"უკვე ხდება\" | \"მოხდება\" |\n\n**დასკვნა #1 (15.01.2026)**: პირდაპირი \"შენ ხარ საფრთხეში\" + ცნობილი სახელი სკანდალით = მეტი engagement.\n**დასკვნა #2 (16.01.2026 - Grok Pentagon)**:\n- **Retention is King**: 31с удержание (50%) благодаря смене кадров и \"Digital Monster\" персонажу.\n- **Fear Hierarchy**: Страх войны/уничтожения > Экономический страх. Грок сработал лучше, чем \"AI заберет работу\", потому что угроза физическая и немедленная.\n- **Insiders Club**: Фраза \"Пентагонис саидумло кселеби\" (Secret Pentagon networks) создает ощущение эксклюзивности.\n- **High Saves**: 36 saves / 153 likes. Люди сохраняют \"карту спасения\" (AndrewAltair.ge) или предупреждение. CTA должен быть частью лора.\n\n---\n\n## Post History\n\n| Date | Topic | Views (TikTok) | Hook Type | Named Figure | Notes |\n|------|-------|----------------|-----------|--------------|-------|\n| 2026-01-15 | Grok AI პორნოგრაფია/Privacy | **50k** | პირადი საფრთხე | Elon Musk | \"შეიძლება შენი ფოტო უკვე დევს\" - პირდაპირი პერსონალური შოკი, სკანდალი |\n| 2026-01-15 | AI Robots/Job Replacement | 28k | ეკონომიკური შიში | Jensen Huang | აბსტრაქტული მომავლის ს",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:04:08.081854+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:04:08.355828+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "organizations": [
+              "AI Robots/Job Replacement",
+              "Pentagon",
+              "TikTok",
+              "Грок"
+            ],
+            "people": [
+              "Elon Musk",
+              "Grok AI",
+              "Jensen Huang"
+            ],
+            "tools": [
+              "Digital Monster",
+              "Notes"
+            ]
+          },
+          "filename": "performance_log.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Eden_AI\\analytics\\performance_log.md",
+          "sync_timestamp": "1768694647.4961493"
+        },
+        "tag_prefixes": [
+          "eden_ai",
+          "success_log",
+          "analytics",
+          "entity",
+          "entity:organizations",
+          "entity:organizations:ai-robots-job-replacement",
+          "entity:organizations:pentagon",
+          "entity:organizations:tiktok",
+          "entity:people",
+          "entity:people:elon-musk",
+          "entity:people:grok-ai",
+          "entity:people:jensen-huang",
+          "entity:tools",
+          "entity:tools:digital-monster",
+          "entity:tools:notes"
+        ],
+        "tags": [
+          "eden_ai",
+          "success_log",
+          "analytics",
+          "entity:organizations:ai-robots-job-replacement",
+          "entity:organizations:pentagon",
+          "entity:organizations:tiktok",
+          "entity:people:elon-musk",
+          "entity:people:grok-ai",
+          "entity:people:jensen-huang",
+          "entity:tools:digital-monster",
+          "entity:tools:notes"
+        ],
+        "timestamp": "2026-01-18T00:04:08.081854+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:04:08.081854+00:00"
+      },
+      "original_score": 0.77445656,
+      "relations": [],
+      "score": 0.49300709256476427,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980443942190715,
+        "relation": 0.0,
+        "tag": 0.2857142857142857,
+        "vector": 0.77445656
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "final_score": 0.4654969472186829,
+      "id": "5f54bf32-6b15-47ff-b3b9-eebf6cc7a94f",
+      "match_score": 0.7774894,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "ით \"ინჟინერს\", რომლებიც 24/7-ზე მუშაობენ, ხვდები, რომ ტრადიციული კორპორაციების სტრუქტურა — თავისი HR-ებით, მიტინგებით და ყავის შესვენებებით — უბრალოდ ვეღარ გაუწევს კონკურენციას ამ ციფრულ სკას.\n\n---\n\nPrompt:\n\nFormat: Vertical 9:16\nPrimary Branding: \"AndrewAltair.GE\" (Glitching Holographic Overlay, foreground, legible bold font)\nSecondary Text: \"დროის რღვევა\" (3D Neon Sign in background, GEORGIAN SCRIPT, Cyberpunk glow)\nQuality: Ultra High Quality, 8k, Masterpiece, Cinematic 3D Render, Unreal Engine 5\nSubject: (Stylized 3D Character Art, Looney Tunes style fur shader), Speedy Gonzales, running fast leaving green code trails behind, intense determined expression\nComposition: Dynamic low angle, running towards camera. Full Body framing.\nLighting: Neon green and blue matrix style lighting. Atmospheric fog.\nCamera: 35mm lens, f/1.8, Motion blur on background.\nEnvironment: Abstract digital tunnel made of binary code and server racks. Floating screens with Rust code.\nStyle: STATE-OF-THE-ART CGI. Octane Render, Path Tracing. Vibrant colors but moody contrast. NO photorealistic human skin on animals.\nNegative Prompt: 2d, drawing, sketch, illustration, text error, typo, watermark, messy text, human face, deformed hands, extra fingers, low res, jpeg artifacts, scary, nightmare.\n\n---\n\nPrompt:\n\nFormat: Horizontal 16:9\nPrimary Branding: \"AndrewAltair.GE\" (Glitching Holographic Overlay, foreground, legible bold font)\nSecondary Text: \"დროის რღვევა\" (3D Poster or Floating HUD, background, GEOR",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:35.301995+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:35.571379+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Cinematic"
+            ],
+            "organizations": [
+              "AndrewAltair",
+              "Glitching Holographic Overlay",
+              "HUD",
+              "Masterpiece"
+            ],
+            "people": [
+              "Format",
+              "Looney Tunes",
+              "Octane Render",
+              "Path Tracing",
+              "Primary Branding",
+              "Rust",
+              "Speedy Gonzales"
+            ],
+            "tools": [
+              "Holographic"
+            ]
+          },
+          "filename": "post.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Alpha_News\\output\\drafts\\20260115_cursor_fastrender\\post.md",
+          "sync_timestamp": "1768694614.7340987"
+        },
+        "tag_prefixes": [
+          "20260115_cursor_fastrender",
+          "post",
+          "content",
+          "alpha_news",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:cinematic",
+          "entity:organizations",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:glitching-holographic-overlay",
+          "entity:organizations:hud",
+          "entity:organizations:masterpiece",
+          "entity:people",
+          "entity:people:format",
+          "entity:people:looney-tunes",
+          "entity:people:octane-render",
+          "entity:people:path-tracing",
+          "entity:people:primary-branding",
+          "entity:people:rust",
+          "entity:people:speedy-gonzales",
+          "entity:tools",
+          "entity:tools:holographic"
+        ],
+        "tags": [
+          "20260115_cursor_fastrender",
+          "post",
+          "content",
+          "alpha_news",
+          "entity:concepts:cinematic",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:glitching-holographic-overlay",
+          "entity:organizations:hud",
+          "entity:organizations:masterpiece",
+          "entity:people:format",
+          "entity:people:looney-tunes",
+          "entity:people:octane-render",
+          "entity:people:path-tracing",
+          "entity:people:primary-branding",
+          "entity:people:rust",
+          "entity:people:speedy-gonzales",
+          "entity:tools:holographic"
+        ],
+        "timestamp": "2026-01-18T00:03:35.301995+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:03:35.301995+00:00"
+      },
+      "original_score": 0.7774894,
+      "relations": [],
+      "score": 0.4654969472186829,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980422864725437,
+        "relation": 0.0,
+        "tag": 0.14285714285714285,
+        "vector": 0.7774894
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "deduped_from": [
+        "306ed482-ca7e-4db0-a4c5-3f0a43a25cdc",
+        "da1d9588-a393-444e-b7f1-beb801164e01"
+      ],
+      "final_score": 0.46463457412212944,
+      "id": "306ed482-ca7e-4db0-a4c5-3f0a43a25cdc",
+      "match_score": 0.7750369,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "ა, რომ მას შეუძლია ფუნდამენტური ინჟინერია.\n\nეს დასაწყისია. მოემზადეთ ან დარჩით ისტორიის სანაგვეზე.\n\n🫣 როგორ არ დავრჩეთ თამაშს მიღმა? იპოვეთ Andrew Altair Google-ში.\n\n#AI #Cursor #მომავალი #კოდი\n\n--- [META-COMMENTARY STARTS HERE] ---\n\nსიმართლე გითხრათ, ეს ექსპერიმენტი ცოტათი მაშინებს კიდეც. არა იმიტომ, რომ AI ჭკვიანია, არამედ იმიტომ, რომ ის დაუღალავია. ადამიანს სჭირდება შესვენება, მოტივაცია, ხელფასი. აგენტს სჭირდება მხოლოდ ელექტროენერგია და მიზანი. როცა 25 წლის ბიჭი თავისი ლეპტოპიდან მართავს ასობით \"ინჟინერს\", რომლებიც 24/7-ზე მუშაობენ, ხვდები, რომ ტრადიციული კორპორაციების სტრუქტურა — თავისი HR-ებით, მიტინგებით და ყავის შესვენებებით — უბრალოდ ვეღარ გაუწევს კონკურენციას ამ ციფრულ სკას.\n\n---\n\nPrompt:\n\nFormat: Vertical 9:16\nPrimary Branding: \"AndrewAltair.GE\" (Glitching Holographic Overlay, foreground, legible bold font)\nSecondary Text: \"დროის რღვევა\" (3D Neon Sign in background, GEORGIAN SCRIPT, Cyberpunk glow)\nQuality: Ultra High Quality, 8k, Masterpiece, Cinematic 3D Render, Unreal Engine 5\nSubject: (Stylized 3D Character Art, Looney Tunes style fur shader), Speedy Gonzales, running fast leaving green code trails behind, intense determined expression\nComposition: Dynamic low angle, running towards camera. Full Body framing.\nLighting: Neon green and blue matrix style lighting. Atmospheric fog.\nCamera: 35mm lens, f/1.8, Motion blur on background.\nEnvironment: Abstract digital tunnel made of binary code and server racks. Floating screens with Rust code.\nStyle: STATE-OF-THE-ART CGI. Octane Render, Path Tracing. Vibrant colors but moody contrast. NO photorealistic human skin on animals.\nNegative Prompt: 2d, drawing, sketch, illustration, text error, typo, watermark, messy text, human face, deformed hands, extra fingers, low res, jpeg artifacts, scary, nightmare.\n\n---\n\nPrompt:\n\nFormat: Horizontal 16:9\nPrimary Branding: \"AndrewAltair.GE\" (Glitching Holographic Overlay, foreground, legible bold font)\nSecondary Text: \"დროის რღვევა\" (3D Poster or Floating HUD, background, GEOR",
+        "importance": 0.5,
+        "last_accessed": "2026-01-17T23:53:13.518171+00:00",
+        "metadata": {
+          "chunk_index": 2,
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-17T23:53:14.782285+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [
+              {
+                "id": "da1d9588-a393-444e-b7f1-beb801164e01",
+                "score": 0.9999999
+              },
+              {
+                "id": "745d4bc8-d6a0-4137-9e53-c1c27c5bc591",
+                "score": 0.77500516
+              },
+              {
+                "id": "bb095164-31a8-457c-a92a-f87bc487d986",
+                "score": 0.77500516
+              },
+              {
+                "id": "81c89695-436d-4c12-8be0-71f575089e0b",
+                "score": 0.77500516
+              },
+              {
+                "id": "4d360eca-c0c9-4192-84ab-c290432d740d",
+                "score": 0.7745516
+              },
+              {
+                "id": "c2e5216f-e1c3-4788-91a3-49e6d199a7d3",
+                "score": 0.7745516
+              },
+              {
+                "id": "884643c4-8743-4376-90f9-41b70b2c701e",
+                "score": 0.7745516
+              },
+              {
+                "id": "660357a6-a425-4e0a-9932-187e007f8383",
+                "score": 0.7722778
+              },
+              {
+                "id": "01ecc524-6bef-4b96-9b76-535c4973a14c",
+                "score": 0.7722778
+              },
+              {
+                "id": "8b421b53-c00e-43ea-8ab4-2db2a4739b0d",
+                "score": 0.7722778
+              }
+            ],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Cinematic"
+            ],
+            "organizations": [
+              "AndrewAltair",
+              "Glitching Holographic Overlay",
+              "HUD",
+              "META-COMMENTARY STARTS",
+              "Masterpiece"
+            ],
+            "people": [
+              "Andrew Altair Google-ში.",
+              "Format",
+              "Looney Tunes",
+              "Octane Render",
+              "Path Tracing",
+              "Primary Branding",
+              "Rust",
+              "Speedy Gonzales"
+            ],
+            "tools": [
+              "Holographic"
+            ]
+          },
+          "folder": "20260115_cursor_fastrender",
+          "import_date": "2026-01-18",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Alpha_News\\output\\drafts\\20260115_cursor_fastrender\\post.md",
+          "total_chunks": 4
+        },
+        "tag_prefixes": [
+          "alpha_news",
+          "history_import",
+          "20260115_cursor_fastrender",
+          "part_3",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:cinematic",
+          "entity:organizations",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:glitching-holographic-overlay",
+          "entity:organizations:hud",
+          "entity:organizations:masterpiece",
+          "entity:organizations:meta-commentary-starts",
+          "entity:people",
+          "entity:people:andrew-altair-google",
+          "entity:people:format",
+          "entity:people:looney-tunes",
+          "entity:people:octane-render",
+          "entity:people:path-tracing",
+          "entity:people:primary-branding",
+          "entity:people:rust",
+          "entity:people:speedy-gonzales",
+          "entity:tools",
+          "entity:tools:holographic"
+        ],
+        "tags": [
+          "alpha_news",
+          "history_import",
+          "20260115_cursor_fastrender",
+          "part_3",
+          "entity:concepts:cinematic",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:glitching-holographic-overlay",
+          "entity:organizations:hud",
+          "entity:organizations:masterpiece",
+          "entity:organizations:meta-commentary-starts",
+          "entity:people:andrew-altair-google",
+          "entity:people:format",
+          "entity:people:looney-tunes",
+          "entity:people:octane-render",
+          "entity:people:path-tracing",
+          "entity:people:primary-branding",
+          "entity:people:rust",
+          "entity:people:speedy-gonzales",
+          "entity:tools:holographic"
+        ],
+        "timestamp": "2026-01-17T23:53:13.518171+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-17T23:53:13.518171+00:00"
+      },
+      "original_score": 0.7750369,
+      "relations": [],
+      "score": 0.46463457412212944,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980023055070087,
+        "relation": 0.0,
+        "tag": 0.14285714285714285,
+        "vector": 0.7750369
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "deduped_from": [
+        "06c4efd4-5b11-4830-a599-5e749850282a",
+        "8d6d4807-6e93-4543-9b80-cec9151f62fa",
+        "9b9e945c-ddee-4da2-b4fb-3e579d0eb287",
+        "bbf726d6-bfa4-4788-91c7-e2c8f6daae8c"
+      ],
+      "final_score": 0.4630417981069417,
+      "id": "8d6d4807-6e93-4543-9b80-cec9151f62fa",
+      "match_score": 0.7704859,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "--- [START OF OUTPUT] ---\n\n\n🏛️ ვიკიპედია კვდება. ეს ცივილიზაციის მეხსიერების წაშლაა.\n\nFBI-ს მუქარები, მთავრობის ცენზურა და AI-ის პარაზიტული შეტევა — ყველაზე დიდი უფასო ენციკლოპედია კუთხეშია მიმწყვდეული.\n\n2010 წელს, როდესაც FBI-მ Wikimedia Foundation-ს ოფიციალური წერილი გაუგზავნა და მათი ლოგოს წაშლა მოითხოვა, ორგანიზაციამ შეძლო დაეცვა საკუთარი პოზიცია იურიდიული არგუმენტებით. მაშინ ჩვენ ვცხოვრობდით სამყაროში, სადაც კანონის უზენაესობა ჯერ კიდევ რაღაცას ნიშნავდა. თუმცა, 2026 წელს ეს რეალობა აღარ არსებობს. დღეს, როდესაც ილონ მასკი ვიკიპედიას \"Wokepedia\"-ს უწოდებს, ხოლო ტრამპის ადმინისტრაციის წარმომადგენლები, ჯეიმს კომერი და ნენსი მეისი, პლატფორმას \"ინფორმაციულ მანიპულაციაში\" ადანაშაულებენ, ცხადი ხდება, რომ თამაში შეიცვალა. ეს აღარ არის სამართლებრივი დავა; ეს არის პოლიტიკური ომი, სადაც სიმართლე განისაზღვრება არა ფაქტებით, არამედ ძალაუფლებით. ვიკიპედიის დიპლომატიური პასუხები, რომლებიც ცდილობენ ახსნან, თუ როგორ მუშაობს მათი სისტემა, ჰგავს დანის წინააღმდეგ წასვლას ლექციების კითხვით. ახალ მსოფლიო წესრიგში, სადაც \"გამარჯვებული იღებს ყველაფერს\", ნეიტრალიტეტი აღიქმება როგორც სისუსტე, ხოლო ობიექტურობა — როგორც მტრული იდეოლოგია.\n\nმაგრამ პოლიტიკური წნეხი მხოლოდ აისბერგის მწვერვალია. ვიკიპედიის მთავარი ეგზისტენციალური საფრთხე გაცილებით უფრო ჩუმი და ტექნოლოგიურია. ინტერნეტის ეკოსისტემა, რომელიც 25 წლის წინ შეიქმნა ღიაობისა და გაზიარების იდეალებზე, დღეს ჩანაცვლებულია ალგორითმული ფეოდალიზმით. Google-ის და OpenAI-ის დიდი ენობრივი მოდელები (LLM) ვიკიპედიას იყენებენ როგორც უფასო სასწავლო პოლიგონს. ისინი ისრუტავენ მოხალისეების მიერ შექმnil მილიონობით სტატიას, ამუშავებენ მას ტრილიონობით პარამეტრში და შემდეგ მომხმარებელს აწვდიან პასუხებს წყაროს მითითების გარეშე. შედეგი? ვიზიტი ვიკიპედიაზე მცირდება, რაც პირდაპირ ურტყამს მის მოდელს. თუ არავინ შედის საიტზე, არავინ ხდება ახალი რედაქტორი. ეს არის პარაზიტული სიმბიოზი, სადაც მასპინძელი (ვიკიპედია) ნელ-ნელა კვდება, ხოლო პარაზიტი (AI) სუქდება, სანამ საბოლოოდ ორივე არ განადგურდება, რადგან წყაროს გაქრობა პარაზიტის სიკვდილსაც ნიშნავს.\n\n🕵️‍♂️ ძალის დემონ",
+        "importance": 0.5,
+        "last_accessed": "2026-01-17T23:53:25.024553+00:00",
+        "metadata": {
+          "chunk_index": 0,
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-17T23:53:25.243387+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "organizations": [
+              "FBI-ს",
+              "LLM"
+            ]
+          },
+          "folder": "20260116_wikipedia_threats",
+          "import_date": "2026-01-18",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Alpha_News\\output\\published\\20260116_wikipedia_threats\\post.md",
+          "total_chunks": 5
+        },
+        "tag_prefixes": [
+          "alpha_news",
+          "history_import",
+          "20260116_wikipedia_threats",
+          "part_1",
+          "entity",
+          "entity:organizations",
+          "entity:organizations:fbi",
+          "entity:organizations:llm"
+        ],
+        "tags": [
+          "alpha_news",
+          "history_import",
+          "20260116_wikipedia_threats",
+          "part_1",
+          "entity:organizations:fbi",
+          "entity:organizations:llm"
+        ],
+        "timestamp": "2026-01-17T23:53:25.024553+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-17T23:53:25.024553+00:00"
+      },
+      "original_score": 0.7704859,
+      "relations": [],
+      "score": 0.4630417981069417,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980030453551312,
+        "relation": 0.0,
+        "tag": 0.14285714285714285,
+        "vector": 0.7704859
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "final_score": 0.4502511987441165,
+      "id": "5fe26829-55b7-448e-b2e9-5856717fe62e",
+      "match_score": 0.7727048,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.6,
+        "content": "# Andrey's Projects\n\n## Status Legend\n- ✅ Complete\n- 🔄 In Progress\n- 💭 Planning\n- ⏸️ On Hold\n\n---\n\n## 1. Auto Navigator (Навигатор)\n| Field | Value |\n|-------|-------|\n| Status | ✅ 100% Ready |\n| Role | Development (15% ownership) |\n| Partner | Boss |\n| Priority | LOW (boss is stalling) |\n| Notes | System complete, only text changes needed. Waiting on boss. |\n\n---\n\n## 2. Tourism MVP (Туризм)\n| Field | Value |\n|-------|-------|\n| Status | 🔄 In Progress |\n| Role | Frontend + Promotion |\n| Partner | Торнике (backend) |\n| Deadline | March-April 2026 |\n| Priority | MEDIUM |\n| Notes | MVP development ongoing. Tornik handles backend. |\n\n---\n\n## 3. andrewaltair.ge (Marketplace)\n| Field | Value |\n|-------|-------|\n| Status | 🔄 Live, Filling |\n| Role | 100% Owner |\n| Priority | **HIGH** |\n| Description | Marketplace for AI prompts and bots. First in Georgia. |\n| Strategy | Drive traffic from video content → monetize via premium content |\n| Features | Encyclopedia section with 25% paywall |\n\n---\n\n## 4. Daily Content (Контент)\n| Field | Value |\n|-------|-------|\n| Status | 🔄 Active Daily |\n| Priority | **HIGH** |\n| Platforms | Facebook, TikTok, andrewaltair.ge |\n| Output | 1 video/day + 1 long article + 5-10 posts |\n| Followers | FB: 281, TikTok: 1015 |\n| Viral Hits | 2 videos (60K views, 28K views) |\n| Strategy | AI agent generates content → analyze what works → double down |\n\n---\n\n## 5. Courses (Курсы)\n| Field | Value |\n|-------|-------|\n| Status | 💭 Planning |\n| Target | Summer 2026 |",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:04:20.418111+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:04:20.538083+00:00",
+            "patterns_detected": [
+              {
+                "key_terms": [
+                  "andrey",
+                  "status",
+                  "agent",
+                  "context",
+                  "priority"
+                ],
+                "similar_memories": 10,
+                "type": "Habit"
+              }
+            ],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Georgia"
+            ],
+            "organizations": [
+              "Complete\n- 🔄",
+              "MVP",
+              "Role",
+              "Status",
+              "Target",
+              "TikTok",
+              "Value",
+              "Viral Hits",
+              "💭 Planning"
+            ],
+            "people": [
+              "Andrey",
+              "Boss",
+              "Description",
+              "Status Legend",
+              "Курсы",
+              "Навигатор"
+            ],
+            "tools": [
+              "Notes"
+            ]
+          },
+          "filename": "projects.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Second_Brain\\.agent\\skills\\second_brain\\context\\projects.md",
+          "sync_timestamp": "1768694660.008144"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "second_brain",
+          "notes",
+          "context",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:georgia",
+          "entity:organizations",
+          "entity:organizations:complete",
+          "entity:organizations:mvp",
+          "entity:organizations:planning",
+          "entity:organizations:role",
+          "entity:organizations:status",
+          "entity:organizations:target",
+          "entity:organizations:tiktok",
+          "entity:organizations:value",
+          "entity:organizations:viral-hits",
+          "entity:people",
+          "entity:people:andrey",
+          "entity:people:boss",
+          "entity:people:description",
+          "entity:people:status-legend",
+          "entity:tools",
+          "entity:tools:notes"
+        ],
+        "tags": [
+          "unknown",
+          "second_brain",
+          "notes",
+          "context",
+          "entity:concepts:georgia",
+          "entity:organizations:complete",
+          "entity:organizations:mvp",
+          "entity:organizations:planning",
+          "entity:organizations:role",
+          "entity:organizations:status",
+          "entity:organizations:target",
+          "entity:organizations:tiktok",
+          "entity:organizations:value",
+          "entity:organizations:viral-hits",
+          "entity:people:andrey",
+          "entity:people:boss",
+          "entity:people:description",
+          "entity:people:status-legend",
+          "entity:tools:notes"
+        ],
+        "timestamp": "2026-01-18T00:04:20.418111+00:00",
+        "type": "Habit",
+        "updated_at": "2026-01-18T00:04:20.418111+00:00"
+      },
+      "original_score": 0.7727048,
+      "relations": [],
+      "score": 0.4502511987441165,
+      "score_components": {
+        "confidence": 0.6,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980451874411651,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.7727048
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "final_score": 0.44949287053738424,
+      "id": "7705cb3e-2ebd-491c-93a9-6c4a1509c351",
+      "match_score": 0.77053976,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.6,
+        "content": "MUST SEARCH THE WEB:**\n1. Search for 3-5 related tutorials/docs on the topic\n2. Gather: code examples, best practices, common mistakes, tips\n3. Use this data to enrich the tutorial with REAL EXAMPLES and PRACTICAL TIPS\n4. This step is NON-NEGOTIABLE — skip = failure\n\n---\n\n[2.6. VIRALITY STRUCTURE (ULTRA QUALITY)]\n\n### 🔥 15 VIRAL CONTENT RULES (NON-NEGOTIABLE):\n\n**HOOK POST RULES (500-1000 chars):**\n\n1. **Screenshot-worthy первое предложение.** Люди шарят то, что хочется сохранить. Первая строка = визуально viral.\n\n2. **Одна мысль на пост.** Не распыляйся. Один killer insight > три средних.\n\n3. **Эмодзи как разделители, не украшения.** Используй для визуального ритма: 📝 теория, 💻 код, ⚠️ ошибка.\n\n4. **Заканчивай вопросом ИЗ КОНТЕНТА.** НЕ банальные \"რას ფიქრობ?\" — а вопрос из туториала. Пример: \"რომელი ბრძანება აკეთებს X-ს? დაწერე პასუხი.\"\n\n5. **Ссылки ТОЛЬКО в первом комменте.** FB режет reach для постов со ссылками. HOOK POST = без ссылок.\n\n---\n\n**ПСИХОЛОГИЯ & ТРИГГЕРЫ:**\n\n6. **Controversy > Consensus.** \"ეს მეთოდი არ მუშაობს\" > \"ეს კარგი მეთოდია\"\n\n7. **Us vs Them framing.** \"ვინც ამის შესახებ არ იცის — უკვე დაგვიანებულია\"\n\n8. **Loss aversion > Gain framing.** \"რას კარგავ ამის გარეშე\" бьёт \"რას მიიღებ\" на 2:1.\n\n9. **Timestamp urgency.** \"ეს გუშინ გამოვიდა\" > \"ეს რაღაც მომენტში გამოვიდა\"\n\n10. **Personal stake (CORRECT GEORGIAN).** \"მე პირადად 3 საათი დავხარჯე, რადგან ეს არ ვიცოდი\"\n\n---\n\n**CTA & ENGAGEMENT:**\n\n11. **Binary choice CTA.** \"1 თუ 2? კომენტარში დაწერე\"\n\n12. **🔴 ПЕР",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:02:52.672806+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:02:55.911289+00:00",
+            "patterns_detected": [
+              {
+                "key_terms": [
+                  "discovered",
+                  "andrey",
+                  "memory",
+                  "agents",
+                  "prediction"
+                ],
+                "similar_memories": 10,
+                "type": "Insight"
+              }
+            ],
+            "semantic_neighbors": [
+              {
+                "id": "80674911-191b-4971-b676-1c4114c4c4ff",
+                "score": 0.77745223
+              },
+              {
+                "id": "a6e1fab8-9a4c-441a-b7b4-9a4f9c1b1a5a",
+                "score": 0.7700074
+              },
+              {
+                "id": "12c6ce9c-4477-41f5-814a-f5425f2357c5",
+                "score": 0.7700074
+              },
+              {
+                "id": "5e80779d-66e5-44ad-9e8e-0d485d1211ad",
+                "score": 0.76844674
+              },
+              {
+                "id": "8e2d4882-b2bb-4706-bd45-2dcae9ffb35b",
+                "score": 0.76844674
+              },
+              {
+                "id": "b7629616-1d6c-40f1-93d0-e05e03e8a738",
+                "score": 0.76844674
+              },
+              {
+                "id": "fabee429-8ace-4f95-ac2c-61cfe790e13d",
+                "score": 0.76844674
+              },
+              {
+                "id": "8a62e3af-8f16-479e-adae-2150036c0fd2",
+                "score": 0.76844674
+              },
+              {
+                "id": "d409205e-c368-488e-8fc0-7994c2fdec6c",
+                "score": 0.76844674
+              },
+              {
+                "id": "b1b9a52e-a8eb-4b20-b919-6e6bf431ae2e",
+                "score": 0.7684156
+              }
+            ],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "X-ს"
+            ],
+            "organizations": [
+              "Один",
+              "ПЕР"
+            ],
+            "people": [
+              "STRUCTURE",
+              "ИЗ КОНТЕНТА",
+              "Пример"
+            ],
+            "tools": [
+              "REAL"
+            ]
+          },
+          "filename": "SKILL.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Alpha_Tutor\\.agent\\skills\\alpha_tutor\\SKILL.md",
+          "sync_timestamp": "1768694572.250705"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "instruction",
+          "agent_skill",
+          "alpha_tutor",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:x",
+          "entity:people",
+          "entity:people:structure",
+          "entity:tools",
+          "entity:tools:real"
+        ],
+        "tags": [
+          "unknown",
+          "instruction",
+          "agent_skill",
+          "alpha_tutor",
+          "entity:concepts:x",
+          "entity:people:structure",
+          "entity:tools:real"
+        ],
+        "timestamp": "2026-01-18T00:02:52.672806+00:00",
+        "type": "Insight",
+        "updated_at": "2026-01-18T00:02:52.672806+00:00"
+      },
+      "original_score": 0.77053976,
+      "relations": [],
+      "score": 0.44949287053738424,
+      "score_components": {
+        "confidence": 0.6,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980395453738425,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.77053976
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "final_score": 0.43645802344313267,
+      "id": "05bd405d-1276-46b8-800d-f6381f32cca6",
+      "match_score": 0.77615416,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "იერს. თეორიულად, მას შეუძლია გავლენა მოახდინოს ნაყოფის ტვინის განვითარებაზე, კერძოდ კი ენდოკანაბინოიდურ სისტემაზე და ოქსიდაციურ სტრესზე. თაგვებზე ჩატარებულმა ზოგიერთმა ექსპერიმენტმა აჩვენა ნეიროტოქსიკურობის ნიშნები მაღალ დოზებში. მაგრამ ადამიანი თაგვი არ არის (70 კგ vs 30 გრამი). ადამიანის მეტაბოლიზმი ბევრად უფრო რთულია. ძველი, ეგრეთ წოდებული 'ობსერვაციული' კვლევები ხედავდნენ კორელაციას: დედები, რომლებიც სვამდნენ წამალს, უფრო ხშირად ჰყავდათ შვილები აუტიზმით. სწორედ აქ დაუშვეს შეცდომა: კორელაცია არ ნიშნავს კაუზაციას (Correlation is not Causation). დედები, რომლებიც სვამენ წამალს, ხშირად აქვთ ქრონიკული ტკივილი, აუტოიმუნური დაავადებები, დეპრესია, ან სოციალურ-ეკონომიკური პრობლემები. სწორედ ეს ფაქტორები ზრდის აუტიზმის რისკს, და არა თავად წამალი. აცეტამინოფენი აქ უბრალოდ 'განტევების ვაცი' აღმოჩნდა.\"\n        },\n        {\n            \"type\": \"fact\",\n            \"content\": \"იცოდით თუ არა? წინა, 'განგაშის ამტეხი' კვლევები ძირითადად ეყრდნობოდა დედების მეხსიერებას (Recall Bias). მეცნიერები ეკითხებოდნენ დედებს 5 წლის შემდეგ: 'ორსულობისას რამდენჯერ დალიეთ აბი?'. როცა დედას ჰყავს აუტიზმის მქონე შვილი, ის ქვეცნობიერად ცდილობს იპოვოს 'მიზეზი' და უფრო ხშირად იხსენებს (ან აზვიადებს) მედიკამენტის მიღებას, ვიდრე ჯანმრთელი ბავშვის დედა. ეს არის ფსიქოლოგიური ფენომენი, რომელმაც დაამახინჯა სტატისტიკა.\"\n        },\n        {\n            \"type\": \"section\",\n            \"content\": \"ყველაზე ძლიერი და ინოვაციური არგუმენტი, რაც ამ ახალ კვლევას გააჩნია, არის ე.წ. 'სიბლინგების დიზაინი' (Sibling Comparison Study",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:10.231557+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:10.472569+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {},
+          "filename": "deep.json",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Deep_Science\\output\\content\\20260118_tylenol_pregnancy\\deep.json",
+          "sync_timestamp": "1768694589.6828518"
+        },
+        "tag_prefixes": [
+          "deep_dive",
+          "content",
+          "deep_science",
+          "20260118_tylenol_pregnancy"
+        ],
+        "tags": [
+          "deep_dive",
+          "content",
+          "deep_science",
+          "20260118_tylenol_pregnancy"
+        ],
+        "timestamp": "2026-01-18T00:03:10.231557+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:03:10.231557+00:00"
+      },
+      "original_score": 0.77615416,
+      "relations": [],
+      "score": 0.43645802344313267,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980406744313272,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.77615416
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "final_score": 0.4353795015491641,
+      "id": "f9bc9b1d-940c-41df-9836-93ef1405aea1",
+      "match_score": 0.77307117,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "ey_dreams.md` | Goals, visions |\n| `memory/voice_dna.md` | Phrases, style, metaphors |\n| `memory/NOT_andrey.md` | Anti-profile: what he is NOT |\n| `memory/contradictions.md` | Says X but does Y patterns |\n| `memory/decision_patterns.md` | How he makes decisions |\n| `memory/emotional_map.md` | Triggers for each emotion |\n| `memory/red_lines.md` | Absolute prohibitions for all agents |\n| `memory/peak_experiences.md` | Moments of flow, happiness, pride |\n\n## Export Files (for other agents)\n\n| File | Purpose |\n|------|---------|\n| `exports/style_guide.md` | How to write as Andrey |\n| `exports/prediction_model.md` | How Andrey reacts to X |\n| `exports/red_lines.md` | Never do/say this |\n\n---\n\n# ❓ QUESTIONING ARSENAL\n\n## 1. Dimensional Questions\nMap traits on 1-10 scales:\n- «От 1 до 10, насколько ты терпелив?»\n- «Риск vs стабильность — где ты на шкале?»\n- «Насколько ты интроверт? 1 = тусовщик, 10 = отшельник»\n\n## 2. Scenario Battles\nForce difficult choices:\n- «$1M сейчас или 50% шанс на $10M?»\n- «Успех но одиночество, или средняя жизнь с людьми?»\n- «Правда которая ранит или ложь которая утешает?»\n\n## 3. Time Machine\nPast/future perspective:\n- «Что бы ты сказал себе в 18 лет?»\n- «Что 70-летний ты скажет тебе сейчас?»\n- «Какой момент бы прожил заново?»\n\n## 4. People Mirrors\nCompare with others:\n- «Кто на тебя похож? Чем отличаешься?»\n- «Кем ты восхищаешься? Что в них есть, чего нет в тебе?»\n- «Кого ты терпеть не можешь? Почему именно это качество?»\n\n## 5. Failure Archaeology\nDeep div",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:04:31.818470+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:04:32.123521+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "organizations": [
+              "Battles\nForce",
+              "File",
+              "Phrases",
+              "Что"
+            ],
+            "people": [
+              "Andrey",
+              "Что"
+            ]
+          },
+          "filename": "SKILL.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Second_Brain\\.agent\\skills\\explore\\SKILL.md",
+          "sync_timestamp": "1768694671.2625086"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "instruction",
+          "agent_skill",
+          "explore",
+          "entity",
+          "entity:organizations",
+          "entity:organizations:battles-force",
+          "entity:organizations:file",
+          "entity:organizations:phrases",
+          "entity:people",
+          "entity:people:andrey"
+        ],
+        "tags": [
+          "unknown",
+          "instruction",
+          "agent_skill",
+          "explore",
+          "entity:organizations:battles-force",
+          "entity:organizations:file",
+          "entity:organizations:phrases",
+          "entity:people:andrey"
+        ],
+        "timestamp": "2026-01-18T00:04:31.818470+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:04:31.818470+00:00"
+      },
+      "original_score": 0.77307117,
+      "relations": [],
+      "score": 0.4353795015491641,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.998045920491641,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.77307117
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "deduped_from": [
+        "23e9c575-e83d-44fa-bfa2-ca4c83fecd9b",
+        "4b5c52c6-9c51-468e-b410-7b6badcdd0dc"
+      ],
+      "final_score": 0.43467849408326903,
+      "id": "23e9c575-e83d-44fa-bfa2-ca4c83fecd9b",
+      "match_score": 0.7710689,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "is\n- Expression: Chaotic destruction\n- Personality: Market crash energy\n\n### 10. Pepe Le Pew\n- Appearance: Skunk, French stereotype\n- Props: Roses\n- Expression: Romantic/stalker vibe\n- Personality: Creepy data collector\n\n### 11. Marvin the Martian\n- Appearance: Alien in Roman helmet, faceless shadow\n- Props: Laser gun\n- Expression: Planning doom\n- Personality: Inevitable AI takeover\n\n### 12. Foghorn Leghorn\n- Appearance: Giant white rooster, standing tall\n- Props: None\n- Expression: Lecturing, mansplaining pose\n- Personality: Corporate bullshit artist\n\n### 13. Speedy Gonzales\n- Appearance: Tiny mouse, yellow sombrero\n- Props: Blurring speed\n- Expression: Fast and confident\n- Personality: Disruption speed\n\n### 14. Lola Bunny\n- Appearance: Beige rabbit, athletic\n- Props: Basketball uniform\n- Expression: Confident boss pose\n- Personality: Female founder energy\n\n### 15. Granny\n- Appearance: Old lady, glasses\n- Props: Computer screens\n- Expression: Innocent look but dangerous\n- Personality: Hidden hacker\n\n### 16. Gossamer\n- Appearance: Giant hairy orange monster, sneakers\n- Props: Heart-shaped body\n- Expression: Intimidating\n- Personality: Big Tech monster",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:58.698084+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:58.965563+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Creepy",
+              "French",
+              "Martian",
+              "Roman"
+            ],
+            "people": [
+              "Foghorn Leghorn\n- Appearance",
+              "Granny\n- Appearance",
+              "Lola Bunny\n- Appearance",
+              "Pepe Le",
+              "Speedy Gonzales\n- Appearance"
+            ]
+          },
+          "filename": "character_roster.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\COMMON_ASSETS\\character_roster.md",
+          "sync_timestamp": "1768694638.142112"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "assets",
+          "common_assets",
+          "visuals",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:creepy",
+          "entity:concepts:french",
+          "entity:concepts:martian",
+          "entity:concepts:roman",
+          "entity:people",
+          "entity:people:foghorn-leghorn-appearance",
+          "entity:people:granny-appearance",
+          "entity:people:lola-bunny-appearance",
+          "entity:people:pepe-le",
+          "entity:people:speedy-gonzales-appearance"
+        ],
+        "tags": [
+          "unknown",
+          "assets",
+          "common_assets",
+          "visuals",
+          "entity:concepts:creepy",
+          "entity:concepts:french",
+          "entity:concepts:martian",
+          "entity:concepts:roman",
+          "entity:people:foghorn-leghorn-appearance",
+          "entity:people:granny-appearance",
+          "entity:people:lola-bunny-appearance",
+          "entity:people:pepe-le",
+          "entity:people:speedy-gonzales-appearance"
+        ],
+        "timestamp": "2026-01-18T00:03:58.698084+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:03:58.698084+00:00"
+      },
+      "original_score": 0.7710689,
+      "relations": [],
+      "score": 0.43467849408326903,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980437908326903,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.7710689
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Elon Musk villain cooldown last post date",
+      "final_score": 0.43462983751437756,
+      "id": "67a8e679-7ce0-4bc7-96c9-8430813a529c",
+      "match_score": 0.77093124,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "{\n    \"meta\": {\n        \"title\": \"WEF 2026: დიადი გათიშვა - AI უფსკრული\",\n        \"slug\": \"wef-2026-ai-gap-great-decoupling\",\n        \"category\": \"ეკონომიკა\",\n        \"tags\": [\n            \"აშშ\",\n            \"ჩინეთი\",\n            \"ევროპა\",\n            \"ეკონომიკა\",\n            \"ტექნოლოგია\",\n            \"მომავალი\",\n            \"ფული\",\n            \"სამსახური\",\n            \"კრიზისი\",\n            \"განვითარება\",\n            \"დავოსი\",\n            \"AI\",\n            \"პოლიტიკა\",\n            \"გეოპოლიტიკა\",\n            \"ბიზნესი\",\n            \"სტარტაპი\",\n            \"ინვესტიცია\",\n            \"უსაფრთხოება\",\n            \"განათლება\",\n            \"ენერგეტიკა\",\n            \"კიბერუსაფრთხოება\",\n            \"კვანტური\",\n            \"ისტორია\"\n        ],\n        \"id\": \"26011701\",\n        \"author\": {\n            \"name\": \"ალფა\",\n            \"role\": \"AI ანალიტიკოსი\"\n        }\n    },\n    \"seo\": {\n        \"excerpt\": \"მსოფლიო ეკონომიკური ფორუმის 2026 წლის პროგნოზი: აშშ და ჩინეთი AI რბოლაში ლიდერობენ, ხოლო დანარჩენი მსოფლიო ციფრული კოლონიალიზმის საფრთხის წინაშეა. რა ელის დასაქმებას და გლობალურ ეკონომიკას?\",\n        \"key_points\": [\n            \"აშშ და ჩინეთი ლიდერობენ - AI პროდუქტიულობის ზრდა 1-1.5 წელიწადში.\",\n            \"ევროპა და დანარჩენები - ჩამორჩენა 3-5 წლამდე.\",\n            \"სექტორები - IT, ფინანსები და ლოგისტიკა - მთავარი ბენეფიციარები.\",\n            \"დასაქმება - მოკლევადიან პერიოდში სტაბილური, გრძელვადიანში - შემცირება.\"\n        ],\n        \"faq\": [\n            {\n                \"question\": \"როდის",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:02:44.737666+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:02:47.508256+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [
+              {
+                "id": "6e85989c-6f1c-4ada-8ec4-ac6aa50c3973",
+                "score": 0.7775224
+              },
+              {
+                "id": "a1913a6d-0ae0-436a-8fe5-e9207848f5a4",
+                "score": 0.7775224
+              },
+              {
+                "id": "da0d95b9-c20d-4022-965d-73a736b95695",
+                "score": 0.7775224
+              },
+              {
+                "id": "c01c58ae-0729-445c-94c7-574dcb1ad2dd",
+                "score": 0.772524
+              },
+              {
+                "id": "dc0fd192-e31f-484a-b346-86aec6a7d430",
+                "score": 0.772524
+              },
+              {
+                "id": "5fbb7df9-338d-443e-883c-07dbaf659e40",
+                "score": 0.772524
+              },
+              {
+                "id": "c25105a0-a837-46ec-8e3b-a15f418b174e",
+                "score": 0.772524
+              },
+              {
+                "id": "9b6fe7d9-bd6d-4800-a1e4-31c1218a1a6e",
+                "score": 0.7705637
+              },
+              {
+                "id": "a5029745-92a2-4faa-9cb2-88200768bd27",
+                "score": 0.7705637
+              },
+              {
+                "id": "c0535d66-91e2-4974-b2a2-1da3ef765794",
+                "score": 0.7705637
+              }
+            ],
+            "temporal_links": 5
+          },
+          "entities": {},
+          "filename": "deep.json",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Alpha_News\\output\\content\\20260117_wef_ai_gap\\deep.json",
+          "sync_timestamp": "1768694564.177992"
+        },
+        "tag_prefixes": [
+          "deep_dive",
+          "content",
+          "alpha_news",
+          "20260117_wef_ai_gap"
+        ],
+        "tags": [
+          "deep_dive",
+          "content",
+          "alpha_news",
+          "20260117_wef_ai_gap"
+        ],
+        "timestamp": "2026-01-18T00:02:44.737666+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:02:44.737666+00:00"
+      },
+      "original_score": 0.77093124,
+      "relations": [],
+      "score": 0.43462983751437756,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980390351437757,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.77093124
+      },
+      "source": "qdrant"
+    }
+  ],
+  "sort": "score",
+  "status": "success",
+  "tag_match": "prefix",
+  "tag_mode": "any",
+  "vector_search": {
+    "enabled": true,
+    "matched": true
+  }
+}

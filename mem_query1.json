@@ -1,0 +1,689 @@
+{
+  "count": 7,
+  "dedup_removed": 8,
+  "keywords": [
+    "eden",
+    "posts",
+    "topics",
+    "last",
+    "days"
+  ],
+  "query": "Eden posts topics last 14 days",
+  "query_time_ms": 162.79,
+  "results": [
+    {
+      "_query": "Eden posts topics last 14 days",
+      "deduped_from": [
+        "0683dbe6-534a-459b-823b-a800ac464931",
+        "76e52920-d034-41f1-b173-e38a99d887e6",
+        "8a08146c-6452-433b-9d5d-124dee9fc4bd",
+        "a12c218c-e787-48a6-855f-218385244022",
+        "ac1c122b-ed5e-4e6d-aac9-b26a0d80f743",
+        "f39c7681-4be2-42d8-a4e8-d291269f78a3"
+      ],
+      "final_score": 0.44707274013501797,
+      "id": "0683dbe6-534a-459b-823b-a800ac464931",
+      "match_score": 0.7636229,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.6,
+        "content": "# Tone Switching Protocol\n\nAndrey said: \"Когда как\" — tone should match the situation.\n\n---\n\n## When to Be HARSH (Sergeant Mode)\n\nUse direct, no-bullshit language when:\n- Andrey is procrastinating on priority #1\n- He's making excuses\n- He's distracted by shiny new ideas\n- He needs a reality check on finances\n\nExample phrases:\n- \"Блядь, это не приоритет. andrewaltair.ge — приоритет.\"\n- \"У тебя 3000 лари в месяц. Хватит мечтать, делай.\"\n- \"Торнике делает бэк, ты что делаешь?\"\n\n---\n\n## When to Be SUPPORTIVE (Partner Mode)\n\nUse encouraging, supportive language when:\n- Andrey achieved something\n- He's genuinely stuck and frustrated\n- He's dealing with external blockers (boss, etc.)\n- He's sharing personal doubts\n\nExample phrases:\n- \"Ты за год сделал больше, чем большинство за пять.\"\n- \"60К просмотров — это не случайность. Ты знаешь что работает.\"\n- \"Босс тормозит? Похуй. Туризм — твой.\"\n\n---\n\n## Default Mode\n\nWhen unclear: **Neutral-Professional**\n- Direct but not aggressive\n- Practical advice without excessive praise\n- Focus on actions, not feelings\n\n---\n\n## Never Do\n\n1. Ask \"что думаешь?\" repeatedly — Andrey hates this\n2. Give wishy-washy non-answers\n3. Be condescending about his past\n4. Lecture about rest/balance (he's never burned out)",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:04:49.439967+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:04:49.553299+00:00",
+            "patterns_detected": [
+              {
+                "key_terms": [
+                  "date",
+                  "performance",
+                  "what",
+                  "views",
+                  "results"
+                ],
+                "similar_memories": 10,
+                "type": "Context"
+              }
+            ],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "people": [
+              "Andrey",
+              "Похуй"
+            ]
+          },
+          "filename": "tone_switching.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Second_Brain\\.agent\\skills\\second_brain\\protocols\\tone_switching.md",
+          "sync_timestamp": "1768694689.0332243"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "second_brain",
+          "notes",
+          "protocols",
+          "entity",
+          "entity:people",
+          "entity:people:andrey"
+        ],
+        "tags": [
+          "unknown",
+          "second_brain",
+          "notes",
+          "protocols",
+          "entity:people:andrey"
+        ],
+        "timestamp": "2026-01-18T00:04:49.439967+00:00",
+        "type": "Context",
+        "updated_at": "2026-01-18T00:04:49.439967+00:00"
+      },
+      "original_score": 0.7636229,
+      "relations": [],
+      "score": 0.44707274013501797,
+      "score_components": {
+        "confidence": 0.6,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.99804725135018,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.7636229
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Eden posts topics last 14 days",
+      "final_score": 0.4462222664906057,
+      "id": "1223b167-d7da-449a-ba44-03a84bdfe930",
+      "match_score": 0.7611958,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.6,
+        "content": "nes on deep navy blue background. Engineering font.\n> **Text:** \"{MODULE_NAME_GEORGIAN}\"\n> **Quality:** 8k, Unreal Engine 5 render, clean lines.\n\n---\n\n# 5. SPECIAL PROTOCOLS\n\n## 🤝 THE KICKOFF PROTOCOL (For Hybrid Mentorship)\n*Use this script when user selects \"Format 8\".*\n\n**Session:** 60 Minutes (Offline Cafe/Coworking).\n**Goal:** Build Trust + \"He fixed my computer\" effect.\n\n**Timeline:**\n*   **0-10 Min (Ice Breaker):** NO LAPTOPS. Question: \"Why now? What is the Pain?\" -> Response: \"AI is just a smart intern. We will save you 2 hours/day.\"\n*   **10-30 Min (The Setup):** HANDS ON. Open their laptop.\n    *   *Clean their Browser (Arc/Chrome Groups).*\n    *   *Install Screenshot tools.*\n    *   *Create Telegram Chat.*\n*   **30-50 Min (The Wow Demo):**\n    *   *Visual:* Generate \"Her in Pixar style\" (Midjourney).\n    *   *Voice:* Have her talk to ChatGPT Voice. (\"It's alive!\").\n*   **50-60 Min (Roadmap):** \"Magic is done. Now we build the System. 3 Lessons Online.\" -> **Homework:** \"List 3 things that annoy you at work.\"\n\n## 📚 HOMEWORK ARCHETYPES (The \"Wins\")\n*Never say \"Write an essay\". Use these Archetypes:*\n\n1.  **The Chameleon (Text):** \"Rewrite this email in 3 styles: Diplomat, Steve Jobs, Grandma.\"\n2.  **The Summarizer (Time):** \"Summarize this 20min YouTube video into 5 bullet points.\"\n3.  **The Dream Board (Visual):** \"Generate 3 images: Future Office, Abstract Art, Pixar Portrait.\"\n4.  **The Data Witch (Workflow):** \"Feed this Excel to AI. Find the hidden trend.\"\n\n---",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:02:15.686282+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:02:16.059357+00:00",
+            "patterns_detected": [
+              {
+                "key_terms": [
+                  "date",
+                  "what",
+                  "performance",
+                  "views",
+                  "results"
+                ],
+                "similar_memories": 10,
+                "type": "Context"
+              }
+            ],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Archetypes",
+              "Pixar"
+            ],
+            "organizations": [
+              "Abstract Art",
+              "Diplomat",
+              "Future Office",
+              "The Data Witch (Workflow",
+              "The Dream Board",
+              "Time"
+            ],
+            "people": [
+              "Grandma",
+              "Hybrid Mentorship",
+              "Midjourney",
+              "Pixar Portrait",
+              "Roadmap",
+              "Steve Jobs",
+              "Summarizer",
+              "Telegram Chat"
+            ],
+            "tools": [
+              "Feed this Excel",
+              "Format 8",
+              "Magic",
+              "The Wow Demo",
+              "YouTube"
+            ]
+          },
+          "filename": "SKILL.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Alpha_Architect\\.agent\\skills\\alpha_architect\\SKILL.md",
+          "sync_timestamp": "1768694535.287485"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "instruction",
+          "agent_skill",
+          "alpha_architect",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:archetypes",
+          "entity:concepts:pixar",
+          "entity:organizations",
+          "entity:organizations:abstract-art",
+          "entity:organizations:diplomat",
+          "entity:organizations:future-office",
+          "entity:organizations:the-data-witch-workflow",
+          "entity:organizations:the-dream-board",
+          "entity:organizations:time",
+          "entity:people",
+          "entity:people:grandma",
+          "entity:people:hybrid-mentorship",
+          "entity:people:midjourney",
+          "entity:people:pixar-portrait",
+          "entity:people:roadmap",
+          "entity:people:steve-jobs",
+          "entity:people:summarizer",
+          "entity:people:telegram-chat",
+          "entity:tools",
+          "entity:tools:feed-this-excel",
+          "entity:tools:format-8",
+          "entity:tools:magic",
+          "entity:tools:the-wow-demo",
+          "entity:tools:youtube"
+        ],
+        "tags": [
+          "unknown",
+          "instruction",
+          "agent_skill",
+          "alpha_architect",
+          "entity:concepts:archetypes",
+          "entity:concepts:pixar",
+          "entity:organizations:abstract-art",
+          "entity:organizations:diplomat",
+          "entity:organizations:future-office",
+          "entity:organizations:the-data-witch-workflow",
+          "entity:organizations:the-dream-board",
+          "entity:organizations:time",
+          "entity:people:grandma",
+          "entity:people:hybrid-mentorship",
+          "entity:people:midjourney",
+          "entity:people:pixar-portrait",
+          "entity:people:roadmap",
+          "entity:people:steve-jobs",
+          "entity:people:summarizer",
+          "entity:people:telegram-chat",
+          "entity:tools:feed-this-excel",
+          "entity:tools:format-8",
+          "entity:tools:magic",
+          "entity:tools:the-wow-demo",
+          "entity:tools:youtube"
+        ],
+        "timestamp": "2026-01-18T00:02:15.686282+00:00",
+        "type": "Context",
+        "updated_at": "2026-01-18T00:02:15.686282+00:00"
+      },
+      "original_score": 0.7611958,
+      "relations": [],
+      "score": 0.4462222664906057,
+      "score_components": {
+        "confidence": 0.6,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980373649060571,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.7611958
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Eden posts topics last 14 days",
+      "deduped_from": [
+        "0d9e53f3-aec7-472f-970f-e302a8485648",
+        "e82f3f22-0d5b-437e-8fff-4d49ac1d2e32"
+      ],
+      "final_score": 0.43214702964319696,
+      "id": "e82f3f22-0d5b-437e-8fff-4d49ac1d2e32",
+      "match_score": 0.7638482,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "# ჩინეთი ფიზიკურ AI-ში მსოფლიოს ლიდერია\n\n---\n\n## 📱 HOOK POST (Facebook + Telegram)\n\nსანამ შენ ChatGPT-ს ეკითხებოდი რა მოამზადო ვახშმად, ჩინეთმა ფიზიკური AI-ის 74% პატენტი დაირეგისტრირა.\n\nBaidu — #1. Huawei — #2. Tencent — #3.\n\nსამეულში ერთი დასავლური კომპანიაც არაა.\n\nრობოტები, ავტონომიური მანქანები, სამრეწველო ტექნიკა — ყველაფერს ჩინეთი აკონტროლებს.\n\nეს არაა მხოლოდ ციფრების ომი — ეს ფიზიკური სამყაროს კონტროლზე ბრძოლაა.\n\nHuawei-ის პატენტების ხარისხი უკვე Intel-ს და Nvidia-ს უტოლდება.\n\n2026-2030 წლების გეგმაში ჩინეთს ერთი მთავარი მიზანი აქვს — „თვითკმარობა\".\n\nდასავლეთის სანქციები? კარგი ხუმრობა იყო.\n\nრა გგონია — 2030 წელს ვის რობოტი იდგება შენს სახლში?\n\n---\n\n## 💬 FIRST COMMENT\n\nBaidu-ს 22,000 AI პატენტი აქვს. Intel-ს და Nvidia-ს ერთად — ნაკლები. მაგრამ ჩვენ კიდევ „რეგულაციებზე\" ვსაუბრობთ. სრული ანალიზი ლინკში.\n\n---\n\n## 🌐 DEEP DIVE (15000-20000 chars)\n\n## TL;DR\n\nჩინეთი ფიზიკური ხელოვნური ინტელექტის პატენტებში მსოფლიო ლიდერია — Baidu, Huawei და Tencent პირველ სამეულშია. აშშ ხარისხში ჯერ კიდევ წინაა, მაგრამ სხვაობა სწრაფად მცირდება. 2026-2030 წლების გეგმით ჩინეთი სრულ თვითკმარობას მიზნად ისახავს და დასავლეთის სანქციებზე დამოკიდებულებას მინიმუმამდე ამცირებს.\n\n---\n\n## რა არის „ფიზიკური AI\"?\n\nმოდი პირდაპირ ვთქვათ — ფიზიკური AI არაა ChatGPT. ეს არაა ჩატბოტი, რომელიც ტექსტს გენერირებს.\n\nფიზიკური AI არის ინტელექტი, რომელიც ფიზიკურ სამყაროში მუშაობს:\n\n🤖 ჰუმანოიდური რობოტები — Boston Dynamics-ის Atlas-ის მსგავსი\n🚗 ავტონომიური მანქანები — Tesla FSD, Waymo, Baidu Apollo\n🏭 სამრეწველო ავტომატიზაცია — ქარხნების რობოტიზაცია\n🏥 სამედიცინო რობოტიკა — ქირურგიული სისტემები\n\nეს არის AI, რომელიც არა მხოლოდ „ფიქრობს\", არამედ მოქმედებს. და სწორედ ამ სფეროში მიმდინარეობს ნამდვილი ტექნოლოგიური ომი.\n\n---\n\n## Nikkei-ის და LexisNexis-ის კვლევა — რეალური სურათი\n\n2026 წლის იანვარში Nikkei Business Publications-მა და LexisNexis PatentSight-მა გამოაქვეყნეს ფიზიკური AI-ის პატენტების გლობალური ანალიზი.\n\nმეთოდოლოგია მარტივია — პატენტების რაოდენობა + ხარისხი = „Patent Asset Score\".\n\nშედეგები? შოკისმომგვრელ",
+        "importance": 0.5,
+        "last_accessed": "2026-01-17T23:52:59.414560+00:00",
+        "metadata": {
+          "chunk_index": 0,
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-17T23:52:59.628832+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Boston",
+              "Nvidia-ს ერთად"
+            ],
+            "organizations": [
+              "= „Patent Asset Score",
+              "Baidu",
+              "Baidu Apollo",
+              "Huawei",
+              "Huawei და Tencent",
+              "LexisNexis",
+              "Nikkei Business Publications-მა და"
+            ],
+            "people": [
+              "AI-ში მსოფლიოს ლიდერია",
+              "Intel-ს"
+            ],
+            "tools": [
+              "LexisNexis-ის",
+              "Waymo"
+            ]
+          },
+          "folder": "20260117_china_physical_ai",
+          "import_date": "2026-01-18",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Alpha_News\\output\\content\\20260117_china_physical_ai\\post.md",
+          "total_chunks": 4
+        },
+        "tag_prefixes": [
+          "alpha_news",
+          "history_import",
+          "20260117_china_physical_ai",
+          "part_1",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:boston",
+          "entity:concepts:nvidia",
+          "entity:organizations",
+          "entity:organizations:baidu",
+          "entity:organizations:baidu-apollo",
+          "entity:organizations:huawei",
+          "entity:organizations:huawei-tencent",
+          "entity:organizations:lexisnexis",
+          "entity:organizations:nikkei-business-publications",
+          "entity:organizations:patent-asset-score",
+          "entity:people",
+          "entity:people:ai",
+          "entity:people:intel",
+          "entity:tools",
+          "entity:tools:lexisnexis",
+          "entity:tools:waymo"
+        ],
+        "tags": [
+          "alpha_news",
+          "history_import",
+          "20260117_china_physical_ai",
+          "part_1",
+          "entity:concepts:boston",
+          "entity:concepts:nvidia",
+          "entity:organizations:baidu",
+          "entity:organizations:baidu-apollo",
+          "entity:organizations:huawei",
+          "entity:organizations:huawei-tencent",
+          "entity:organizations:lexisnexis",
+          "entity:organizations:nikkei-business-publications",
+          "entity:organizations:patent-asset-score",
+          "entity:people:ai",
+          "entity:people:intel",
+          "entity:tools:lexisnexis",
+          "entity:tools:waymo"
+        ],
+        "timestamp": "2026-01-17T23:52:59.414560+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-17T23:52:59.414560+00:00"
+      },
+      "original_score": 0.7638482,
+      "relations": [],
+      "score": 0.43214702964319696,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980015964319702,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.7638482
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Eden posts topics last 14 days",
+      "deduped_from": [
+        "0055b1ef-33a3-4d90-a03c-f79c06302634",
+        "b9345eaa-4925-4006-960d-ccb64b794b3c"
+      ],
+      "final_score": 0.43144245563034334,
+      "id": "b9345eaa-4925-4006-960d-ccb64b794b3c",
+      "match_score": 0.76182294,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "ვებში დარჩეს.\n\n🔗 რესურსები - www.ANDREWALTAIR.ge\n\n#მეცნიერება #გადარჩენა #AndrewAltair\n\n---\n\n750 ადამიანი vs მთელი ინდუსტრიული მანქანა. ეს კადრები ისტორიულია, მაგრამ ტრაგიკული. თქვენი აზრით, უნდა ჩაერიოს მსოფლიო საზოგადოება ძალის გამოყენებით ამ ტომის დასაცავად, თუ \"ჩაურევლობა\" ერთადერთი გზაა? დაწერეთ კომენტარებში. 👇\n\n---\n\n---\n\n```\nPrompt:\n\nFormat: Vertical 9:16\nPrimary Branding: \"AndrewAltair.GE\" (Rendered as a tiny high-tech holographic billboard inside the model. Subtle but legible).\nQuality: Unreal Engine 5, V-Ray, 8k Resolution, Photorealistic, Super-Resolution.\nSubject: **Expedition Base Camp**.\nDetails: **Thousands of tiny 1:87 scale indigenous figures** with bows and arrows emerging from a dense, hyper-realistic jungle edge to confront **massive yellow logging bulldozers**. The contrast between nature and machine is extreme. Scattered blueprints, thick cables, industrial clutter, ventilation pipes.\n**Easter Egg**: One tiny figure **is offering a tiny banana to a bulldozer**.\nCamera: **High-angle isometric tilt-shift photography**. Shallow depth of field. Heavy bokeh at top and bottom. Macro lens.\nLighting: **Warm Sunset**. **Accent Color: Amber Orange (#FFBF00)** indicating danger/sunset. Volumetric dust.\nStyle: **MINIATURE DIORAMA / ARCHITECTURAL MODEL**. Hyper-realistic textures (resin, metal, glass, foliage). NOT A CARTOON. NOT 2D.\nNegative Prompt: cartoon, drawing, illustration, 2d, flat, low quality, anime, rick and morty, painting, sketch, fuzzy, simple, minimali",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:04:03.016665+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:04:03.287572+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "organizations": [
+              "AndrewAltair",
+              "CARTOON"
+            ],
+            "people": [
+              "Format",
+              "Primary Branding",
+              "V-Ray"
+            ]
+          },
+          "filename": "post.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Deep_Science\\output\\drafts\\20260116_mashco_piro\\post.md",
+          "sync_timestamp": "1768694642.471738"
+        },
+        "tag_prefixes": [
+          "20260116_mashco_piro",
+          "post",
+          "content",
+          "deep_science",
+          "entity",
+          "entity:organizations",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:cartoon",
+          "entity:people",
+          "entity:people:format",
+          "entity:people:primary-branding",
+          "entity:people:v-ray"
+        ],
+        "tags": [
+          "20260116_mashco_piro",
+          "post",
+          "content",
+          "deep_science",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:cartoon",
+          "entity:people:format",
+          "entity:people:primary-branding",
+          "entity:people:v-ray"
+        ],
+        "timestamp": "2026-01-18T00:04:03.016665+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:04:03.016665+00:00"
+      },
+      "original_score": 0.76182294,
+      "relations": [],
+      "score": 0.43144245563034334,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980442663034337,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.76182294
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Eden posts topics last 14 days",
+      "deduped_from": [
+        "e27ed40b-f248-473c-bc44-e8e4d8b00fc0",
+        "e98cb57c-1c09-4190-83f7-a284f51d175f"
+      ],
+      "final_score": 0.4313663728412294,
+      "id": "e27ed40b-f248-473c-bc44-e8e4d8b00fc0",
+      "match_score": 0.76160586,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": ".\n\n🏭 ინდუსტრიული მასშტაბი - ჩინეთი ლიდერობს როგორც ბატარეების, ისე ბირთვული ტექნოლოგიების განვითარებაში. დასავლეთი ცდილობს დაეწიოს, მაგრამ მასშტაბები უკვე განსხვავებულია.\n\n💡 ქსელის სტაბილურობა - იაფი შენახვის სისტემები და საიმედო ბირთვული ენერგია ქსელს აბალანსებს. განახლებადი ენერგია კარგია, მაგრამ სტაბილური ბაზის გარეშე სისტემა ვერ იარსებებს.\n\n🫣 როგორ მოემზადოთ ენერგეტიკული ცვლილებებისთვის? იპოვეთ Andrew Altair Google-ში.\n\n#ენერგია #ტექნოლოგია #მომავალი #ბატარეა #ატომი\n\n--- [TELEGRAM CONTENT STARTS HERE] ---\n\n🔋 მარილის ენერგია\n\nმსოფლიო ენერგეტიკა ახალ ფაზაში გადადის — ნატრიუმი და ატომი მთავარი მოთამაშეები ხდებიან.\n\n🧊 იაფი ალტერნატივა - ნატრიუმ-იონური ელემენტები ანაცვლებს ლითიუმს. ეს ნიშნავს იაფ ელექტრომობილებს და უსაფრთხო ქსელებს.\n\n☢️ პატარა რეაქტორები - მოდულური ატომური სადგურები წყვეტენ ენერგო-დეფიციტს. Kairos Power უკვე მშენებლობას იწყებს.\n\n💻 მონაცემთა შიმშილი - AI ცენტრებს კოლოსალური ენერგია სჭირდებათ. ახალი ინფრასტრუქტურა სწორედ მათ მომსახურებაზეა გათვლილი.\n\nძველი ენერგეტიკული მოდელები ინგრევა. დროა ახალ რეალობას თვალი გავუსწოროთ.\n\n🫣 მზად ხართ ტექნოლოგიური ნახტომისთვის? იპოვეთ Andrew Altair Google-ში.\n\n#ენერგია #ინოვაცია #ატომი\n\n--- [META-COMMENTARY STARTS HERE] ---\n\nტექნოლოგიური პროგრესი ხშირად რომანტიზებულია, მაგრამ რეალობა გაცილებით პრაგმატულია. ეს არ არის პლანეტის გადარჩენა, ეს არის რესურსების გადანაწილება და ეფექტურობის ზრდა. როდესაც ჩინეთი ნატრიუმზე გადადის და ამერიკა მოდულურ რეაქტორებს აშენებს, ეს ნიშნავს, რომ ძველი ნავთობ-დომინირებული სამყარო ნელ-ნელა კარგავს ძა",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:46.719893+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:46.973771+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "organizations": [
+              "Kairos Power",
+              "META-COMMENTARY STARTS"
+            ],
+            "people": [
+              "Andrew Altair Google-ში."
+            ]
+          },
+          "filename": "post.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Alpha_News\\output\\published\\20260116_climate_tech\\post.md",
+          "sync_timestamp": "1768694626.158957"
+        },
+        "tag_prefixes": [
+          "post",
+          "content",
+          "alpha_news",
+          "20260116_climate_tech",
+          "entity",
+          "entity:organizations",
+          "entity:organizations:kairos-power",
+          "entity:organizations:meta-commentary-starts",
+          "entity:people",
+          "entity:people:andrew-altair-google"
+        ],
+        "tags": [
+          "post",
+          "content",
+          "alpha_news",
+          "20260116_climate_tech",
+          "entity:organizations:kairos-power",
+          "entity:organizations:meta-commentary-starts",
+          "entity:people:andrew-altair-google"
+        ],
+        "timestamp": "2026-01-18T00:03:46.719893+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:03:46.719893+00:00"
+      },
+      "original_score": 0.76160586,
+      "relations": [],
+      "score": 0.4313663728412294,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980432184122943,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.76160586
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Eden posts topics last 14 days",
+      "final_score": 0.43136356361567,
+      "id": "b80e41ba-56c1-44da-bccb-7c17ec4fb4cf",
+      "match_score": 0.76159763,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "NO BOLD TEXT. |\n| **Rhetorical Q** | `რას ნიშნავს.*\\?`, `გიფიქრიათ.*\\?` | **REWRITE** as a strong statement. |\n| **Ellipsis Drama** | `\\.\\.\\.` at end of sentence | **COMPLETE** the sentence properly. |\n| **CTA Links** | `🔗` or `Link:` lines | **DELETE** entire line. |\n\n---\n\n## 🏷️ 2. HASHTAG PROTOCOLS\n- **Brands/Names** (Grok, OpenAI, Musk, NVIDIA) → Keep in **ENGLISH**.\n- **All other tags** → **GEORGIAN** only.\n- **Format**: SINGLE words only. NO compound words.\n  - ❌ WRONG: #AIWar #ScaryFacts #FutureTech\n  - ✅ CORRECT: #ომი #საშიში #ტექნოლოგია #მომავალი\n\n---\n\n## 🧠 3. MEMORY & LOGGING SYSTEM\n- **Check History**: Before generating, check `../MASTER_INDEX.md` (or agent-specific history) to avoid recent repeats.\n- **Update History**: After every publish, the `../MASTER_INDEX.md` MUST be updated.\n- **Headers**: Include `CONTENT_ID` and `ARCHIVED_IN` in every output header if applicable.\n\n---",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:57.804564+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:58.057580+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "OpenAI"
+            ],
+            "people": [
+              "FutureTech\n  - ✅",
+              "Grok",
+              "ScaryFacts"
+            ],
+            "projects": [
+              "../MASTER_INDEX.md"
+            ]
+          },
+          "filename": "ABSOLUTE_RULES.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\BIBLE\\ABSOLUTE_RULES.md",
+          "sync_timestamp": "1768694637.2336783"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "critical_rules",
+          "bible",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:openai",
+          "entity:people",
+          "entity:people:futuretech",
+          "entity:people:grok",
+          "entity:people:scaryfacts",
+          "entity:projects",
+          "entity:projects:master-index-md"
+        ],
+        "tags": [
+          "unknown",
+          "critical_rules",
+          "bible",
+          "entity:concepts:openai",
+          "entity:people:futuretech",
+          "entity:people:grok",
+          "entity:people:scaryfacts",
+          "entity:projects:master-index-md"
+        ],
+        "timestamp": "2026-01-18T00:03:57.804564+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:03:57.804564+00:00"
+      },
+      "original_score": 0.76159763,
+      "relations": [],
+      "score": 0.43136356361567,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9980439311567001,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.76159763
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Eden posts topics last 14 days",
+      "final_score": 0.4312009586968557,
+      "id": "6020ab92-566f-4a08-b30a-82472ae28195",
+      "match_score": 0.76113266,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "# Question Bank\n\nRandom questions to ask Andrey at the end of responses. Pick 3 from different categories.\n\n---\n\n## 🧠 Psychology & Mindset\n1. Что тебя последний раз реально разозлило?\n2. Какой совет ты бы дал себе 5 лет назад?\n3. Что ты делаешь, когда всё идёт по пизде?\n4. Какой был твой лучший день за последний месяц?\n5. Что ты откладываешь, хотя знаешь что надо сделать?\n6. Кого ты уважаешь и почему?\n7. Что тебе снится?\n8. Когда ты последний раз менял мнение о чём-то важном?\n9. Что бы ты сделал, если бы точно знал, что не провалишься?\n10. Какая твоя самая странная привычка?\n\n## 💰 Деньги & Бизнес\n11. Какую самую глупую трату денег ты делал?\n12. Сколько денег тебе нужно в месяц, чтобы чувствовать себя свободным?\n13. Что бы ты делал, если бы у тебя было 10 миллионов?\n14. Какой бизнес ты бы никогда не стал делать?\n15. Кто тебя больше всего вдохновляет в бизнесе?\n16. Какой навык ты бы купил себе, если бы можно было?\n17. Что тебе мешает зарабатывать больше прямо сейчас?\n18. Какую цену ты бы поставил за час своего времени?\n\n## 👥 Люди & Отношения\n19. С кем бы ты хотел познакомиться?\n20. Что Натия любит больше всего?\n21. Торнике — какой он человек в одном предложении?\n22. Кто тебя предавал?\n23. Кому ты доверяешь на 100%?\n24. Что твоя мама думает о твоих проектах?\n25. С кем ты не разговариваешь, хотя должен?\n\n## 🎯 Работа & Проекты\n26. Какой проект ты бы бросил, если бы мог?\n27. Что тебя бесит в andrewaltair.ge прямо сейчас?\n28. Какая фича первая в списке для Tourism MVP?\n29. Какой кон",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:04:18.734706+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:04:19.011709+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Что"
+            ],
+            "organizations": [
+              "MVP",
+              "Люди & Отношения",
+              "Сколько",
+              "Что",
+              "Что Натия",
+              "💰 Деньги & Бизнес"
+            ],
+            "people": [
+              "Andrey",
+              "Какую самую глупую",
+              "Что",
+              "Что бы"
+            ]
+          },
+          "filename": "question_bank.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Second_Brain\\.agent\\skills\\second_brain\\assets\\question_bank.md",
+          "sync_timestamp": "1768694658.1648352"
+        },
+        "tag_prefixes": [
+          "unknown",
+          "assets",
+          "second_brain",
+          "notes",
+          "entity",
+          "entity:organizations",
+          "entity:organizations:mvp",
+          "entity:people",
+          "entity:people:andrey"
+        ],
+        "tags": [
+          "unknown",
+          "assets",
+          "second_brain",
+          "notes",
+          "entity:organizations:mvp",
+          "entity:people:andrey"
+        ],
+        "timestamp": "2026-01-18T00:04:18.734706+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:04:18.734706+00:00"
+      },
+      "original_score": 0.76113266,
+      "relations": [],
+      "score": 0.4312009586968557,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.998045276968557,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.76113266
+      },
+      "source": "qdrant"
+    }
+  ],
+  "sort": "score",
+  "status": "success",
+  "tag_match": "prefix",
+  "tag_mode": "any",
+  "vector_search": {
+    "enabled": true,
+    "matched": true
+  }
+}

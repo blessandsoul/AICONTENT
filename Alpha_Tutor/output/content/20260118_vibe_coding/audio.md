@@ -1,0 +1,1 @@
+[Mood: Futuristic/Technological/Determined], [Genre: Synthwave/Cyberpunk/Lo-Fi Beats], Deep Analog Bass, Neon Synth Arpeggios, Digital Glitch Effects, Steady Driving Rhythm, [Atmosphere: Focused/Productive/Inspiring], Futuristic Soundscapes, Clean Production, Background Music for Coding Tutorial, High Fidelity, Instrumental Mix, 60 seconds

@@ -1,0 +1,1 @@
+[Mood: Existential/Cold/Sterile], [Genre: Dark Ambient/Industrial Drone], Clinical Beeps, Nitrogen Hiss, Slow Heartbeat Fading, [Atmosphere: Medical Horror/Futuristic/Isolated], Digital Glitch, Hollow Echoes, Minimalist, Background Music for Euthanasia Tech Documentary, High Fidelity, Cinematic Mix, 60 seconds

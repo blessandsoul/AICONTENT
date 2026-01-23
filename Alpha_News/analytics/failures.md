@@ -25,6 +25,10 @@ Track what didn't work to avoid repeating mistakes.
 
 | 2026-01-17 | ChatGPT Go | System | - | **SHORT FACEBOOK POST**: Generated 2793 chars instead of required 3500+. Body paragraphs too short (2-3 sentences instead of 5-8). **ROOT CAUSE**: Did not follow `output_structure.md` rule "Each body paragraph MUST be 5-8 sentences". **FIX**: (1) Added automated CHARACTER LENGTH VALIDATION to `GLOBAL_VALIDATOR.ps1` — now checks FB >= 3500 chars, TG >= 750 chars. (2) Expanded post with additional sentences per paragraph. |
 | 2026-01-17 | WEF AI Productivity | System | - | **Contrast Trap Missed**: Validator missed "Not X, but Y" rhetorical structure. **FIX**: Manual correction. Validator regex needs update. |
+| 2026-01-20 | SnapGen++ | System | - | **FORMATTING VIOLATION**: Used `**` (asterisks) in `deep.json` content fields and English hashtags in `post.md` despite strict bans. **ROOT CAUSE**: Model muscle memory for Markdown formatting overrode negative constraints. **FIX**: Manual removal. Strict pre-validation step required for forbidden characters. |
+| 2026-01-20 | SnapGen++ | System | - | **ENGLISH JSON TAGS**: `meta.tags` array contained English terms (Technology, MobileAI). **ROOT CAUSE**: Validator checked `post.md` hashtags but ignored `deep.json` tags array. **FIX**: Manually translated tags. Validator script needs update to parse and check JSON arrays for English characters. |
+
+| 2026-01-23 | AI Depression | System | - | **VISUAL STYLE MISMATCH**: visuals.md used generic abstract/deep science visuals instead of required /alpha Looney Tunes protocol. **ROOT CAUSE**: Failed to check specific /alpha style guide before generating visuals. **FIX**: Rewrote visuals.md to feature Wile E. Coyote and Road Runner symbolism. |
 
 *Add entries after analyzing failed posts*
 

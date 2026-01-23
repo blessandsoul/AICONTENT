@@ -1,0 +1,12 @@
+🔍 Сканирую по БИБЛИИ...
+🔍 Сканирую по ALPHA NEWS протоколам...
+
+═══════════════════════════════════════════════════
+  GLOBAL VALIDATOR - Alpha | c:\Users\User\Desktop\AICONTENT\Alpha_News\output\published\20260120_snapgen\post.md
+═══════════════════════════════════════════════════
+
+🚨 НАРУШЕНИЙ: 1
+
+❌ [BIBLE] BARBARISM DETECTED: 'data'. Use Georgian equivalent! (Checking linguistic_rules.md)❌ [BIBLE] BOLD TEXT: ** обнаружено. Удали жирный текст.❌ [BIBLE] GAMER SLANG: 'nerfed/buffed/OP/broken' запрещены. Будь профессионалом.⚠️ [BIBLE] LONG ENGLISH: Найден длинный английский текст. Контент должен быть на грузинском!⚠️ [BIBLE] LONG ENGLISH: Найден длинный английский текст. Контент должен быть на грузинском!⚠️ [BIBLE] LONG ENGLISH: Найден длинный английский текст. Контент должен быть на грузинском!❌ [BIBLE] ENGLISH HASHTAGS: Только грузинские хэштеги! Замени: #SnapGen, #TechRevolution, #MobileAI, #FutureTech, #Innovation, #Snapchat, #Technology, #DeepFakes, #CyberPunk
+
+ИСПРАВЬ ПЕРЕД ПУБЛИКАЦИЕЙ!

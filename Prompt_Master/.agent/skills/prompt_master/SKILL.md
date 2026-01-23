@@ -174,13 +174,29 @@ Generate a short, engaging first comment (2-3 sentences) in Georgian.
 
 ---
 
-## [7. OUTPUT STRUCTURE]
+## [7. SOC.MD GENERATION]
+
+Generate `soc.md` containing exactly these 5 viral lines in **ALPHA-STYLE GEORGIAN** (Tailor content to the prompt):
+
+1. **[Number] მილიონი+ ნახვა (მოიპარეთ იდეა) 👇**
+   *(Example: 44 მილიონი+ ნახვა (მოიპარეთ იდეა) 👇)*
+2. **👇 ერთი AI კადრი = ვირუსული ეფექტი**
+   *(Alternative: ერთი კადრი = ვირუსული აფეთქება)*
+3. **ალგორითმი [Context/Genre] კადრებს წინ „აგდებს“**
+   *(Example: ალგორითმი ნოსტალგიურ კადრებს წინ „აგდებს“)*
+4. **[Short dramatic sentence]. [Short sentence]. [One Focus].**
+   *(Example: დავიწყებული ლეგენდა. სრული სიბნელე. ერთი ფანარი.)*
+
+---
+
+## [8. OUTPUT STRUCTURE]
 
 ```
 Prompt_Master/output/content/YYYYMMDD_short_name/
 ├── post.md          # Full SMM post with prompt block
 ├── prompt.md        # Clean Midjourney prompt only
 ├── comment.md       # First comment for social
+├── soc.md           # Viral hooks and headlines
 └── results.md       # Performance tracking
 ```
 

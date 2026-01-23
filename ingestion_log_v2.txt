@@ -1,0 +1,69 @@
+🎵 Processing TikTok Stats: Content.csv
+   Processing: 🏭 მეოთხე რევოლუცია დაიწყო ჯენსენ ჰუანგმა... | 0 views -> FLOP
+   ✅ Insight added for: 🏭 მეოთხე რევოლუცია დაიწყო ჯენს
+   Processing: ☠️ Grok პენტაგონში: ციფრული მონსტრი სამხ... | 0 views -> FLOP
+   ✅ Insight added for: ☠️ Grok პენტაგონში: ციფრული მო
+   Processing: 🚨 Grok-ის შიშველი" ტერორი თქვენი სახე... | 0 views -> FLOP
+   ✅ Insight added for: 🚨 Grok-ის შიშველი" ტერორი თქვე
+   Processing: 🔞 Grok-მა ეთიკა გაიხადა ელონ მასკის მეამ... | 0 views -> FLOP
+   ✅ Insight added for: 🔞 Grok-მა ეთიკა გაიხადა ელონ მ
+   Processing: 🧠 Merge Labs" - ადამიანის ტვინის დასასრუ... | 0 views -> FLOP
+   ✅ Insight added for: 🧠 Merge Labs" - ადამიანის ტვინ
+   Processing: 🛑 გროკის ნუდები" დასრულდა? ილონ მასკმა მ... | 0 views -> FLOP
+   ✅ Insight added for: 🛑 გროკის ნუდები" დასრულდა? ილო
+   Processing: ⏳ აპოკალიფსი გრაფიკშია კაცობრიობის განად... | 2030 views -> NEUTRAL
+   ✅ Insight added for: ⏳ აპოკალიფსი გრაფიკშია კაცობრი
+   Processing: 💔 ურთიერთობა კოდთან: ადამიანური ურთიერთო... | 40 views -> FLOP
+   ✅ Insight added for: 💔 ურთიერთობა კოდთან: ადამიანურ
+   Processing: Google-მა და Character.AI-მ აღიარეს: თქვ... | 0 views -> FLOP
+   ✅ Insight added for: Google-მა და Character.AI-მ აღ
+   Processing: ☠️ ციფრული კანიბალიზმი: Mercor-ი გიხდით,... | 0 views -> FLOP
+   ✅ Insight added for: ☠️ ციფრული კანიბალიზმი: Mercor
+   Processing: 💊 AI კაიფში": ციფრული ნარკოტიკების ბაზარ... | 0 views -> FLOP
+   ✅ Insight added for: 💊 AI კაიფში": ციფრული ნარკოტიკ
+   Processing: 2-3? 👩‍🏫 #ფორიუ #fyp #viral #მათემატიკა... | 259884 views -> WIN
+   ✅ Insight added for: 2-3? 👩‍🏫 #ფორიუ #fyp #viral #მ
+   Processing: 🤖 სასიკვდილო თამაში თქვენი მასწავლებელი ... | 0 views -> FLOP
+   ✅ Insight added for: 🤖 სასიკვდილო თამაში თქვენი მას
+   Processing: 🍅 Claude: სიცოცხლისა და სიკვდილის ზღვარზ... | 0 views -> FLOP
+   ✅ Insight added for: 🍅 Claude: სიცოცხლისა და სიკვდი
+   Processing: თქვენი მეორე ნახევარი" სტატისტიკური ცდომ... | 0 views -> FLOP
+   ✅ Insight added for: თქვენი მეორე ნახევარი" სტატისტ
+   ✅ Processed 15 items.
+📘 Processing Facebook Stats: Jan-13-2026_Jan-20-2026_Контент_Время публикации_Сводка_1356746416227915.csv
+   Processing: 🚫 Grok-ის "შიშველი" ტერორი: მასკის AI კა... | 9302 views -> NEUTRAL
+   ✅ Insight added for: 🚫 Grok-ის "შიშველი" ტერორი: მა
+   Processing: ☠️ Grok პენტაგონში: ციფრული მონსტრი სამხ... | 35412 views -> WIN
+   ✅ Insight added for: ☠️ Grok პენტაგონში: ციფრული მო
+   Processing: 🧠 "Merge Labs" - ადამიანის ტვინის დასასრ... | 16145 views -> WIN
+   ✅ Insight added for: 🧠 "Merge Labs" - ადამიანის ტვი
+   Processing: 🛑 გროკის "ნუდები" დასრულდა  ილონ მასკმა ... | 201 views -> FLOP
+   ❌ Failed to add insight: {"code":400,"message":"Content exceeds maximum length of 2000 characters (2761 provided). Please split into smaller memories or summarize.","status":"error"}
+
+   Processing: 🏹 ბოლო კონტაქტი - 750 ადამიანის ბედი  ამ... | 2473 views -> NEUTRAL
+   ❌ Failed to add insight: {"code":400,"message":"Content exceeds maximum length of 2000 characters (2270 provided). Please split into smaller memories or summarize.","status":"error"}
+
+   Processing: 🚗 სწრაფი და… სულელი?  თქვენ გგონიათ, რომ... | 182 views -> FLOP
+   ❌ Failed to add insight: {"code":400,"message":"Content exceeds maximum length of 2000 characters (2879 provided). Please split into smaller memories or summarize.","status":"error"}
+
+   Processing: 🦈 SHARK WALKER — სიურეალიზმის მეფე  ✨ წა... | 208 views -> FLOP
+   ✅ Insight added for: 🦈 SHARK WALKER — სიურეალიზმის 
+   Processing: 🛑 გროკის "ნუდები" დასრულდა? ილონ მასკმა ... | 13418 views -> WIN
+   ✅ Insight added for: 🛑 გროკის "ნუდები" დასრულდა? ილ
+   Processing: 🌅 ბაღის ესთეტიკა  ✨ აღმოაჩინეთ ბუნებისა ... | 213 views -> FLOP
+   ✅ Insight added for: 🌅 ბაღის ესთეტიკა  ✨ აღმოაჩინეთ
+   Processing: 📉 აშშ-ს ეკონომიკაში AI პროდუქტიულობის ზრ... | 178 views -> FLOP
+   ✅ Insight added for: 📉 აშშ-ს ეკონომიკაში AI პროდუქტ
+   Processing: 👩‍🔬 300,000 ორსულის მონაცემებმა ბოლო მოუ... | 193 views -> FLOP
+   ✅ Insight added for: 👩‍🔬 300,000 ორსულის მონაცემებმ
+   Processing: 🛑 შენი წარმოდგენა სიცოცხლეზე მოძველდა. ი... | 32497 views -> WIN
+   ✅ Insight added for: 🛑 შენი წარმოდგენა სიცოცხლეზე მ
+   Processing: 1. 44 მილიონი+ ნახვა (მოიპარეთ იდეა) 👇 2... | 334 views -> FLOP
+   ✅ Insight added for: 1. 44 მილიონი+ ნახვა (მოიპარეთ
+   Processing: 🛑 შეწყვიტე ფულის გადაყრა! შენ გატყუებენ ... | 7093 views -> NEUTRAL
+   ✅ Insight added for: 🛑 შეწყვიტე ფულის გადაყრა! შენ 
+   Processing: ⚠️ @подписчики ⚠️ საგანგებო გაფრთხილება ... | 3280 views -> NEUTRAL
+   ✅ Insight added for: ⚠️ @подписчики ⚠️ საგანგებო გა
+   Processing: უმუშევრობა ბიზნესი გახდა. სან-ფრანცისკოშ... | 1758 views -> NEUTRAL
+   ✅ Insight added for: უმუშევრობა ბიზნესი გახდა. სან-
+   ✅ Processed 16 items.

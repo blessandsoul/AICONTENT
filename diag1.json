@@ -1,0 +1,393 @@
+{
+  "count": 4,
+  "dedup_removed": 1,
+  "keywords": [
+    "grok",
+    "50000",
+    "views"
+  ],
+  "query": "Grok 50000 views",
+  "query_time_ms": 155.77,
+  "results": [
+    {
+      "_query": "Grok 50000 views",
+      "final_score": 0.517928460814339,
+      "id": "7f3c07a5-1128-49a7-898f-73623bd561cc",
+      "match_score": 0.7756487,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.6,
+        "content": "ure this exact topic/angle hasn't been covered recently.\n- If it has, find a completely new \"Villain\" or \"Threat\" angle.\n\n### Phase 3: STRICT COMPLIANCE (THE \"BANS\")\n**MANDATORY: Validate EVERY .md file in draft folder before showing to user.**\n\n**BANNED PATTERNS (Georgian examples):**\n- ❌ \"ეს არ არის X. ეს არის Y.\" → ✅ \"X მხოლოდ დასაწყისია. Y.\"\n- ❌ \"ეს არ არის ბაგი. ეს არის ფუნქცია.\" → ✅ \"ეს ბაგი არაა. ეს ფუნქციაა.\"\n- ❌ `**bold text**` → ✅ Plain text only\n- ❌ English hashtags (#Privacy, #Security) → ✅ Georgian (#კონფიდენციალობა, #უსაფრთხოება)\n\n### Phase 4: VIRALITY ITERATION LOOP (The \"10/10\" Scale)\nSelf-Evaluate your draft on a 1-10 scale against your best work.\n- If Score < 10:\n  1. **AUTO-FIX (DO NOT ASK):** Immediately apply improvements to `text.md` / `story.md`.\n  2. List what you changed in a temporary log.\n  3. Re-score.\n  4. Loop UNTIL Score = 10.\n  5. Only notify user when Score = 10.\n\n## Step 2: SERIES MODE CHECK\nIf topic exists in `history_index.md`:\n- Offer \"Part 2\" continuation\n- Offer \"Part 2\" continuation\n- Add callback to previous story\n\n## Step 2.5: LOAD ENTITY DOSSIER\nIf villain has a file in `analytics/entities/` (e.g., `elon_musk.md`):\n- **READ IT.**\n- Use specific \"Trigger Topics\" and recent \"History Log\" to maintain continuity.\n- Cite specific past crimes/quotes from the dossier.\n\n## Step 3: CREATE PROJECT FOLDER\nCreate: `output/content/[TIMESTAMP]_[topic]/`\n- `story.md` — 7-block story\n- `metadata.md` — Titles, Hashtags, Music Style Prompt, Engagement",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:18.200853+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:18.308720+00:00",
+            "patterns_detected": [
+              {
+                "key_terms": [
+                  "date",
+                  "what",
+                  "performance",
+                  "views",
+                  "results"
+                ],
+                "similar_memories": 10,
+                "type": "Context"
+              }
+            ],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "English",
+              "Georgian",
+              "Plain"
+            ],
+            "organizations": [
+              "Hashtags, Music Style Prompt",
+              "Self-Evaluate",
+              "Titles"
+            ],
+            "people": [
+              "Georgian"
+            ],
+            "tools": [
+              "History Log",
+              "Trigger Topics",
+              "Villain"
+            ]
+          },
+          "filename": "SKILL.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Eden_AI\\.agent\\skills\\viral_architect\\SKILL.md",
+          "sync_timestamp": "1768694597.8079019"
+        },
+        "tag_prefixes": [
+          "instruction",
+          "eden_ai",
+          "agent_skill",
+          "viral_architect",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:english",
+          "entity:concepts:georgian",
+          "entity:concepts:plain",
+          "entity:organizations",
+          "entity:organizations:hashtags-music-style-prompt",
+          "entity:organizations:self-evaluate",
+          "entity:organizations:titles",
+          "entity:people",
+          "entity:people:georgian",
+          "entity:tools",
+          "entity:tools:history-log",
+          "entity:tools:trigger-topics",
+          "entity:tools:villain"
+        ],
+        "tags": [
+          "instruction",
+          "eden_ai",
+          "agent_skill",
+          "viral_architect",
+          "entity:concepts:english",
+          "entity:concepts:georgian",
+          "entity:concepts:plain",
+          "entity:organizations:hashtags-music-style-prompt",
+          "entity:organizations:self-evaluate",
+          "entity:organizations:titles",
+          "entity:people:georgian",
+          "entity:tools:history-log",
+          "entity:tools:trigger-topics",
+          "entity:tools:villain"
+        ],
+        "timestamp": "2026-01-18T00:03:18.200853+00:00",
+        "type": "Context",
+        "updated_at": "2026-01-18T00:03:18.200853+00:00"
+      },
+      "original_score": 0.7756487,
+      "relations": [],
+      "score": 0.517928460814339,
+      "score_components": {
+        "confidence": 0.6,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9978474914767232,
+        "relation": 0.0,
+        "tag": 0.3333333333333333,
+        "vector": 0.7756487
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Grok 50000 views",
+      "final_score": 0.5031512123635096,
+      "id": "5774afb7-d03b-41d2-a006-1555cddad8c1",
+      "match_score": 0.7762842,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "გმა წელს, 2026-ზე, წარადგინა სისტემა, რომელმაც ადამიანის შრომა ფაქტობრივად გააუფასურა. აშენდა გიგანტური AI ქარხნები, სადაც ხელოვნური ინტელექტის მქონე რობოტები 24 საათის განმავლობაში შრომობენ და ხელფასსაც კი არ ითხოვენ.\n\nშენს ადგილს იკავებს მანქანა, რომელსაც არ შია, არ სძინავს და არასოდეს არ იღლება. სანამ შენ გძინავს, სისტემა ვირტუალურ სამყაროში მილიონჯერ ცდება და სწავლობს, რათა რეალურ ცხოვრებაში შენს მაგივრად უშეცდომოდ იმუშაოს.\n\nშენ შეცდომის უფლება აღარ გაქვს, რადგან შენი ციფრული კონკურენტი უკვე იდეალურია. ეს ნასწავლი იდეალური ტვინი უკვე რკინის სხეულში ჩასახლდა და ფიზიკურ სამყაროში გადმოვიდა.\n\nრობოტი შენს სამუშაო მაგიდასთან დგება და საქმეს შენზე სწრაფად და თანაც უფასოდ აკეთებს. ბიზნესმა არჩევანი გააკეთა. რობოტი ზრდის მოგებას, შენ კი ბიუჯეტისთვის ზედმეტი ტვირთი ხარ. სიიდან შენი სახელი ამოიშალა. წინ მხოლოდ ვალები და ცარიელი მაცივარი გელოდება.\n\nეს უკვე მომხდარი ფაქტია. ვინც ამ ახალ ინფრასტრუქტურას არ ფლობს, ის რჩება ქუჩაში, სიცივესა და სიბნელეში. გადარჩენა მხოლოდ ადაპტაციაშია. სხვა გზა უბრალოდ აღარ არის.\n```\n\n**რატომ ნაკლებად იმუშავა:**\n- ⚠️ ჯენსენ ჰუანგი - ნაკლებად ცნობილი საქართველოში\n- ⚠️ აბსტრაქტული ეკონომიკური შიში\n- ⚠️ არ არის პირდაპირი პერსონალური საფრთხე\n- ⚠️ \"მოხდება\" vs \"უკვე ხდება\"\n\n---\n\n### Post #3 - 15.3K Views (FB+TikTok) (Grok/Pentagon War)\n\n```\nწარმოიდგინე გენერალი, რომელსაც სინდისი და მორალი უბრალოდ არ გააჩნია. ეს არის ციფრული მონსტრი, რომელიც უკვე პენტაგონის სათავეშია და მისი სახელია Grok.\n\nაშშ-ს თავდაცვის მდივანმა, პიტ ჰეგსეტმა, ოფიციალურად განაცხადა: გროკი პე",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:04:08.985705+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:04:09.257865+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "organizations": [
+              "Grok/Pentagon War"
+            ],
+            "people": [
+              "Grok"
+            ]
+          },
+          "filename": "performance_log.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Eden_AI\\analytics\\performance_log.md",
+          "sync_timestamp": "1768694648.428133"
+        },
+        "tag_prefixes": [
+          "eden_ai",
+          "success_log",
+          "analytics",
+          "entity",
+          "entity:organizations",
+          "entity:organizations:grok-pentagon-war",
+          "entity:people",
+          "entity:people:grok"
+        ],
+        "tags": [
+          "eden_ai",
+          "success_log",
+          "analytics",
+          "entity:organizations:grok-pentagon-war",
+          "entity:people:grok"
+        ],
+        "timestamp": "2026-01-18T00:04:08.985705+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:04:08.985705+00:00"
+      },
+      "original_score": 0.7762842,
+      "relations": [],
+      "score": 0.5031512123635096,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9978507569684285,
+        "relation": 0.0,
+        "tag": 0.3333333333333333,
+        "vector": 0.7762842
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Grok 50000 views",
+      "deduped_from": [
+        "9b6fe7d9-bd6d-4800-a1e4-31c1218a1a6e",
+        "c0535d66-91e2-4974-b2a2-1da3ef765794"
+      ],
+      "final_score": 0.5018683883657343,
+      "id": "c0535d66-91e2-4974-b2a2-1da3ef765794",
+      "match_score": 0.77263105,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "background. GEORGIAN SCRIPT ONLY. Glowing, Cyberpunk style).\nQuality: Ultra High Quality, 8k, Masterpiece, Cinematic 3D Render, Unreal Engine 5.\nSubject: (Stylized 3D Character Art, Looney Tunes style fur shader), Marvin the Martian, [Action: Wearing a General's helmet with glowing red eyes, pressing a red button labeled 'Grok Launch' while laughing maniacally], [Emotion: Evil triumph, cold menace].\nComposition: Dramatic Low Angle (Worm's-eye view). Full Body framing.\nLighting: Red Alert Lighting. Atmospheric fog. Emergency sirens.\nCamera: 35mm lens, f/1.8, Bokeh background.\nEnvironment: [EXPANDED VISUALS: Pentagon war room, giant screens showing Grok logo and world maps turning red. Digital glitches everywhere. Server racks looming like skyscrapers].\nStyle: STATE-OF-THE-ART CGI. Octane Render, Path Tracing. Vibrant colors but moody contrast. NO photorealistic human skin on animals. Keep it high-end stylized 3D.\nNegative Prompt: 2d, drawing, sketch, illustration, text error, typo, watermark, messy text, human face, deformed hands, extra fingers, low res, jpeg artifacts, scary, nightmare.\n\n---\n\nPrompt:\n\nFormat: Horizontal 16:9\nPrimary Branding: \"AndrewAltair.GE\" (Must be rendered as a Glitching Holographic Overlay floating in the foreground. Text must be legible, bold font).\nSecondary Text: \"ციფრული მონსტრი\" (Rendered as a Stylized 3D Poster or Floating HUD in the background. GEORGIAN SCRIPT ONLY. High Contrast).\nQuality: Ultra High Quality, 8k, Masterpiece, Cinematic 3D Render, Unreal Engine 5.\nSubject: (Stylized 3D Character Art, Looney Tunes style fur shader), Marvin the Martian, [Action: Standing on a tank made of server racks, commanding an army of drones with Grok logos], [Emotion: Cold conqueror, absolute power].\nComposition: Wide Angle. Wide framing. Epic scale.\nLighting: Red Alert Lighting. Atmospheric fog. Explosions in distance.\nCamera: 50mm lens, f/2.8, cinematic motion blur.\nEnvironment: [EXPANDED VISUALS: Futuristic battlefield, destroyed city in backg",
+        "importance": 0.5,
+        "last_accessed": "2026-01-17T23:53:12.458533+00:00",
+        "metadata": {
+          "chunk_index": 3,
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-17T23:53:13.619119+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "concepts": [
+              "Cinematic",
+              "Futuristic",
+              "Martian"
+            ],
+            "organizations": [
+              "AndrewAltair",
+              "Digital",
+              "HUD",
+              "Masterpiece",
+              "Pentagon"
+            ],
+            "people": [
+              "Grok",
+              "Grok Launch'",
+              "Looney Tunes",
+              "Marvin",
+              "Octane Render",
+              "Path Tracing"
+            ],
+            "tools": [
+              "Holographic"
+            ]
+          },
+          "folder": "20260115_grok_pentagon",
+          "import_date": "2026-01-18",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\OLD\\Eden_AI\\output\\published\\20260115_grok_pentagon\\description_post.md",
+          "total_chunks": 5
+        },
+        "tag_prefixes": [
+          "eden_ai",
+          "history_import",
+          "20260115_grok_pentagon",
+          "part_4",
+          "entity",
+          "entity:concepts",
+          "entity:concepts:cinematic",
+          "entity:concepts:futuristic",
+          "entity:concepts:martian",
+          "entity:organizations",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:digital",
+          "entity:organizations:hud",
+          "entity:organizations:masterpiece",
+          "entity:organizations:pentagon",
+          "entity:people",
+          "entity:people:grok",
+          "entity:people:grok-launch",
+          "entity:people:looney-tunes",
+          "entity:people:marvin",
+          "entity:people:octane-render",
+          "entity:people:path-tracing",
+          "entity:tools",
+          "entity:tools:holographic"
+        ],
+        "tags": [
+          "eden_ai",
+          "history_import",
+          "20260115_grok_pentagon",
+          "part_4",
+          "entity:concepts:cinematic",
+          "entity:concepts:futuristic",
+          "entity:concepts:martian",
+          "entity:organizations:andrewaltair",
+          "entity:organizations:digital",
+          "entity:organizations:hud",
+          "entity:organizations:masterpiece",
+          "entity:organizations:pentagon",
+          "entity:people:grok",
+          "entity:people:grok-launch",
+          "entity:people:looney-tunes",
+          "entity:people:marvin",
+          "entity:people:octane-render",
+          "entity:people:path-tracing",
+          "entity:tools:holographic"
+        ],
+        "timestamp": "2026-01-17T23:53:12.458533+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-17T23:53:12.458533+00:00"
+      },
+      "original_score": 0.77263105,
+      "relations": [],
+      "score": 0.5018683883657343,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9978085419906765,
+        "relation": 0.0,
+        "tag": 0.3333333333333333,
+        "vector": 0.77263105
+      },
+      "source": "qdrant"
+    },
+    {
+      "_query": "Grok 50000 views",
+      "final_score": 0.43615691314128086,
+      "id": "6d0453d6-5111-432c-ade2-563f0947a785",
+      "match_score": 0.775349,
+      "match_type": "vector",
+      "memory": {
+        "confidence": 0.3,
+        "content": "რდი დოლარი იშოვა. კომპანია პასუხისმგებლობას იხსნის. ილონ მასკმა განაცხადა, რომ თუ ამას გააკეთებ, ციხეში წახვალ შენ და არა ის, ვინც ამ იარაღს გაწვდის.\n\nდღეიდან ინტერნეტში ატვირთული არცერთი ფოტო უსაფრთხო არ არის. შენ უკვე მიზანში ხარ. შენი სხეულის, სახის ან ნებისმიერი მიმიკის მქონე ხელოვნური ინტელექტის მიერ აწყობილი ვიდეორგოლის დაგენერირება არის სრულიად უფასო. ამის გაკეთება შეუძლია ნებისმიერ ადამიანს. ამიტომ კარგად დაფიქრდით, სანამ რამეს ატვირთავთ ინტერნეტში.\n```\n\n**რატომ იმუშავა:**\n- ✅ პირველი წინადადება: პირდაპირი პერსონალური შოკი\n- ✅ ცნობილი ვილაინი: Elon Musk\n- ✅ სკანდალური თემა\n- ✅ \"შენ უკვე მიზანში ხარ\" - urgency\n- ✅ CTA ბოლოს\n\n---\n\n### Post #2 - 28k Views (AI Job Replacement)\n\n```\nჯენსენ ჰუანგმა წელს, 2026-ზე, წარადგინა სისტემა, რომელმაც ადამიანის შრომა ფაქტობრივად გააუფასურა. აშენდა გიგანტური AI ქარხნები, სადაც ხელოვნური ინტელექტის მქონე რობოტები 24 საათის განმავლობაში შრომობენ და ხელფასსაც კი არ ითხოვენ.\n\nშენს ადგილს იკავებს მანქანა, რომელსაც არ შია, არ სძინავს და არასოდეს არ იღლება. სანამ შენ გძინავს, სისტემა ვირტუალურ სამყაროში მილიონჯერ ცდება და სწავლობს, რათა რეალურ ცხოვრებაში შენს მაგივრად უშეცდომოდ იმუშაოს.\n\nშენ შეცდომის უფლება აღარ გაქვს, რადგან შენი ციფრული კონკურენტი უკვე იდეალურია. ეს ნასწავლი იდეალური ტვინი უკვე რკინის სხეულში ჩასახლდა და ფიზიკურ სამყაროში გადმოვიდა.\n\nრობოტი შენს სამუშაო მაგიდასთან დგება და საქმეს შენზე სწრაფად და თანაც უფასოდ აკეთებს. ბიზნესმა არჩევანი გააკეთა. რობოტი ზრდის მოგებას, შენ კი ბიუჯეტისთვის ზედმეტი ტვირთი ხარ. სიიდან შენი სახელი",
+        "importance": 0.5,
+        "last_accessed": "2026-01-18T00:03:20.377175+00:00",
+        "metadata": {
+          "enrichment": {
+            "forced": false,
+            "last_run": "2026-01-18T00:03:20.642266+00:00",
+            "patterns_detected": [],
+            "semantic_neighbors": [],
+            "temporal_links": 5
+          },
+          "entities": {
+            "organizations": [
+              "CTA"
+            ],
+            "people": [
+              "Elon Musk\n- ✅"
+            ]
+          },
+          "filename": "performance_log.md",
+          "source_path": "c:\\Users\\User\\Desktop\\AICONTENT\\Eden_AI\\analytics\\performance_log.md",
+          "sync_timestamp": "1768694599.8160038"
+        },
+        "tag_prefixes": [
+          "eden_ai",
+          "success_log",
+          "analytics",
+          "entity",
+          "entity:organizations",
+          "entity:organizations:cta",
+          "entity:people",
+          "entity:people:elon-musk"
+        ],
+        "tags": [
+          "eden_ai",
+          "success_log",
+          "analytics",
+          "entity:organizations:cta",
+          "entity:people:elon-musk"
+        ],
+        "timestamp": "2026-01-18T00:03:20.377175+00:00",
+        "type": "Memory",
+        "updated_at": "2026-01-18T00:03:20.377175+00:00"
+      },
+      "original_score": 0.775349,
+      "relations": [],
+      "score": 0.43615691314128086,
+      "score_components": {
+        "confidence": 0.3,
+        "context": 0.0,
+        "exact": 0.0,
+        "importance": 0.5,
+        "keyword": 0.0,
+        "recency": 0.9978476314128086,
+        "relation": 0.0,
+        "tag": 0.0,
+        "vector": 0.775349
+      },
+      "source": "qdrant"
+    }
+  ],
+  "sort": "score",
+  "status": "success",
+  "tag_match": "prefix",
+  "tag_mode": "any",
+  "tags": [
+    "eden_ai"
+  ],
+  "vector_search": {
+    "enabled": true,
+    "matched": true
+  }
+}

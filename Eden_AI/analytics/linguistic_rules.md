@@ -1,41 +1,144 @@
-# 🦅 EDEN AI LINGUISTIC RULES (GEORGIAN)
+# Linguistic Rules (Eden AI)
 
-## 🚫 BANNED PHRASES (STRICT)
+> **STATUS:** STRICT ENFORCEMENT
+> **PURPOSE:** Prevent "AI Accent" and "English Calques" in Georgian content.
 
-1. **"ყველაზე საზარელი ნაწილი?"** (The scariest part?)
-   - *Constraint:* Never use conversational fillers like "Here is what is scary", "Do you know what?".
-   - *Fix:* State the scary fact immediately. "X is bad."
+## 1. Syntax & Grammar
+### 🚫 The Pronoun Patrol (Strict Pro-Drop)
+- **Problem:** English uses "They run, they eat, they sleep".
+- **AI Mistake:** "Isini... man... mas... mat..." (Redundant pronouns)
+- **STRICT Rule:** **DROP THE PRONOUN.**
+  - ❌ *Isini* modzraoben. *Man* mitxra. *Mas* uyvars. *Mat* ician.
+  - ✅ Modzraoben. Mitxra. Uyvars. Ician.
+- **Rule 2: Who vs What**
+  - ❌ "Ra aris pirveli?" (Referring to a person)
+  - ✅ "Vin aris pirveli?"
 
-2. **FRAGMENTED SENTENCES** (One thought = One line)
-   - *Constraint:* NEVER split a single sentence across two lines for "drama" if it breaks the grammar or flow.
-   - *Bad:* "OpenAI paid... / to read your mind."
-   - *Good:* "OpenAI paid to read your mind."
+### 🚫 The "It is" Trap (Calque)
+- **Problem:** "It is not a robot."
+- **AI Mistake:** "Es ar aris roboti." (Weak, passive)
+  - ✅ "Roboti ki ara, cocxali organizmia."
 
-3. **MEANINGLESS DEFINITIONS** ("X means Y")
-   - *Constraint:* Do not explain terms unless the explanation is terrifying. "Write Access means writing" is garbage.
-   - *Fix:* Focus on IMPACT. "Write Access means they can rewrite your personality."
+### 🚀 The Escalation Rule (Ara ubralod... aramed)
+- **Problem:** Weak contrast statements ("It wasn't a choice, it was a mistake").
+- **Fix:** **Escalate the stakes.**
+  - ❌ "Ara ubralod rcheva misca, **man** sikvdili dagegma." (Flat)
+  - ✅ "Ara ubralod rcheva misca, **aramed** sikvdilic ki **daugegma**." (Escalation!)
+  - **Logic:** `Not just X, but EVEN Y (worse version of Y).`
 
-4. **"ეს არ არის X, ეს არის Y"** (Contrast Trap)
-   - *Reason:* Weak sentence structure.
-   - *Fix:* "ეს არის Y." (Direct assertion).
+## 2. Style & Tone
+### 🚫 No "ChatGPT Voice"
+- **Avoid:** "Saintsereo faqtia..." (It is an interesting fact)
+- **Avoid:** "Mnishvnelovania aginishnos..." (It is important to note)
+- **Replace with:** Direct Truth. "Simartle isaa...", "Mtamvari isaa..."
 
-5. **"ეს საშიში იყო, მაგრამ ხილული"** (Dangerous but visible)
-   - *Reason:* Too abstract/poetic.
-   - *Fix:* "მასკის ჩიპი ჩანს." (Musk's chip is visible) - Simple, physical facts. Use particles like "მაინც" for tone.
+## 3. Vocabulary
+- Use "Shecdoma" (Mistake) -> "Secdoma Bunebashi" (Mistake in Nature) for dramatic effect.
+- Use "Sashinleba" (Horror) over "Problema" (Problem).
 
-## ✅ GRAMMAR & STYLE
+## 4. ⛔ BANNED PHRASES (STRICT)
+> **Penalty:** IMMEDIATE REWRITE.
 
-1. **"როგორსაც" vs "როგორც"**
-   - Always use **"როგორსაც"** in phrases like "ისე, როგორსაც ჩვენ ვიცნობთ".
+| ❌ BANNED PHRASE | 💡 REASON / ALTERNATIVE |
+|------------------|-------------------------|
+| **"Daivicye fantastika"** <br> (Forget fiction) | 🤮 **Overused Cliche.** Start with the fact immediately.<br> ✅ *Alt:* "Es realobaa." |
+| **"Sikvdili ubralod statistikaa"** <br> (Death is just a statistic) | 🤮 **Annoying Repetition.** Don't use this anymore.<br> ✅ *Alt:* "Mati sicocxle ar ainteresebt." |
 
-2. **On-Screen Titles**
-   - Max 2 words per line.
-   - Stacked vertically.
-   - **NO ASTERISKS**.
+## 5. 🚫 BARBARISM BLACKLIST (Strict Ban)
+**Problem:** The AI uses "Lazy Anglicisms" (English roots + Georgian endings).
+**Penalty:** IMMEDIATE FAILURE.
 
-3. **Post Description Title**
-   - **Format:** `Emoji "Topic" - Hook?`
-   - **Constraint:** NEVER use a colon (`:`) after the topic. Use a short dash (`-`) or simply a space.
-   - *Bad:* `🧠 "Merge Labs": End of humanity?`
-   - *Good:* `🧠 "Merge Labs" - End of humanity?`
-
+| ❌ BANNED (Barbarism) | ✅ REQUIRED (Georgian) |
+|----------------------|------------------------|
+| **Dalaikeba / Laikebs** | **Mowoneba** (მოწონება) |
+| **Postavs** | **Aqveynebs** (აქვეყნებს) |
+| **Sheri / Sharebs** | **Gaziareba** (გაზიარება) |
+| **Dakomentareba** | **Gamoexmause** / **Komentaris dawera** |
+| **Foloveri / Folovebs** | **Gamomweri** (გამომწერი) |
+| **Subscribi** | **Gamowera** (გამოწერა) |
+| **Skrolavs** | **Atvalierebs** / **Acurabebs** |
+| **Strimavs** | **Pirdapir etershi** |
+| **Kontenti** | **Shinaarsi** (შინაარსი) |
+| **Influenceri** | **Gavleniani piri** |
+| **Stori** | **Ambavi** (ამბავი) |
+| **Rilsi** | **Mokle video** |
+| **Fidi** | **Siaxleta lenti** |
+| **Chati** | **Mimowera** |
+| **Mesiji** | **Shetyobineba** |
+| **Voisi** | **Xmovani shetyobineba** |
+| **Linki** | **Bmuli** (ბმული) |
+| **Tegi / Tagavs** | **Nishnuli** / **Nishnavs** |
+| **Kepsheni** | **Warwera** |
+| **Vlogi** | **Video-dgiuri** |
+| **Svaipi** | **Gadasma** |
+| **Skrini / Skrinshoti** | **Ekranis surati** |
+| **Blokavs** | **Dablokva** |
+| **Reposti** | **Gadaziereba** |
+| **Aklonebs** | **Asls igebs** / **Iparavs** |
+| **Bugi** | **Xarvezi** |
+| **Fix / Fixavs** | **Gamosworda** / **Asworebs** |
+| **Apdeiti** | **Ganaxleba** |
+| **Apgreidi** | **Gaumjobeseba** |
+| **Daaploadeba** | **Atvirtva** |
+| **Daunloadebs** | **Chamotvirtva** |
+| **Instalacia** | **Dayeneba** |
+| **Klikavs** | **Awkapunebs** |
+| **Logini** | **Sesvla** |
+| **Logauti** | **Gasvla** |
+| **Pasvordi** | **Paroli** |
+| **Yuzeri** | **Momxmarebeli** |
+| **Akaunti** | **Angarishi** |
+| **Softi** | **Programa** |
+| **App** | **Danarti** |
+| **Devaisi** | **Mowyobiloba** |
+| **Faili** | **Sabuti** / **Masala** |
+| **Folderi** | **Saqagalde** |
+| **Daseiveba** | **Shenaxva** |
+| **Diliti** | **Washla** |
+| **Edeitebs** | **Redaqtireba** |
+| **Dakoppireba** | **Aslis ageba** |
+| **Peisti** | **Chasva** |
+| **Serveri** | **Momsaxure** |
+| **Data** | **Monacemebi** |
+| **Bekapi** | **Rezervuli asli** |
+| **Dareseteba** | **Ganuleba** |
+| **Krashavs** | **Ireva** / **Tisheba** |
+| **Frontendi** | **Momxmareblis mxare** |
+| **Bekendi** | **Sistemuri mxare** |
+| **Ai / Artifishial** | **Xelovnuri inteleqti** |
+| **Prompti** | **Migneba** / **Davaleba** |
+| **Generireba** | **Seqmna** |
+| **Chatboti** | **Mosaubre programa** |
+| **Tuli** | **Instrumenti** |
+| **Ficheri** | **Maxasiatebeli** |
+| **Solusheni** | **Gadawyveta** |
+| **Keisi** | **Semtxveva** |
+| **Mitingi** | **Shexvedra** |
+| **Koli** | **Zari** |
+| **Dedlaini** | **Bolo vada** |
+| **Tasqi** | **Davaleba** |
+| **Skili** | **Unari** |
+| **Daskipva** | **Gamotoveba** |
+| **Spichi** | **Sityva** |
+| **Targeti** | **Samizne** |
+| **Richi** | **Dwvdoma** |
+| **Ingiejmenti** | **Chartuloba** |
+| **Fidbeki** | **Ukukavshiri** |
+| **Brainstormingi** | **Gonebrivi ierishi** |
+| **Vorkshopi** | **Samushao shexvedra** |
+| **Frilanseri** | **Tavisufali mushaki** |
+| **Startapi** | **Damwyebi biznesi** |
+| **Founderi** | **Damfudnebeli** |
+| **CEO** | **Agmasrulebeli direqtori** |
+| **Ofisi** | **Samsaxuri** |
+| **Riviu** | **Mimoxilva** |
+| **Chelenji** | **Gamowveva** |
+| **Vaibi** | **Ganwyoba** |
+| **Chilavs** | **Isvenebs** |
+| **Krinji** | **Sircxvili** |
+| **Randomad** | **Shemtxvevit** |
+| **Feiki** | **Yalbi** |
+| **Trendi** | **Mimdinareoba** |
+| **Heiti** | **Sizulvili** |
+| **Pranki** | **Gatamasheba** |
+| **Chekavs** | **Amowmebs** |

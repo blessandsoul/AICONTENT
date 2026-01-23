@@ -1,0 +1,1 @@
+Dark Psychological Horror, Dark Ambient, Industrial Drone, Cinematic Score, Deep Low Sub Bass, Distorted Datastream Noises, Slow Heartbeat Rhythm, Glitchy High Frequencies, Suffocating Digital Cold Atmosphere, Minimalist Melancholy Piano overlay, Background Music for True Crime Investigation, High Fidelity, Cinematic Mix

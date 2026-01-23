@@ -32,13 +32,13 @@ else {
     Write-Host "  ✅ ANDREWALTAIR.GE branding present" -ForegroundColor Green
 }
 
-# Check 2: Aspect ratio --ar 16:9
+# Check 2: Aspect ratio --ar 16:9 or 9:16
 Write-Host "Checking aspect ratio..." -ForegroundColor Yellow
-if ($content -notmatch "--ar 16:9") {
-    $errors += "❌ PROTOCOL 3 VIOLATION: '--ar 16:9' not found"
+if ($content -notmatch "--ar (16:9|9:16)") {
+    $errors += "❌ PROTOCOL 3 VIOLATION: Aspect Ratio must be 16:9 or 9:16"
 }
 else {
-    Write-Host "  ✅ Aspect ratio 16:9 present" -ForegroundColor Green
+    Write-Host "  ✅ Valid Aspect Ratio present" -ForegroundColor Green
 }
 
 # Check 3: Midjourney version

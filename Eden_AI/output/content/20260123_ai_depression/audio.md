@@ -1,0 +1,1 @@
+Dark Melancholic Ambient, Glitching Electronics, Sad Piano Melody, Digital Isolation, Heavy Sub Bass, Slow Pulse, Nervous Heartbeat, Dystopian Tech, Sorrowful Cello, Cold Atmosphere, Psychological Horror, Minimalist, High Fidelity, Cinematic Mix
